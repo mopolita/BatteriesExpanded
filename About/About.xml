@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Lead and Lithium Batteries</name>
+    <author>Mopolita</author>
+    <url>www.anything.com</url>
+    <packageId>Mopolita.LLB</packageId>
+    <supportedVersions>
+        <li>1.4</li>
+    </supportedVersions>
+
+    <description>Two new types of batteries.
+        
+A small mod adding two types of batteries and their respective materials
+    </description>
+</ModMetaData>

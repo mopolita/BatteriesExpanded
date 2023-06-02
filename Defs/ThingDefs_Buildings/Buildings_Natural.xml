@@ -1,0 +1,52 @@
+  <?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Lead -->  
+  <ThingDef ParentName="RockBase">
+    <defName>LLB_MineableLead</defName>
+    <label>lead ore</label>
+    <description>Rock containing bits of lead.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(89,83,68)</color>
+      <colorTwo>(147,144,134)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Silver</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.10</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>4~12</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+<!-- Lithium -->  
+  <ThingDef ParentName="RockBase">
+    <defName>LLB_MineableLithium</defName>
+    <label>lithium ore</label>
+    <description>Rock containing bits of lithium.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(89,83,68)</color>
+      <colorTwo>(147,144,134)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Silver</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.10</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>4~12</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+</Defs>

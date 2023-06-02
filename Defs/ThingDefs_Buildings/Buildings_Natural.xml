@@ -14,14 +14,14 @@
       <colorTwo>(105, 106, 125)</colorTwo>
     </graphicData>
     <statBases>
-      <MaxHitPoints>1500</MaxHitPoints>
+      <MaxHitPoints>1200</MaxHitPoints>
     </statBases>
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>Silver</mineableThing>
-      <mineableYield>40</mineableYield>
-      <mineableScatterCommonality>1</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>4~12</mineableScatterLumpSizeRange>
+      <mineableYield>45</mineableYield>
+      <mineableScatterCommonality>0.9</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>10~20</mineableScatterLumpSizeRange>
     </building>
   </ThingDef>
 
@@ -38,14 +38,14 @@
       <colorTwo>(207, 210, 209)</colorTwo>
     </graphicData>
     <statBases>
-      <MaxHitPoints>1500</MaxHitPoints>
+      <MaxHitPoints>4000</MaxHitPoints>
     </statBases>
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>Silver</mineableThing>
-      <mineableYield>40</mineableYield>
-      <mineableScatterCommonality>1</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>4~12</mineableScatterLumpSizeRange>
+      <mineableYield>45</mineableYield>
+      <mineableScatterCommonality>0.3</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>6~14</mineableScatterLumpSizeRange>
     </building>
   </ThingDef>
 

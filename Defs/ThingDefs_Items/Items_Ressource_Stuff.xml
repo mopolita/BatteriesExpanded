@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Lead -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>LLB_Lead</defName>
+    <label>lead</label>
+    <description>A soft, heavy metal which isn't very useful for making weapons or structures due to its low strength and heaviness. However, it is often used in the production of batteries.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/LLB_Lead</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+      <Mass>1.2</Mass>
+      <StuffPower_Armor_Sharp>0.32</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.16</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.16</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.8</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <deepCommonality>3.8</deepCommonality>
+    <deepCountPerPortion>35</deepCountPerPortion>
+    <deepLumpSizeRange>20~25</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>0.8</commonality>
+      <color>(126,136,148)</color>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statFactors>
+        <MaxHitPoints>0.5</MaxHitPoints>
+        <Flammability>0.5</Flammability>
+        <Beauty>1</Beauty>
+        <WorkToMake>0.9</WorkToMake>
+        <WorkToBuild>0.9</WorkToBuild>
+      </statFactors>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+  </ThingDef>
+
+<!-- Lithium -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>LLB_Lithium</defName>
+    <label>lithium</label>
+    <description>Lithium is one of the best materials used for the making of batteries.</description>
+    <graphicData>
+    <graphicData>
+      <texPath>Things/Item/Resource/LLB_lithium</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>true</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MarketValue>0.3</MarketValue>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Mass>0.01</Mass> 
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>0.08</deepCommonality>
+    <deepCountPerPortion>11</deepCountPerPortion>
+    <deepLumpSizeRange>4~12</deepLumpSizeRange>
+    <burnableByRecipe>true</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <terrainAffordanceNeeded>light</terrainAffordanceNeeded>
+  </ThingDef>
+
+</Defs>

@@ -7,7 +7,7 @@
     <label>lead</label>
     <description>A soft, heavy metal which isn't very useful for making weapons or structures due to its low strength and heaviness. However, it is often used in the production of batteries.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/LLB_Lead</texPath>
+      <texPath>Things/Item/Resource/Silver</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
@@ -62,8 +62,7 @@
     <label>lithium</label>
     <description>Lithium is one of the best materials used for the making of batteries.</description>
     <graphicData>
-    <graphicData>
-      <texPath>Things/Item/Resource/LLB_lithium</texPath>
+      <texPath>Things/Item/Resource/LLB_Lithium</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Silver_Drop</soundInteract>
@@ -71,19 +70,20 @@
     <useHitPoints>true</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
     <statBases>
-      <MarketValue>0.3</MarketValue>
+      <MarketValue>1.2</MarketValue>
       <MaxHitPoints>85</MaxHitPoints>
       <Mass>0.01</Mass> 
     </statBases>
     <thingCategories>
       <li>ResourcesRaw</li>
     </thingCategories>
-    <deepCommonality>0.08</deepCommonality>
-    <deepCountPerPortion>11</deepCountPerPortion>
-    <deepLumpSizeRange>4~12</deepLumpSizeRange>
+    <stackLimit>75</stackLimit>
+    <deepCommonality>0.5</deepCommonality>
+    <deepCountPerPortion>12</deepCountPerPortion>
+    <deepLumpSizeRange>5~15</deepLumpSizeRange>
     <burnableByRecipe>true</burnableByRecipe>
-    <smeltable>true</smeltable>
-    <terrainAffordanceNeeded>light</terrainAffordanceNeeded>
+    <smeltable>false</smeltable>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
   </ThingDef>
 
 </Defs>

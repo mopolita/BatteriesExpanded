@@ -5,6 +5,11 @@
     <defName>LLB_Lead_Battery</defName>
     <label>lead battery</label>
     <description>Stores electricity for later use. Can store more power and are sturdier, but are less efficient than a regular battery.</description>
+    <descriptionHyperlinks>
+      <ThingDef>Battery</ThingDef>
+      <ThingDef>LLB_Lithium_Battery</ThingDef>
+      <ThingDef>LLB_Lead_Battery</ThingDef>
+    </descriptionHyperlinks>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
     <graphicData>
@@ -60,7 +65,7 @@
     <constructEffect>ConstructMetal</constructEffect>
     <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
-      <li>Batteries</li>
+      <li>LLB_Lead_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -68,6 +73,11 @@
     <defName>LLB_Lithium_Battery</defName>
     <label>lithium battery</label>
     <description>Stores large amounts of electricity for later use. Much more efficient than steel and lead ones, but also more fragile.</description>
+    <descriptionHyperlinks>
+      <ThingDef>Battery</ThingDef>
+      <ThingDef>LLB_Lithium_Battery</ThingDef>
+      <ThingDef>LLB_Lead_Battery</ThingDef>
+    </descriptionHyperlinks>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
     <graphicData>
@@ -123,7 +133,7 @@
     <constructEffect>ConstructMetal</constructEffect>
     <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
-      <li>Batteries</li>
+      <li>LLB_Lithium_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
   

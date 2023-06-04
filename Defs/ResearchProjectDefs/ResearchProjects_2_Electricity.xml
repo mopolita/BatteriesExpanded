@@ -10,8 +10,8 @@
     <prerequisites>
       <li>Batteries</li>
     </prerequisites>
-    <researchViewX>8.00</researchViewX>
-    <researchViewY>0.30</researchViewY>
+  <researchViewX>7.00</researchViewX>
+  <researchViewY>0.30</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -23,8 +23,8 @@
     <prerequisites>
       <li>LLB_Lead_Batteries</li>
     </prerequisites>
-    <researchViewX>10.00</researchViewX>
-    <researchViewY>0.30</researchViewY>
+  <researchViewX>8.00</researchViewX>
+  <researchViewY>0.30</researchViewY>
   </ResearchProjectDef>
-
+  
 </Defs>

@@ -1,0 +1,17 @@
+work that's left to do (once all that is finished I'll post it on steam workshop):
+- [ ] fix the About.xml file
+- [ ] add more batteries
+  - [ ] uranium
+    - [ ] Def
+    - [ ] Texture
+  - [ ] plasteel
+    - [ ] Def
+    - [ ] Texture
+  - [ ] archotech     
+    - [ ] Def
+    - [ ] Texture
+  - [ ] others (optional)
+- [ ] update the recipes for lead and lithium
+  - [ ] lead battery recipe
+  - [ ] lithium battery recipe
+- [ ] modifying the researches to account for the new batteries

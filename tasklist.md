@@ -1,4 +1,5 @@
 work that's left to do (once all that is finished I'll post it on steam workshop):
+- change the lead texture (the one I have was stolen for testing purposes so...)
 - fix the About.xml file
 - add more batteries
   - uranium

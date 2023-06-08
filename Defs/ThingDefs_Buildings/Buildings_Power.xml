@@ -46,7 +46,8 @@
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
     </building>
     <costList>
-      <LLB_Lead>70</LLB_Lead>
+      <Steel>30</Steel>
+      <LLB_Lead>55</LLB_Lead>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <comps>
@@ -114,8 +115,9 @@
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
     </building>
     <costList>
-      <LLB_Lithium>80</LLB_Lithium>
-      <ComponentIndustrial>4</ComponentIndustrial>
+      <Steel>30</Steel>
+      <LLB_Lithium>70</LLB_Lithium>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <comps>
       <li Class="CompProperties_Battery">

@@ -2,7 +2,7 @@
 <Defs>
 
   <ResearchProjectDef>
-    <defName>LLB_Lead_Batteries</defName>
+    <defName>VMEu_Lead_Batteries</defName>
     <label>lead battery</label>
     <description>Build better batteries, using lead.</description>
     <baseCost>500</baseCost>
@@ -15,13 +15,13 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>LLB_Lithium_Batteries</defName>
+    <defName>VMEu_Lithium_Batteries</defName>
     <label>lithium battery</label>
     <description>Build even better batteries, using lithium.</description>
     <baseCost>600</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
-      <li>LLB_Lead_Batteries</li>
+      <li>VMEu_Lead_Batteries</li>
     </prerequisites>
   <researchViewX>8.00</researchViewX>
   <researchViewY>0.30</researchViewY>

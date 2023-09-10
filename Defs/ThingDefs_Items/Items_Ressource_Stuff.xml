@@ -3,11 +3,11 @@
 
 <!-- Lead -->
   <ThingDef ParentName="ResourceBase">
-    <defName>LLB_Lead</defName>
+    <defName>VMEu_Lead</defName>
     <label>lead</label>
-    <description>A soft, heavy metal which isn't very useful for making weapons or structures due to its low strength and heaviness. However, it is often used in the production of batteries.</description>
+    <description>A soft, heavy metal which isn't very useful for making weapons or structures due to its low strength and heaviness. However, it is sometimes used in the production of batteries.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/LLB_Lead</texPath>
+      <texPath>Things/Item/Resource/VMEu_Lead</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
@@ -58,11 +58,11 @@
 
 <!-- Lithium -->
   <ThingDef ParentName="ResourceBase">
-    <defName>LLB_Lithium</defName>
+    <defName>VMEu_Lithium</defName>
     <label>lithium</label>
-    <description>Lithium is one of the best materials used for the making of batteries.</description>
+    <description>An unstable metal used in production of batteries.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/LLB_Lithium</texPath>
+      <texPath>Things/Item/Resource/VMEu_Lithium</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Silver_Drop</soundInteract>
@@ -70,9 +70,9 @@
     <useHitPoints>true</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
     <statBases>
-      <MarketValue>1.3</MarketValue>
+      <MarketValue>3.3</MarketValue>
       <MaxHitPoints>85</MaxHitPoints>
-      <Mass>0.2</Mass>
+      <Mass>0.08</Mass>
       <Flammability>2.5</Flammability>
       <DeteriorationRate>2.0</DeteriorationRate>
     </statBases>

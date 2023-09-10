@@ -1,6 +1,4 @@
 work that's left to do (once all that is finished I'll post it on steam workshop):
-- change the lead texture (the one I have was stolen for testing purposes so...)
-- fix the About.xml file
 - add more batteries
   - uranium
     - Def
@@ -12,7 +10,4 @@ work that's left to do (once all that is finished I'll post it on steam workshop
     - Def
     - Texture
   - others (optional)
-- update the recipes for lead and lithium
-  - lead battery recipe
-  - lithium battery recipe
 - modifying the researches to account for the new batteries

@@ -53,8 +53,8 @@
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
     </building>
     <costList>
-      <Steel>20</Steel>
       <VMEu_Lead>60</VMEu_Lead>
+      <Steel>20</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <comps>
@@ -124,8 +124,8 @@
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
     </building>
     <costList>
-      <Steel>15</Steel>
       <VMEu_Lithium>75</VMEu_Lithium>
+      <Steel>15</Steel>
       <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <comps>

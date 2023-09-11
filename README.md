@@ -1,4 +1,4 @@
-# Lead and Lithium Batteries
+# Expanded Batteries
 A mod for Rimworld that adds: 
 - two new materials, lead and lithium
 - lead is usable to make all usual metal objects (such as walls, armors, etc.)

@@ -10,7 +10,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>VMEu_Lead_Battery</defName>
     <label>lead battery</label>
-    <description>Stores electricity for later use. Can store more power and are sturdier, but are less efficient than a regular battery.</description>
+    <description>Stores electricity for later use. Can store only a small ammount of power and is not very efficient, but is very sturdy.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
     <designatorDropdown>Batteries</designatorDropdown>
@@ -37,7 +37,7 @@
       <li>BuildingsPower</li>
     </thingCategories>
     <statBases>
-      <MaxHitPoints>150</MaxHitPoints>
+      <MaxHitPoints>200</MaxHitPoints>
       <WorkToBuild>1250</WorkToBuild>
       <Mass>25</Mass>
       <Flammability>0.1</Flammability>
@@ -46,7 +46,6 @@
     <descriptionHyperlinks>
       <ThingDef>Battery</ThingDef>
       <ThingDef>VMEu_Lithium_Battery</ThingDef>
-      <ThingDef>VMEu_Lead_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,2)</size>
     <building>
@@ -59,8 +58,8 @@
     </costList>
     <comps>
       <li Class="CompProperties_Battery">
-        <storedEnergyMax>1000</storedEnergyMax>
-        <efficiency>0.4</efficiency>
+        <storedEnergyMax>600</storedEnergyMax>
+        <efficiency>0.3</efficiency>
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
@@ -116,7 +115,6 @@
     </statBases>   
     <descriptionHyperlinks>
       <ThingDef>Battery</ThingDef>
-      <ThingDef>VMEu_Lithium_Battery</ThingDef>
       <ThingDef>VMEu_Lead_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,2)</size>

@@ -4,27 +4,27 @@
   <ResearchProjectDef>
     <defName>VMEu_Lead_Batteries</defName>
     <label>lead battery</label>
-    <description>Build better batteries, using lead.</description>
-    <baseCost>500</baseCost>
+    <description>The first refillable battery ever created, using lead.</description>
+    <baseCost>400</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
-      <li>Batteries</li>
+      <li>Electricity</li>
     </prerequisites>
-  <researchViewX>7.00</researchViewX>
-  <researchViewY>0.30</researchViewY>
+    <researchViewX>6.00</researchViewX>
+   <researchViewY>0.30</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
     <defName>VMEu_Lithium_Batteries</defName>
     <label>lithium battery</label>
-    <description>Build even better batteries, using lithium.</description>
+    <description>Back in the twenty-first century, these batteries where the best in the market. They are made using lithium.</description>
     <baseCost>600</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
-      <li>VMEu_Lead_Batteries</li>
+      <li>Batteries</li>
     </prerequisites>
-  <researchViewX>8.00</researchViewX>
-  <researchViewY>0.30</researchViewY>
+    <researchViewX>8.00</researchViewX>
+    <researchViewY>0.30</researchViewY>
   </ResearchProjectDef>
   
 </Defs>

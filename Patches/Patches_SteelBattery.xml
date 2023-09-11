@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success> 
+		<operations>
+		<li Class="PatchOperationReplace"> 
+			<xpath>*/ThingDef[defName = "Battery"]/label</xpath>
+			<value>
+			<label>steel battery</label>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName = "Battery"]/description</xpath>
+		<value>
+			<description>Stores electricity for later use. Steel batteries will short-circuit in rain.</description>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "Battery"]</xpath>
+		<value>
+			<designatorDropdown>Batteries</designatorDropdown>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName="Battery"]</xpath>
+		<value>
+	    	<descriptionHyperlinks>
+      			<ThingDef>VMEu_Lead_Battery</ThingDef>
+      			<ThingDef>VMEu_Lithium_Battery</ThingDef>
+    		</descriptionHyperlinks>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName = "Battery"]/comps/li[@Class="CompProperties_Battery"]</xpath>
+		<value>
+			<li Class="CompProperties_Battery">
+				<storedEnergyMax>750</storedEnergyMax>
+				<efficiency>0.7</efficiency>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<transmitsPower>true</transmitsPower>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName = "Battery"]/costList</xpath>
+		<value>
+			<costList>
+				<Steel>90</Steel>
+				<ComponentIndustrial>2</ComponentIndustrial>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ResearchProjectDef[defName = "Batteries"]/label</xpath>
+		<value>
+			<label>steel battery</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ResearchProjectDef[defName = "Batteries"]/baseCost</xpath>
+		<value>
+			<baseCost>500</baseCost>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ResearchProjectDef[defName = "Batteries"]/prerequisites</xpath>
+		<value>
+			<prerequisites>
+				<li>VMEu_Lead_Batteries</li>
+			</prerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ResearchProjectDef[defName = "Batteries"]/researchViewX</xpath>
+		<value>
+			<researchViewX>7.00</researchViewX>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ResearchProjectDef[defName = "Batteries"]/researchViewY</xpath>
+		<value>
+			<researchViewY>0.30</researchViewY>
+		</value>
+	</Operation>
+
+</Patch>

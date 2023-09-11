@@ -1,13 +1,10 @@
 work that's left to do (once all that is finished I'll post it on steam workshop):
 - add more batteries
+  - waterproof
+  - copper
+  - nickel
   - uranium
-    - Def
-    - Texture
   - plasteel
-    - Def
-    - Texture
-  - archotech     
-    - Def
-    - Texture
-  - others (optional)
-- modifying the researches to account for the new batteries
+  - archotech
+  - others
+- tweaking the research tab for the new batteries

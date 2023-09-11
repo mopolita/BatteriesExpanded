@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+<!-- Designator Dropdown Group Def for batteries-->
+  <DesignatorDropdownGroupDef>
+    <defName>Batteries</defName>
+  </DesignatorDropdownGroupDef>
+
   <!-- Lead Battery -->
   <ThingDef ParentName="BuildingBase">
     <defName>VMEu_Lead_Battery</defName>
@@ -8,6 +13,7 @@
     <description>Stores electricity for later use. Can store more power and are sturdier, but are less efficient than a regular battery.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
+    <designatorDropdown>Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/VMEu_Lead_Battery</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -78,6 +84,7 @@
     <description>Stores large amounts of electricity for later use. Much more efficient than steel and lead ones, but also more fragile.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
+    <designatorDropdown>Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/VMEu_Lithium_Battery</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -106,7 +113,7 @@
       <Mass>15</Mass>
       <Flammability>2.5</Flammability>
       <Beauty>-15</Beauty>
-    </statBases>
+    </statBases>   
     <descriptionHyperlinks>
       <ThingDef>Battery</ThingDef>
       <ThingDef>VMEu_Lithium_Battery</ThingDef>

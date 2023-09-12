@@ -45,6 +45,7 @@
     </statBases>
     <descriptionHyperlinks>
       <ThingDef>Battery</ThingDef>
+      <ThingDef>BaME_Waterproof_Battery</ThingDef>
       <ThingDef>VMEu_Lithium_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,2)</size>
@@ -109,13 +110,14 @@
     <statBases>
       <MaxHitPoints>75</MaxHitPoints>
       <WorkToBuild>1500</WorkToBuild>
-      <Mass>15</Mass>
+      <Mass>10</Mass>
       <Flammability>2.5</Flammability>
       <Beauty>-15</Beauty>
     </statBases>   
     <descriptionHyperlinks>
       <ThingDef>VMEu_Lead_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
+      <ThingDef>BaME_Waterproof_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,2)</size>
     <building>
@@ -145,5 +147,76 @@
       <li>VMEu_Lithium_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
-  
+
+  <!-- Waterproof Battery -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>BaME_Waterproof_Battery</defName>
+    <label>Waterproof battery</label>
+    <description>Pretty much like a steel battery, but doesn't catch fire or explode when under the rain.</description>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <thingClass>Building_Battery</thingClass>
+    <designatorDropdown>Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/BaME_Waterproof_Battery</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,3)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.40</fillPercent>
+    <tickerType>Normal</tickerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Mass>25</Mass>
+      <Flammability>0.1</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>   
+    <descriptionHyperlinks>
+      <ThingDef>VMEu_Lead_Battery</ThingDef>
+      <ThingDef>Battery</ThingDef>
+      <ThingDef>VMEu_Lithium_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <size>(1,2)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
+    <costList>
+      <Steel>100</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>750</storedEnergyMax>
+        <efficiency>0.70</efficiency>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <uiOrder>2020</uiOrder>
+    <staticSunShadowHeight>0.2</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+    <canOverlapZones>false</canOverlapZones>
+    <researchPrerequisites>
+      <li>Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
 </Defs>

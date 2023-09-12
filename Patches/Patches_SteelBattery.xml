@@ -32,6 +32,7 @@
 		<value>
 	    	<descriptionHyperlinks>
       			<ThingDef>VMEu_Lead_Battery</ThingDef>
+				<ThingDef>BaME_Waterproof_Battery</ThingDef>
       			<ThingDef>VMEu_Lithium_Battery</ThingDef>
     		</descriptionHyperlinks>
 		</value>

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>Batteries and Materials Expansion</name>
+    <name>Batteries and Materials Expanded</name>
     <author>Mopolita</author>
     <url>www.anything.com</url>
-    <packageId>Mopolita.expandedbatteries</packageId>
+    <packageId>mopolita.bame</packageId>
     <supportedVersions>
         <li>1.4</li>
     </supportedVersions>
 
     <description>Ever wanted more batteries ? Then this is the mod for you.
         
-Adds new types of materials and their batteries : Lithium and Lead.
-Compatible with Expanded Materials - Metal.</description>
+Adds new types of materials and their batteries : Lithium, Lead and much more to come.</description>
     <loadBefore>
         <li>Argon.VMEu</li>
     </loadBefore>

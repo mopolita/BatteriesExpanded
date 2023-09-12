@@ -59,6 +59,13 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ResearchProjectDef[defName = "Batteries"]</xpath>
+		<value>
+			<tab>power_storage</tab>
+		</value>
+	</Operation>
+
 	<Operation Class="PatchOperationReplace">
 		<xpath>*/ResearchProjectDef[defName = "Batteries"]/label</xpath>
 		<value>
@@ -85,14 +92,14 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>*/ResearchProjectDef[defName = "Batteries"]/researchViewX</xpath>
 		<value>
-			<researchViewX>7.00</researchViewX>
+			<researchViewX>1.00</researchViewX>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>*/ResearchProjectDef[defName = "Batteries"]/researchViewY</xpath>
 		<value>
-			<researchViewY>0.30</researchViewY>
+  			<researchViewY>2.30</researchViewY>
 		</value>
 	</Operation>
 

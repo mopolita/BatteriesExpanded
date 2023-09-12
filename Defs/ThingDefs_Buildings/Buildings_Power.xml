@@ -114,8 +114,8 @@
       <Beauty>-15</Beauty>
     </statBases>   
     <descriptionHyperlinks>
-      <ThingDef>Battery</ThingDef>
       <ThingDef>VMEu_Lead_Battery</ThingDef>
+      <ThingDef>Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,2)</size>
     <building>

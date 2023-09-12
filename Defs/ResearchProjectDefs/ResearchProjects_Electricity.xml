@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <!-- Research Tab Def for batteries-->
+  <ResearchTabDef>
+    <defName>power_storage</defName>
+    <label>Power Storage</label>
+  </ResearchTabDef>
+
+   <ResearchProjectDef>
+    <defName>Power_Storage_Research</defName>
+    <label>power storage</label>
+    <description>The first glimpse at how power and batteries are stored.</description>
+    <baseCost>200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    <researchViewX>6.00</researchViewX>
+   <researchViewY>0.30</researchViewY>
+  </ResearchProjectDef>
+
   <ResearchProjectDef>
     <defName>VMEu_Lead_Batteries</defName>
     <label>lead battery</label>
@@ -8,10 +27,11 @@
     <baseCost>400</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
-      <li>Electricity</li>
+      <li>Power_Storage_Research</li>
     </prerequisites>
-    <researchViewX>6.00</researchViewX>
-   <researchViewY>0.30</researchViewY>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>2.30</researchViewY>
+    <tab>power_storage</tab>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -23,8 +43,9 @@
     <prerequisites>
       <li>Batteries</li>
     </prerequisites>
-    <researchViewX>8.00</researchViewX>
-    <researchViewY>0.30</researchViewY>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>2.30</researchViewY>
+    <tab>power_storage</tab>
   </ResearchProjectDef>
   
 </Defs>

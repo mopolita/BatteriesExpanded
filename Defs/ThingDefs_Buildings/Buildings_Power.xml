@@ -8,14 +8,14 @@
 
   <!-- Lead Battery -->
   <ThingDef ParentName="BuildingBase">
-    <defName>VMEu_Lead_Battery</defName>
+    <defName>BaME_Lead_Battery</defName>
     <label>lead battery</label>
     <description>Stores electricity for later use. Can store only a small ammount of power and is not very efficient, but is very sturdy.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
     <designatorDropdown>Batteries</designatorDropdown>
     <graphicData>
-      <texPath>Things/Building/Power/VMEu_Lead_Battery</texPath>
+      <texPath>Things/Building/Power/BaME_Lead_Battery</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2,3)</drawSize>
       <damageData>
@@ -46,14 +46,14 @@
     <descriptionHyperlinks>
       <ThingDef>Battery</ThingDef>
       <ThingDef>BaME_Waterproof_Battery</ThingDef>
-      <ThingDef>VMEu_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Lithium_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,2)</size>
     <building>
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
     </building>
     <costList>
-      <VMEu_Lead>60</VMEu_Lead>
+      <BaME_Lead>60</BaME_Lead>
       <Steel>20</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
@@ -73,20 +73,20 @@
     <constructEffect>ConstructMetal</constructEffect>
     <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
-      <li>VMEu_Lead_Batteries</li>
+      <li>BaME_Lead_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
   <!-- Lithium Battery -->
   <ThingDef ParentName="BuildingBase">
-    <defName>VMEu_Lithium_Battery</defName>
+    <defName>BaME_Lithium_Battery</defName>
     <label>lithium battery</label>
     <description>Stores large amounts of electricity for later use. Much more efficient than steel and lead ones, but also more fragile.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
     <designatorDropdown>Batteries</designatorDropdown>
     <graphicData>
-      <texPath>Things/Building/Power/VMEu_Lithium_Battery</texPath>
+      <texPath>Things/Building/Power/BaME_Lithium_Battery</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2,3)</drawSize>
       <damageData>
@@ -115,7 +115,7 @@
       <Beauty>-15</Beauty>
     </statBases>   
     <descriptionHyperlinks>
-      <ThingDef>VMEu_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Lead_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
       <ThingDef>BaME_Waterproof_Battery</ThingDef>
     </descriptionHyperlinks>
@@ -124,7 +124,7 @@
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
     </building>
     <costList>
-      <VMEu_Lithium>75</VMEu_Lithium>
+      <BaME_Lithium>75</BaME_Lithium>
       <Steel>15</Steel>
       <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
@@ -144,7 +144,7 @@
     <constructEffect>ConstructMetal</constructEffect>
     <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
-      <li>VMEu_Lithium_Batteries</li>
+      <li>BaME_Lithium_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -186,9 +186,9 @@
       <Beauty>-15</Beauty>
     </statBases>   
     <descriptionHyperlinks>
-      <ThingDef>VMEu_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Lead_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
-      <ThingDef>VMEu_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Lithium_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,2)</size>
     <building>

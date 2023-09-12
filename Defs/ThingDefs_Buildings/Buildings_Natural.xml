@@ -3,7 +3,7 @@
 
 <!-- Lead -->  
   <ThingDef ParentName="RockBase">
-    <defName>VMEu_MineableLead</defName>
+    <defName>BaME_MineableLead</defName>
     <label>lead ore</label>
     <description>Rock containing bits of lead.</description>
     <graphicData>
@@ -18,7 +18,7 @@
     </statBases>
     <building>
       <isResourceRock>true</isResourceRock>
-      <mineableThing>VMEu_Lead</mineableThing>
+      <mineableThing>BaME_Lead</mineableThing>
       <mineableYield>45</mineableYield>
       <mineableScatterCommonality>0.7</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>11~22</mineableScatterLumpSizeRange>
@@ -27,7 +27,7 @@
 
 <!-- Lithium -->  
   <ThingDef ParentName="RockBase">
-    <defName>VMEu_MineableLithium</defName>
+    <defName>BaME_MineableLithium</defName>
     <label>lithium ore</label>
     <description>Rock containing bits of lithium.</description>
     <graphicData>
@@ -42,7 +42,7 @@
     </statBases>
     <building>
       <isResourceRock>true</isResourceRock>
-      <mineableThing>VMEu_Lithium</mineableThing>
+      <mineableThing>BaME_Lithium</mineableThing>
       <mineableYield>5</mineableYield>
       <mineableScatterCommonality>0.2</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>4~10</mineableScatterLumpSizeRange>

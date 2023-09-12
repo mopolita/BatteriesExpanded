@@ -31,9 +31,9 @@
 		<xpath>*/ThingDef[defName="Battery"]</xpath>
 		<value>
 	    	<descriptionHyperlinks>
-      			<ThingDef>VMEu_Lead_Battery</ThingDef>
+      			<ThingDef>BaME_Lead_Battery</ThingDef>
 				<ThingDef>BaME_Waterproof_Battery</ThingDef>
-      			<ThingDef>VMEu_Lithium_Battery</ThingDef>
+      			<ThingDef>BaME_Lithium_Battery</ThingDef>
     		</descriptionHyperlinks>
 		</value>
 	</Operation>
@@ -85,7 +85,7 @@
 		<xpath>*/ResearchProjectDef[defName = "Batteries"]/prerequisites</xpath>
 		<value>
 			<prerequisites>
-				<li>VMEu_Lead_Batteries</li>
+				<li>BaME_Lead_Batteries</li>
 			</prerequisites>
 		</value>
 	</Operation>

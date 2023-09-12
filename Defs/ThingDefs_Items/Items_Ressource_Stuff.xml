@@ -3,11 +3,11 @@
 
 <!-- Lead -->
   <ThingDef ParentName="ResourceBase">
-    <defName>VMEu_Lead</defName>
+    <defName>BaME_Lead</defName>
     <label>lead</label>
     <description>A soft, heavy metal which isn't very useful for making weapons or structures due to its low strength and heaviness. However, it is sometimes used in the production of batteries.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/VMEu_Lead</texPath>
+      <texPath>Things/Item/Resource/BaME_Lead</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
@@ -58,11 +58,11 @@
 
 <!-- Lithium -->
   <ThingDef ParentName="ResourceBase">
-    <defName>VMEu_Lithium</defName>
+    <defName>BaME_Lithium</defName>
     <label>lithium</label>
     <description>An unstable metal used in production of batteries.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/VMEu_Lithium</texPath>
+      <texPath>Things/Item/Resource/BaME_Lithium</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Silver_Drop</soundInteract>

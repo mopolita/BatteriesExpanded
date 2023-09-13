@@ -25,6 +25,30 @@
     </building>
   </ThingDef>
 
+<!-- Copper -->  
+  <ThingDef ParentName="RockBase">
+    <defName>BaME_MineableCopper</defName>
+    <label>copper ore</label>
+    <description>Rock containing bits of copper.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(179, 96, 58)</color>
+      <colorTwo>(198, 106, 64)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>800</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>BaME_Copper</mineableThing>
+      <mineableYield>30</mineableYield>
+      <mineableScatterCommonality>0.5</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>8~16</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
 <!-- Lithium -->  
   <ThingDef ParentName="RockBase">
     <defName>BaME_MineableLithium</defName>

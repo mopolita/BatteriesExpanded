@@ -56,6 +56,61 @@
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
   </ThingDef>
 
+<!-- Copper -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>BaME_Copper</defName>
+    <label>copper</label>
+    <description>A light metal which is almost useful for making weapons or structures due to its medium strength. However, it is can be used in the production of batteries.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/BaME_Copper</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+      <Mass>0.9</Mass>
+      <StuffPower_Armor_Sharp>0.55</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.35</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.35</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>2.75</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0.10</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>0.75</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <deepCommonality>3.8</deepCommonality>
+    <deepCountPerPortion>35</deepCountPerPortion>
+    <deepLumpSizeRange>20~25</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>0.8</commonality>
+      <color>(180, 97, 59)</color>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statFactors>
+        <MaxHitPoints>0.7</MaxHitPoints>
+        <Flammability>0</Flammability>
+        <Beauty>1.25</Beauty>
+        <WorkToMake>0.95</WorkToMake>
+        <WorkToBuild>0.95</WorkToBuild>
+      </statFactors>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+  </ThingDef>
+
 <!-- Lithium -->
   <ThingDef ParentName="ResourceBase">
     <defName>BaME_Lithium</defName>
@@ -79,8 +134,8 @@
     <thingCategories>
       <li>ResourcesRaw</li>
     </thingCategories>
-    <stackLimit>75</stackLimit>
-    <deepCommonality>0.5</deepCommonality>
+    <stackLimit>125</stackLimit>
+    <deepCommonality>0.3</deepCommonality>
     <deepCountPerPortion>12</deepCountPerPortion>
     <deepLumpSizeRange>5~15</deepLumpSizeRange>
     <burnableByRecipe>false</burnableByRecipe>

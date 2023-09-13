@@ -35,15 +35,29 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
+    <defName>BaME_Copper_Batteries</defName>
+    <label>copper battery</label>
+    <description>Honestly, copper batteries just work.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BaME_Lead_Batteries</li>
+    </prerequisites>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>2.30</researchViewY>
+    <tab>power_storage</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
     <defName>BaME_Lithium_Batteries</defName>
     <label>lithium battery</label>
     <description>Back in the twenty-first century, these batteries where the best in the market. They are made using lithium.</description>
-    <baseCost>600</baseCost>
+    <baseCost>700</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>Batteries</li>
     </prerequisites>
-    <researchViewX>2.00</researchViewX>
+    <researchViewX>3.00</researchViewX>
     <researchViewY>2.30</researchViewY>
     <tab>power_storage</tab>
   </ResearchProjectDef>

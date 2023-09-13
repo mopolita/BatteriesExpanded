@@ -44,6 +44,7 @@
       <Beauty>-15</Beauty>
     </statBases>
     <descriptionHyperlinks>
+      <ThingDef>BaME_Copper_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
       <ThingDef>BaME_Waterproof_Battery</ThingDef>
       <ThingDef>BaME_Lithium_Battery</ThingDef>
@@ -59,7 +60,7 @@
     </costList>
     <comps>
       <li Class="CompProperties_Battery">
-        <storedEnergyMax>600</storedEnergyMax>
+        <storedEnergyMax>500</storedEnergyMax>
         <efficiency>0.3</efficiency>
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
@@ -74,6 +75,78 @@
     <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>BaME_Lead_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Copper Battery -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>BaME_Copper_Battery</defName>
+    <label>copper battery</label>
+    <description>Stores electricity for later use. Can store a medium ammount of power and is not very efficient, but is sturdy.</description>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <thingClass>Building_Battery</thingClass>
+    <designatorDropdown>Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/BaME_Copper_Battery</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,3)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.40</fillPercent>
+    <tickerType>Normal</tickerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Mass>15</Mass>
+      <Flammability>0.3</Flammability>
+      <Beauty>-10</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BaME_Lead_Battery</ThingDef>
+      <ThingDef>Battery</ThingDef>
+      <ThingDef>BaME_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Lithium_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <size>(1,2)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
+    <costList>
+      <BaME_Copper>65</BaME_Copper>
+      <Steel>15</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>600</storedEnergyMax>
+        <efficiency>0.5</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <uiOrder>2020</uiOrder>
+    <staticSunShadowHeight>0.2</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+    <canOverlapZones>false</canOverlapZones>
+    <researchPrerequisites>
+      <li>BaME_Copper_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -116,6 +189,7 @@
     </statBases>   
     <descriptionHyperlinks>
       <ThingDef>BaME_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Copper_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
       <ThingDef>BaME_Waterproof_Battery</ThingDef>
     </descriptionHyperlinks>
@@ -187,6 +261,7 @@
     </statBases>   
     <descriptionHyperlinks>
       <ThingDef>BaME_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Copper_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
       <ThingDef>BaME_Lithium_Battery</ThingDef>
     </descriptionHyperlinks>

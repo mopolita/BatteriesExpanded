@@ -32,6 +32,7 @@
 		<value>
 	    	<descriptionHyperlinks>
       			<ThingDef>BaME_Lead_Battery</ThingDef>
+				<ThingDef>BaME_Copper_Battery</ThingDef>
 				<ThingDef>BaME_Waterproof_Battery</ThingDef>
       			<ThingDef>BaME_Lithium_Battery</ThingDef>
     		</descriptionHyperlinks>
@@ -85,7 +86,7 @@
 		<xpath>*/ResearchProjectDef[defName = "Batteries"]/prerequisites</xpath>
 		<value>
 			<prerequisites>
-				<li>BaME_Lead_Batteries</li>
+				<li>BaME_Copper_Batteries</li>
 			</prerequisites>
 		</value>
 	</Operation>
@@ -93,7 +94,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>*/ResearchProjectDef[defName = "Batteries"]/researchViewX</xpath>
 		<value>
-			<researchViewX>1.00</researchViewX>
+			<researchViewX>2.00</researchViewX>
 		</value>
 	</Operation>
 

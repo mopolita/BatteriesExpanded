@@ -76,4 +76,18 @@
     <tab>power_storage</tab>
   </ResearchProjectDef> 
 
+  <ResearchProjectDef>
+    <defName>BaME_Plasteel_Batteries</defName>
+    <label>plasteel battery</label>
+    <description>A futuristic battery even better than the lithium ones.</description>
+    <baseCost>900</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>BaME_Lithium_Batteries</li>
+    </prerequisites>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>2.30</researchViewY>
+    <tab>power_storage</tab>
+  </ResearchProjectDef> 
+
 </Defs>

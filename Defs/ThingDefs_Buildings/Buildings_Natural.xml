@@ -45,7 +45,7 @@
       <mineableThing>BaME_Copper</mineableThing>
       <mineableYield>30</mineableYield>
       <mineableScatterCommonality>0.5</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>8~16</mineableScatterLumpSizeRange>
+      <mineableScatterLumpSizeRange>7~14</mineableScatterLumpSizeRange>
     </building>
   </ThingDef>
 
@@ -69,7 +69,7 @@
       <mineableThing>BaME_Lithium</mineableThing>
       <mineableYield>5</mineableYield>
       <mineableScatterCommonality>0.2</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>4~10</mineableScatterLumpSizeRange>
+      <mineableScatterLumpSizeRange>3~9</mineableScatterLumpSizeRange>
     </building>
   </ThingDef>
 

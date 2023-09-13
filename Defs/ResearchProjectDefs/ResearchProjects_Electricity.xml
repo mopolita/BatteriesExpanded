@@ -49,9 +49,9 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>BaME_Lithium_Batteries</defName>
-    <label>lithium battery</label>
-    <description>Back in the twenty-first century, these batteries where the best in the market. They are made using lithium.</description>
+    <defName>BaME_Uranium_Batteries</defName>
+    <label>uranium battery</label>
+    <description>Batteries using potentially dangerous and radioactive materials? Yes please!</description>
     <baseCost>700</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -61,5 +61,19 @@
     <researchViewY>2.30</researchViewY>
     <tab>power_storage</tab>
   </ResearchProjectDef>
-  
+
+  <ResearchProjectDef>
+    <defName>BaME_Lithium_Batteries</defName>
+    <label>lithium battery</label>
+    <description>Back in the twenty-first century, these batteries where the best in the market. They are made using lithium.</description>
+    <baseCost>800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BaME_Uranium_Batteries</li>
+    </prerequisites>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>2.30</researchViewY>
+    <tab>power_storage</tab>
+  </ResearchProjectDef> 
+
 </Defs>

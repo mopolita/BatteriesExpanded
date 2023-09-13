@@ -84,9 +84,9 @@
       <li>ResourcesRaw</li>
     </thingCategories>
     <stackLimit>75</stackLimit>
-    <deepCommonality>3.8</deepCommonality>
-    <deepCountPerPortion>35</deepCountPerPortion>
-    <deepLumpSizeRange>20~25</deepLumpSizeRange>
+    <deepCommonality>3.0</deepCommonality>
+    <deepCountPerPortion>30</deepCountPerPortion>
+    <deepLumpSizeRange>15~20</deepLumpSizeRange>
     <burnableByRecipe>false</burnableByRecipe>
     <smeltable>true</smeltable>
     <stuffProps>

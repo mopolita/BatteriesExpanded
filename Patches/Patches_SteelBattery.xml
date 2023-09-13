@@ -34,6 +34,7 @@
       			<ThingDef>BaME_Lead_Battery</ThingDef>
 				<ThingDef>BaME_Copper_Battery</ThingDef>
 				<ThingDef>BaME_Waterproof_Battery</ThingDef>
+				<ThingDef>BaME_Uranium_Battery</ThingDef>
       			<ThingDef>BaME_Lithium_Battery</ThingDef>
     		</descriptionHyperlinks>
 		</value>
@@ -78,7 +79,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>*/ResearchProjectDef[defName = "Batteries"]/baseCost</xpath>
 		<value>
-			<baseCost>500</baseCost>
+			<baseCost>600</baseCost>
 		</value>
 	</Operation>
 

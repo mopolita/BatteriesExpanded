@@ -47,8 +47,8 @@
       <ThingDef>BaME_Copper_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
       <ThingDef>BaME_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Lithium_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,2)</size>
     <building>
@@ -120,8 +120,8 @@
       <ThingDef>BaME_Lead_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
       <ThingDef>BaME_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Lithium_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,2)</size>
     <building>
@@ -156,7 +156,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>BaME_Lithium_Battery</defName>
     <label>lithium battery</label>
-    <description>Stores large amounts of electricity for later use. Much more efficient than steel and lead ones, but also more fragile.</description>
+    <description>Stores large amounts of electricity for later use. Much more efficient than steel and lead ones, but also more fragile.\n\nAlso explodes when destroyed</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
     <designatorDropdown>Batteries</designatorDropdown>
@@ -193,8 +193,8 @@
       <ThingDef>BaME_Lead_Battery</ThingDef>
       <ThingDef>BaME_Copper_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
-      <ThingDef>BaME_Waterproof_Battery</ThingDef>
       <ThingDef>BaME_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Waterproof_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,2)</size>
     <building>
@@ -211,6 +211,14 @@
         <efficiency>0.9</efficiency>
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <wickTicks>240</wickTicks>
+        <explosiveRadius>10.0</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explodeOnKilled>true</explodeOnKilled>
+        <startWickHitPointsPercent>0.5</startWickHitPointsPercent>
+        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
@@ -266,8 +274,8 @@
       <ThingDef>BaME_Lead_Battery</ThingDef>
       <ThingDef>BaME_Copper_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
-      <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Lithium_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,2)</size>
     <building>
@@ -301,7 +309,7 @@
   <!-- Uranium Battery -->
   <ThingDef ParentName="BuildingBase">
     <defName>BaME_Uranium_Battery</defName>
-    <label>Waterproof battery</label>
+    <label>Uranium battery</label>
     <description>A revolutionary battery made from radioactive materials, produces some heat.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
@@ -348,7 +356,8 @@
     </building>
     <costList>
       <Steel>15</Steel>
-      <Uranium>90</Uranium>
+      <Uranium>50</Uranium>
+      <BaME_Lead>40</BaME_Lead>
       <BaME_Lithium>20</BaME_Lithium>
       <ComponentIndustrial>3</ComponentIndustrial>
       <ComponentSpacer>1</ComponentSpacer>
@@ -359,6 +368,11 @@
         <efficiency>0.8</efficiency>
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusher</compClass>
+        <heatPerSecond>12</heatPerSecond>
+        <heatPushMaxTemperature>80</heatPushMaxTemperature>
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>

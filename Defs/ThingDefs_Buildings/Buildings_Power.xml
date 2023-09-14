@@ -49,6 +49,7 @@
       <ThingDef>BaME_Waterproof_Battery</ThingDef>
       <ThingDef>BaME_Uranium_Battery</ThingDef>
       <ThingDef>BaME_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,2)</size>
     <building>
@@ -122,6 +123,7 @@
       <ThingDef>BaME_Waterproof_Battery</ThingDef>
       <ThingDef>BaME_Uranium_Battery</ThingDef>
       <ThingDef>BaME_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,2)</size>
     <building>
@@ -195,6 +197,7 @@
       <ThingDef>Battery</ThingDef>
       <ThingDef>BaME_Uranium_Battery</ThingDef>
       <ThingDef>BaME_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,2)</size>
     <building>
@@ -276,6 +279,7 @@
       <ThingDef>Battery</ThingDef>
       <ThingDef>BaME_Uranium_Battery</ThingDef>
       <ThingDef>BaME_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,2)</size>
     <building>
@@ -349,6 +353,7 @@
       <ThingDef>Battery</ThingDef>
       <ThingDef>BaME_Waterproof_Battery</ThingDef>
       <ThingDef>BaME_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,2)</size>
     <building>
@@ -383,7 +388,7 @@
     <constructEffect>ConstructMetal</constructEffect>
     <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
-      <li>Batteries</li>
+      <li>BaME_Uranium_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 

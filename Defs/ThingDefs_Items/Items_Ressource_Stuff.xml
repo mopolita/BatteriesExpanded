@@ -149,7 +149,7 @@
     <label>nickel</label>
     <description>A shiny metal, not too heavy, often used in the production various equipments and batteries.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/BaME_Lead</texPath>
+      <texPath>Things/Item/Resource/BaME_Nickel</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>

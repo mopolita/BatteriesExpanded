@@ -37,17 +37,17 @@
       <li>BuildingsPower</li>
     </thingCategories>
     <statBases>
-      <MaxHitPoints>200</MaxHitPoints>
-      <WorkToBuild>1250</WorkToBuild>
-      <Mass>25</Mass>
-      <Flammability>0.1</Flammability>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Mass>40</Mass>
+      <Flammability>0.25</Flammability>
       <Beauty>-15</Beauty>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Nickel_Battery</ThingDef>
       <ThingDef>BaME_Copper_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
       <ThingDef>BaME_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Nickel_Battery</ThingDef>
       <ThingDef>BaME_Uranium_Battery</ThingDef>
       <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Plasteel_Battery</ThingDef>
@@ -57,14 +57,14 @@
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
     </building>
     <costList>
-      <BaME_Lead>60</BaME_Lead>
+      <BaME_Lead>65</BaME_Lead>
       <Steel>20</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <comps>
       <li Class="CompProperties_Battery">
         <storedEnergyMax>500</storedEnergyMax>
-        <efficiency>0.3</efficiency>
+        <efficiency>0.5</efficiency>
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
@@ -112,17 +112,17 @@
       <li>BuildingsPower</li>
     </thingCategories>
     <statBases>
-      <MaxHitPoints>250</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>900</WorkToBuild>
       <Mass>15</Mass>
-      <Flammability>0.3</Flammability>
+      <Flammability>0.45</Flammability>
       <Beauty>-10</Beauty>
     </statBases>
     <descriptionHyperlinks>
       <ThingDef>BaME_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Nickel_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
       <ThingDef>BaME_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Nickel_Battery</ThingDef>
       <ThingDef>BaME_Uranium_Battery</ThingDef>
       <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Plasteel_Battery</ThingDef>
@@ -134,12 +134,12 @@
     <costList>
       <BaME_Copper>65</BaME_Copper>
       <Steel>15</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <comps>
       <li Class="CompProperties_Battery">
         <storedEnergyMax>600</storedEnergyMax>
-        <efficiency>0.5</efficiency>
+        <efficiency>0.6</efficiency>
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
@@ -153,89 +153,6 @@
     <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>BaME_Copper_Batteries</li>
-    </researchPrerequisites>
-  </ThingDef>
-
-  <!-- Lithium Battery -->
-  <ThingDef ParentName="BuildingBase">
-    <defName>BaME_Lithium_Battery</defName>
-    <label>lithium battery</label>
-    <description>Stores large amounts of electricity for later use. Much more efficient than steel and lead ones, but also more fragile.\n\nAlso explodes when destroyed</description>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <thingClass>Building_Battery</thingClass>
-    <designatorDropdown>Batteries</designatorDropdown>
-    <graphicData>
-      <texPath>Things/Building/Power/BaME_Lithium_Battery</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(2,3)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
-    </graphicData>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
-    <blockWind>true</blockWind>
-    <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>0.40</fillPercent>
-    <tickerType>Normal</tickerType>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <thingCategories>
-      <li>BuildingsPower</li>
-    </thingCategories>
-    <statBases>
-      <MaxHitPoints>75</MaxHitPoints>
-      <WorkToBuild>1500</WorkToBuild>
-      <Mass>10</Mass>
-      <Flammability>2.5</Flammability>
-      <Beauty>-15</Beauty>
-    </statBases>   
-    <descriptionHyperlinks>
-      <ThingDef>BaME_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Copper_Battery</ThingDef>
-      <ThingDef>Battery</ThingDef>
-      <ThingDef>BaME_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Plasteel_Battery</ThingDef>
-    </descriptionHyperlinks>
-    <size>(1,2)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
-    </building>
-    <costList>
-      <BaME_Lithium>75</BaME_Lithium>
-      <Steel>15</Steel>
-      <ComponentIndustrial>4</ComponentIndustrial>
-    </costList>
-    <comps>
-      <li Class="CompProperties_Battery">
-        <storedEnergyMax>3000</storedEnergyMax>
-        <efficiency>0.9</efficiency>
-        <shortCircuitInRain>true</shortCircuitInRain>
-        <transmitsPower>true</transmitsPower>
-      </li>
-      <li Class="CompProperties_Explosive">
-        <wickTicks>240</wickTicks>
-        <explosiveRadius>5.0</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explodeOnKilled>true</explodeOnKilled>
-        <startWickHitPointsPercent>0.5</startWickHitPointsPercent>
-        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
-      </li>
-      <li Class="CompProperties_Breakdownable"/>
-    </comps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
-    <uiOrder>2020</uiOrder>
-    <staticSunShadowHeight>0.2</staticSunShadowHeight>
-    <constructEffect>ConstructMetal</constructEffect>
-    <canOverlapZones>false</canOverlapZones>
-    <researchPrerequisites>
-      <li>BaME_Lithium_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -270,17 +187,17 @@
       <li>BuildingsPower</li>
     </thingCategories>
     <statBases>
-      <MaxHitPoints>120</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
-      <Mass>25</Mass>
-      <Flammability>0.1</Flammability>
-      <Beauty>-15</Beauty>
+      <MaxHitPoints>260</MaxHitPoints>
+      <WorkToBuild>1050</WorkToBuild>
+      <Mass>26</Mass>
+      <Flammability>0.8</Flammability>
+      <Beauty>-20</Beauty>
     </statBases>   
     <descriptionHyperlinks>
       <ThingDef>BaME_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Nickel_Battery</ThingDef>
       <ThingDef>BaME_Copper_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
+      <ThingDef>BaME_Nickel_Battery</ThingDef>
       <ThingDef>BaME_Uranium_Battery</ThingDef>
       <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Plasteel_Battery</ThingDef>
@@ -290,14 +207,13 @@
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
     </building>
     <costList>
-      <Steel>100</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
-      <ComponentSpacer>1</ComponentSpacer>
+      <Steel>125</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <comps>
       <li Class="CompProperties_Battery">
         <storedEnergyMax>750</storedEnergyMax>
-        <efficiency>0.70</efficiency>
+        <efficiency>0.7</efficiency>
         <shortCircuitInRain>false</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
@@ -311,6 +227,83 @@
     <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Nickel Battery -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>BaME_Nickel_Battery</defName>
+    <label>Nickel battery</label>
+    <description>An old kind of battery, can store more electricity and is more efficient than lead alternatives.</description>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <thingClass>Building_Battery</thingClass>
+    <designatorDropdown>Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/BaME_Nickel_Battery</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,3)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.40</fillPercent>
+    <tickerType>Normal</tickerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>1200</WorkToBuild>
+      <Mass>15</Mass>
+      <Flammability>0.75</Flammability>
+      <Beauty>-10</Beauty>
+    </statBases>   
+    <descriptionHyperlinks>
+      <ThingDef>BaME_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Copper_Battery</ThingDef>
+      <ThingDef>Battery</ThingDef>
+      <ThingDef>BaME_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <size>(1,2)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
+    <costList>
+      <Steel>15</Steel>
+      <Uranium>10</Uranium>
+      <BaME_Lead>5</BaME_Lead>
+      <BaME_Nickel>60</BaME_Nickel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>1000</storedEnergyMax>
+        <efficiency>0.8</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <uiOrder>2020</uiOrder>
+    <staticSunShadowHeight>0.2</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+    <canOverlapZones>false</canOverlapZones>
+    <researchPrerequisites>
+      <li>BaME_Nickel_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -346,17 +339,17 @@
     </thingCategories>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
-      <WorkToBuild>1250</WorkToBuild>
-      <Mass>25</Mass>
-      <Flammability>0.25</Flammability>
+      <WorkToBuild>1400</WorkToBuild>
+      <Mass>30</Mass>
+      <Flammability>1.1</Flammability>
       <Beauty>-15</Beauty>
     </statBases>   
     <descriptionHyperlinks>
       <ThingDef>BaME_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Nickel_Battery</ThingDef>
       <ThingDef>BaME_Copper_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
       <ThingDef>BaME_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Nickel_Battery</ThingDef>
       <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
@@ -365,17 +358,16 @@
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
     </building>
     <costList>
-      <Steel>15</Steel>
-      <Uranium>50</Uranium>
-      <BaME_Lead>40</BaME_Lead>
-      <BaME_Lithium>20</BaME_Lithium>
-      <ComponentIndustrial>3</ComponentIndustrial>
-      <ComponentSpacer>1</ComponentSpacer>
+      <Steel>10</Steel>
+      <Uranium>60</Uranium>
+      <BaME_Lead>45</BaME_Lead>
+      <BaME_Lithium>5</BaME_Lithium>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <comps>
       <li Class="CompProperties_Battery">
         <storedEnergyMax>1500</storedEnergyMax>
-        <efficiency>0.8</efficiency>
+        <efficiency>0.85</efficiency>
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
@@ -396,6 +388,91 @@
       <li>BaME_Uranium_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
+
+  <!-- Lithium Battery -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>BaME_Lithium_Battery</defName>
+    <label>lithium battery</label>
+    <description>Stores large amounts of electricity for later use. Much more efficient than steel and lead ones, but also more fragile.\n\nAlso explodes when destroyed</description>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <thingClass>Building_Battery</thingClass>
+    <designatorDropdown>Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/BaME_Lithium_Battery</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,3)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.40</fillPercent>
+    <tickerType>Normal</tickerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>1750</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>3</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BaME_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Copper_Battery</ThingDef>
+      <ThingDef>Battery</ThingDef>
+      <ThingDef>BaME_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Nickel_Battery</ThingDef>
+      <ThingDef>BaME_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <size>(1,2)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
+    <costList>
+      <BaME_Lithium>80</BaME_Lithium>
+      <Steel>15</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>2000</storedEnergyMax>
+        <efficiency>0.9</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <wickTicks>240</wickTicks>
+        <explosiveRadius>5.0</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explodeOnKilled>true</explodeOnKilled>
+        <startWickHitPointsPercent>0.5</startWickHitPointsPercent>
+        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <uiOrder>2020</uiOrder>
+    <staticSunShadowHeight>0.2</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+    <canOverlapZones>false</canOverlapZones>
+    <researchPrerequisites>
+      <li>BaME_Lithium_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
 
   <!-- Plasteel Battery -->
   <ThingDef ParentName="BuildingBase">
@@ -428,7 +505,7 @@
       <li>BuildingsPower</li>
     </thingCategories>
     <statBases>
-      <MaxHitPoints>200</MaxHitPoints>
+      <MaxHitPoints>400</MaxHitPoints>
       <WorkToBuild>2000</WorkToBuild>
       <Mass>25</Mass>
       <Flammability>0.15</Flammability>
@@ -436,10 +513,10 @@
     </statBases>   
     <descriptionHyperlinks>
       <ThingDef>BaME_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Nickel_Battery</ThingDef>
       <ThingDef>BaME_Copper_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
       <ThingDef>BaME_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Nickel_Battery</ThingDef>
       <ThingDef>BaME_Uranium_Battery</ThingDef>
       <ThingDef>BaME_Lithium_Battery</ThingDef>
     </descriptionHyperlinks>
@@ -448,16 +525,16 @@
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
     </building>
     <costList>
-      <Steel>20</Steel>
-      <Uranium>50</Uranium>
-      <BaME_Copper>15</BaME_Copper>
-      <BaME_Lithium>50</BaME_Lithium>
+      <Steel>5</Steel>
+      <Uranium>5</Uranium>
+      <Plasteel>75</Plasteel>
+      <BaME_Lithium>20</BaME_Lithium>
       <ComponentIndustrial>4</ComponentIndustrial>
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <comps>
       <li Class="CompProperties_Battery">
-        <storedEnergyMax>4500</storedEnergyMax>
+        <storedEnergyMax>3500</storedEnergyMax>
         <efficiency>1</efficiency>
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
@@ -472,83 +549,6 @@
     <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>BaME_Plasteel_Batteries</li>
-    </researchPrerequisites>
-  </ThingDef>
-
-  <!-- Nickel Battery -->
-  <ThingDef ParentName="BuildingBase">
-    <defName>BaME_Nickel_Battery</defName>
-    <label>Nickel battery</label>
-    <description>An old kind of battery, can store more electricity and is more efficient than lead alternatives.</description>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <thingClass>Building_Battery</thingClass>
-    <designatorDropdown>Batteries</designatorDropdown>
-    <graphicData>
-      <texPath>Things/Building/Power/BaME_Nickel_Battery</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(2,3)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
-    </graphicData>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
-    <blockWind>true</blockWind>
-    <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>0.40</fillPercent>
-    <tickerType>Normal</tickerType>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <thingCategories>
-      <li>BuildingsPower</li>
-    </thingCategories>
-    <statBases>
-      <MaxHitPoints>200</MaxHitPoints>
-      <WorkToBuild>2000</WorkToBuild>
-      <Mass>15</Mass>
-      <Flammability>0.30</Flammability>
-      <Beauty>-10</Beauty>
-    </statBases>   
-    <descriptionHyperlinks>
-      <ThingDef>BaME_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Copper_Battery</ThingDef>
-      <ThingDef>Battery</ThingDef>
-      <ThingDef>BaME_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Lithium_Battery</ThingDef>
-      <ThingDef>BaME_Plasteel_Battery</ThingDef>
-    </descriptionHyperlinks>
-    <size>(1,2)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
-    </building>
-    <costList>
-      <Steel>20</Steel>
-      <Uranium>30</Uranium>
-      <BaME_Lead>5</BaME_Lead>
-      <BaME_Nickel>50</BaME_Nickel>
-      <ComponentIndustrial>2</ComponentIndustrial>
-    </costList>
-    <comps>
-      <li Class="CompProperties_Battery">
-        <storedEnergyMax>700</storedEnergyMax>
-        <efficiency>0.6</efficiency>
-        <shortCircuitInRain>true</shortCircuitInRain>
-        <transmitsPower>true</transmitsPower>
-      </li>
-      <li Class="CompProperties_Breakdownable"/>
-    </comps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
-    <uiOrder>2020</uiOrder>
-    <staticSunShadowHeight>0.2</staticSunShadowHeight>
-    <constructEffect>ConstructMetal</constructEffect>
-    <canOverlapZones>false</canOverlapZones>
-    <researchPrerequisites>
-      <li>BaME_Nickel_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 

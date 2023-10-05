@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<!-- Lead -->  
+  <!-- Lead -->  
   <ThingDef ParentName="RockBase">
     <defName>BaME_MineableLead</defName>
     <label>lead ore</label>
@@ -14,42 +14,18 @@
       <colorTwo>(105, 106, 125)</colorTwo>
     </graphicData>
     <statBases>
-      <MaxHitPoints>1200</MaxHitPoints>
+      <MaxHitPoints>1000</MaxHitPoints>
     </statBases>
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>BaME_Lead</mineableThing>
-      <mineableYield>45</mineableYield>
-      <mineableScatterCommonality>0.75</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>11~22</mineableScatterLumpSizeRange>
+      <mineableYield>50</mineableYield>
+      <mineableScatterCommonality>1.25</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>40~50</mineableScatterLumpSizeRange>
     </building>
   </ThingDef>
 
-<!-- Nickel -->  
-  <ThingDef ParentName="RockBase">
-    <defName>BaME_MineableNickel</defName>
-    <label>nickel ore</label>
-    <description>Rock containing bits of nickel.</description>
-    <graphicData>
-      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <color>(125,125,125)</color>
-      <colorTwo>(154,156,156)</colorTwo>
-    </graphicData>
-    <statBases>
-      <MaxHitPoints>3500</MaxHitPoints>
-    </statBases>
-    <building>
-      <isResourceRock>true</isResourceRock>
-      <mineableThing>BaME_Nickel</mineableThing>
-      <mineableYield>35</mineableYield>
-      <mineableScatterCommonality>0.6</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>9~20</mineableScatterLumpSizeRange>
-    </building>
-  </ThingDef>
-
-<!-- Copper -->  
+  <!-- Copper -->  
   <ThingDef ParentName="RockBase">
     <defName>BaME_MineableCopper</defName>
     <label>copper ore</label>
@@ -62,18 +38,44 @@
       <colorTwo>(198, 106, 64)</colorTwo>
     </graphicData>
     <statBases>
-      <MaxHitPoints>800</MaxHitPoints>
+      <MaxHitPoints>1200</MaxHitPoints>
     </statBases>
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>BaME_Copper</mineableThing>
-      <mineableYield>20</mineableYield>
-      <mineableScatterCommonality>0.4</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>7~15</mineableScatterLumpSizeRange>
+      <mineableYield>45</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>35~45</mineableScatterLumpSizeRange>
     </building>
   </ThingDef>
 
-<!-- Lithium -->  
+  <!-- Nickel -->  
+  <ThingDef ParentName="RockBase">
+    <defName>BaME_MineableNickel</defName>
+    <label>nickel ore</label>
+    <description>Rock containing bits of nickel.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(125,125,125)</color>
+      <colorTwo>(154,156,156)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>2000</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>BaME_Nickel</mineableThing>
+      <mineableYield>35</mineableYield>
+      <mineableScatterCommonality>0.75</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>25~35</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+
+
+  <!-- Lithium -->  
   <ThingDef ParentName="RockBase">
     <defName>BaME_MineableLithium</defName>
     <label>lithium ore</label>
@@ -91,9 +93,9 @@
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>BaME_Lithium</mineableThing>
-      <mineableYield>5</mineableYield>
-      <mineableScatterCommonality>0.2</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>3~9</mineableScatterLumpSizeRange>
+      <mineableYield>25</mineableYield>
+      <mineableScatterCommonality>0.5</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>15~20</mineableScatterLumpSizeRange>
     </building>
   </ThingDef>
 

@@ -31,12 +31,21 @@
 		<xpath>*/ThingDef[defName="Battery"]</xpath>
 		<value>
 	    	<descriptionHyperlinks>
-      			<ThingDef>BaME_Lead_Battery</ThingDef>
+				<ThingDef>BaME_Lead_Battery</ThingDef>
 				<ThingDef>BaME_Copper_Battery</ThingDef>
 				<ThingDef>BaME_Waterproof_Battery</ThingDef>
+				<ThingDef>BaME_Nickel_Battery</ThingDef>
 				<ThingDef>BaME_Uranium_Battery</ThingDef>
-      			<ThingDef>BaME_Lithium_Battery</ThingDef>
+				<ThingDef>BaME_Lithium_Battery</ThingDef>
+				<ThingDef>BaME_Plasteel_Battery</ThingDef>
     		</descriptionHyperlinks>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName = "Battery"]/statBases/MaxHitPoints</xpath>
+		<value>
+				<MaxHitPoints>200</MaxHitPoints>
 		</value>
 	</Operation>
 
@@ -57,11 +66,12 @@
 		<value>
 			<costList>
 				<Steel>90</Steel>
-				<ComponentIndustrial>2</ComponentIndustrial>
+				<ComponentIndustrial>3</ComponentIndustrial>
 			</costList>
 		</value>
 	</Operation>
 
+	<!-- Research project patches-->
 	<Operation Class="PatchOperationAdd">
 		<xpath>*/ResearchProjectDef[defName = "Batteries"]</xpath>
 		<value>

@@ -8,7 +8,6 @@
     </value>
   </Operation>
 
-
   <Operation Class="PatchOperationReplace">
     <xpath>*/ThingDef[defName = "Battery"]/description</xpath>
     <value>

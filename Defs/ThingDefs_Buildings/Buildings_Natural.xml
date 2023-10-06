@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- Lead -->  
+  <!-- Lead -->
   <ThingDef ParentName="RockBase">
     <defName>BaME_MineableLead</defName>
     <label>lead ore</label>
@@ -25,7 +25,7 @@
     </building>
   </ThingDef>
 
-  <!-- Copper -->  
+  <!-- Copper -->
   <ThingDef ParentName="RockBase">
     <defName>BaME_MineableCopper</defName>
     <label>copper ore</label>
@@ -49,7 +49,7 @@
     </building>
   </ThingDef>
 
-  <!-- Nickel -->  
+  <!-- Nickel -->
   <ThingDef ParentName="RockBase">
     <defName>BaME_MineableNickel</defName>
     <label>nickel ore</label>
@@ -73,9 +73,7 @@
     </building>
   </ThingDef>
 
-
-
-  <!-- Lithium -->  
+  <!-- Lithium -->
   <ThingDef ParentName="RockBase">
     <defName>BaME_MineableLithium</defName>
     <label>lithium ore</label>

@@ -192,7 +192,7 @@
       <Mass>26</Mass>
       <Flammability>0.8</Flammability>
       <Beauty>-20</Beauty>
-    </statBases>   
+    </statBases>
     <descriptionHyperlinks>
       <ThingDef>BaME_Lead_Battery</ThingDef>
       <ThingDef>BaME_Copper_Battery</ThingDef>
@@ -266,7 +266,7 @@
       <Mass>15</Mass>
       <Flammability>0.75</Flammability>
       <Beauty>-10</Beauty>
-    </statBases>   
+    </statBases>
     <descriptionHyperlinks>
       <ThingDef>BaME_Lead_Battery</ThingDef>
       <ThingDef>BaME_Copper_Battery</ThingDef>
@@ -343,7 +343,7 @@
       <Mass>30</Mass>
       <Flammability>1.1</Flammability>
       <Beauty>-15</Beauty>
-    </statBases>   
+    </statBases>
     <descriptionHyperlinks>
       <ThingDef>BaME_Lead_Battery</ThingDef>
       <ThingDef>BaME_Copper_Battery</ThingDef>
@@ -510,7 +510,7 @@
       <Mass>25</Mass>
       <Flammability>0.15</Flammability>
       <Beauty>-10</Beauty>
-    </statBases>   
+    </statBases>
     <descriptionHyperlinks>
       <ThingDef>BaME_Lead_Battery</ThingDef>
       <ThingDef>BaME_Copper_Battery</ThingDef>

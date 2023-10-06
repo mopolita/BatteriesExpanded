@@ -7,7 +7,7 @@
     <label>Power Storage</label>
   </ResearchTabDef>
 
-   <ResearchProjectDef>
+  <ResearchProjectDef>
     <defName>Power_Storage_Research</defName>
     <label>power storage</label>
     <description>The first glimpse at how power and batteries are stored.</description>

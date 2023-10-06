@@ -156,10 +156,10 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <!-- Waterproof Battery -->
+  <!-- Regular Waterproof Battery -->
   <ThingDef ParentName="BuildingBase">
     <defName>BaME_Waterproof_Battery</defName>
-    <label>Waterproof battery</label>
+    <label>waterproof battery</label>
     <description>Pretty much like a steel battery, but doesn't catch fire or explode when under the rain.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
@@ -230,10 +230,10 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <!-- Nickel Battery -->
+  <!-- Regular Nickel Battery -->
   <ThingDef ParentName="BuildingBase">
     <defName>BaME_Nickel_Battery</defName>
-    <label>Nickel battery</label>
+    <label>nickel battery</label>
     <description>An old kind of battery, can store more electricity and is more efficient than lead alternatives.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
@@ -307,10 +307,10 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <!-- Uranium Battery -->
+  <!-- Regular Uranium Battery -->
   <ThingDef ParentName="BuildingBase">
     <defName>BaME_Uranium_Battery</defName>
-    <label>Uranium battery</label>
+    <label>uranium battery</label>
     <description>A revolutionary battery made from radioactive materials, produces some heat.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
@@ -389,7 +389,7 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <!-- Lithium Battery -->
+  <!-- Regular Lithium Battery -->
   <ThingDef ParentName="BuildingBase">
     <defName>BaME_Lithium_Battery</defName>
     <label>lithium battery</label>
@@ -473,10 +473,10 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <!-- Plasteel Battery -->
+  <!-- Regular Plasteel Battery -->
   <ThingDef ParentName="BuildingBase">
     <defName>BaME_Plasteel_Battery</defName>
-    <label>Plasteel battery</label>
+    <label>plasteel battery</label>
     <description>A even more revolutionary battery made from advanced materials, cans store large amounts of power and is very efficient.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>

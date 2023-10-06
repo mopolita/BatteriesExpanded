@@ -18,7 +18,7 @@
   <Operation Class="PatchOperationAdd">
     <xpath>*/ThingDef[defName = "Battery"]</xpath>
     <value>
-      <designatorDropdown>Batteries</designatorDropdown>
+      <designatorDropdown>Regular_Batteries</designatorDropdown>
     </value>
   </Operation>
 

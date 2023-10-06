@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<!-- Designator Dropdown Group Def for batteries-->
+  <!-- Designator Dropdown group def for small batteries -->
   <DesignatorDropdownGroupDef>
-    <defName>Batteries</defName>
+    <defName>Small_Batteries</defName>
+  </DesignatorDropdownGroupDef>
+
+  <!-- Designator Dropdown Group Def for regular batteries -->
+  <DesignatorDropdownGroupDef>
+    <defName>Regular_Batteries</defName>
   </DesignatorDropdownGroupDef>
 
   <!-- Lead Battery -->
@@ -13,7 +18,7 @@
     <description>Stores electricity for later use. Can store only a small ammount of power and is not very efficient, but is very sturdy.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
-    <designatorDropdown>Batteries</designatorDropdown>
+    <designatorDropdown>Regular_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/BaME_Lead_Battery</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -81,14 +86,89 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <!-- Copper Battery -->
+  <!-- Small Copper Battery -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>BaME_Small_Copper_Battery</defName>
+    <label>small copper battery</label>
+    <description>Stores electricity for later use. Can store a medium ammount of power and is not very efficient, but is sturdy.</description>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <thingClass>Building_Battery</thingClass>
+    <designatorDropdown>Small_Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/BaME_Small_Copper_Battery</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.4</fillPercent>
+    <tickerType>Normal</tickerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>450</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.45</Flammability>
+      <Beauty>-10</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BaME_Lead_Battery</ThingDef>
+      <ThingDef>Battery</ThingDef>
+      <ThingDef>BaME_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Nickel_Battery</ThingDef>
+      <ThingDef>BaME_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <size>(1,1)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
+    <costList>
+      <BaME_Copper>30</BaME_Copper>
+      <Steel>10</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>300</storedEnergyMax>
+        <efficiency>0.6</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <uiOrder>2020</uiOrder>
+    <staticSunShadowHeight>0.2</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+    <canOverlapZones>false</canOverlapZones>
+    <researchPrerequisites>
+      <li>BaME_Copper_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Regular Copper Battery -->
   <ThingDef ParentName="BuildingBase">
     <defName>BaME_Copper_Battery</defName>
     <label>copper battery</label>
     <description>Stores electricity for later use. Can store a medium ammount of power and is not very efficient, but is sturdy.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
-    <designatorDropdown>Batteries</designatorDropdown>
+    <designatorDropdown>Regular_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/BaME_Copper_Battery</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -163,7 +243,7 @@
     <description>Pretty much like a steel battery, but doesn't catch fire or explode when under the rain.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
-    <designatorDropdown>Batteries</designatorDropdown>
+    <designatorDropdown>Regular_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/BaME_Waterproof_Battery</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -237,7 +317,7 @@
     <description>An old kind of battery, can store more electricity and is more efficient than lead alternatives.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
-    <designatorDropdown>Batteries</designatorDropdown>
+    <designatorDropdown>Regular_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/BaME_Nickel_Battery</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -314,7 +394,7 @@
     <description>A revolutionary battery made from radioactive materials, produces some heat.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
-    <designatorDropdown>Batteries</designatorDropdown>
+    <designatorDropdown>Regular_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/BaME_Uranium_Battery</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -396,7 +476,7 @@
     <description>Stores large amounts of electricity for later use. Much more efficient than steel and lead ones, but also more fragile.\n\nAlso explodes when destroyed</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
-    <designatorDropdown>Batteries</designatorDropdown>
+    <designatorDropdown>Regular_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/BaME_Lithium_Battery</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -481,7 +561,7 @@
     <description>A even more revolutionary battery made from advanced materials, cans store large amounts of power and is very efficient.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
-    <designatorDropdown>Batteries</designatorDropdown>
+    <designatorDropdown>Regular_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/BaME_Plasteel_Battery</texPath>
       <graphicClass>Graphic_Multi</graphicClass>

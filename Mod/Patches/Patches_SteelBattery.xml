@@ -70,7 +70,7 @@
   <Operation Class="PatchOperationAdd">
     <xpath>*/ResearchProjectDef[defName = "Batteries"]</xpath>
     <value>
-      <tab>power_storage</tab>
+      <tab>Power_Storage</tab>
     </value>
   </Operation>
 

@@ -3,8 +3,8 @@
 
   <!-- Research Tab Def for batteries-->
   <ResearchTabDef>
-    <defName>power_storage</defName>
-    <label>Power Storage</label>
+    <defName>Power_Storage</defName>
+    <label>power storage</label>
   </ResearchTabDef>
 
   <ResearchProjectDef>
@@ -31,7 +31,7 @@
     </prerequisites>
     <researchViewX>0.00</researchViewX>
     <researchViewY>2.30</researchViewY>
-    <tab>power_storage</tab>
+    <tab>Power_Storage</tab>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -45,7 +45,7 @@
     </prerequisites>
     <researchViewX>1.00</researchViewX>
     <researchViewY>2.30</researchViewY>
-    <tab>power_storage</tab>
+    <tab>Power_Storage</tab>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -59,7 +59,7 @@
     </prerequisites>
     <researchViewX>3.00</researchViewX>
     <researchViewY>2.30</researchViewY>
-    <tab>power_storage</tab>
+    <tab>Power_Storage</tab>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -73,7 +73,7 @@
     </prerequisites>
     <researchViewX>4.00</researchViewX>
     <researchViewY>2.30</researchViewY>
-    <tab>power_storage</tab>
+    <tab>Power_Storage</tab>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -88,7 +88,7 @@
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <researchViewX>5.00</researchViewX>
     <researchViewY>2.30</researchViewY>
-    <tab>power_storage</tab>
+    <tab>Power_Storage</tab>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -103,7 +103,7 @@
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <researchViewX>6.00</researchViewX>
     <researchViewY>2.30</researchViewY>
-    <tab>power_storage</tab>
+    <tab>Power_Storage</tab>
   </ResearchProjectDef>
 
 </Defs>

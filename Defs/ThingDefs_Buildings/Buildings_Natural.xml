@@ -19,9 +19,9 @@
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>BaME_Lead</mineableThing>
-      <mineableYield>50</mineableYield>
-      <mineableScatterCommonality>1.25</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>40~50</mineableScatterLumpSizeRange>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>1.05</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>30~40</mineableScatterLumpSizeRange>
     </building>
   </ThingDef>
 
@@ -43,9 +43,9 @@
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>BaME_Copper</mineableThing>
-      <mineableYield>45</mineableYield>
-      <mineableScatterCommonality>1</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>35~45</mineableScatterLumpSizeRange>
+      <mineableYield>35</mineableYield>
+      <mineableScatterCommonality>0.85</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>25~35</mineableScatterLumpSizeRange>
     </building>
   </ThingDef>
 
@@ -67,9 +67,9 @@
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>BaME_Nickel</mineableThing>
-      <mineableYield>35</mineableYield>
-      <mineableScatterCommonality>0.75</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>25~35</mineableScatterLumpSizeRange>
+      <mineableYield>25</mineableYield>
+      <mineableScatterCommonality>0.55</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>15~30</mineableScatterLumpSizeRange>
     </building>
   </ThingDef>
 
@@ -82,8 +82,8 @@
       <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <color>(175, 175, 175)</color>
-      <colorTwo>(207, 210, 209)</colorTwo>
+      <color>(170, 170, 170)</color>
+      <colorTwo>(90, 90, 90)</colorTwo>
     </graphicData>
     <statBases>
       <MaxHitPoints>3500</MaxHitPoints>
@@ -91,9 +91,9 @@
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>BaME_Lithium</mineableThing>
-      <mineableYield>25</mineableYield>
-      <mineableScatterCommonality>0.5</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>15~20</mineableScatterLumpSizeRange>
+      <mineableYield>20</mineableYield>
+      <mineableScatterCommonality>0.4</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>10~20</mineableScatterLumpSizeRange>
     </building>
   </ThingDef>
 

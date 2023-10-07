@@ -11,7 +11,7 @@
     <defName>Power_Storage_Research</defName>
     <label>power storage</label>
     <description>The first glimpse at how power and batteries are stored.</description>
-    <baseCost>200</baseCost>
+    <baseCost>400</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>Electricity</li>
@@ -24,7 +24,7 @@
     <defName>BaME_Lead_Batteries</defName>
     <label>lead battery</label>
     <description>The first refillable battery ever created, using lead.</description>
-    <baseCost>400</baseCost>
+    <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>Power_Storage_Research</li>
@@ -38,7 +38,7 @@
     <defName>BaME_Copper_Batteries</defName>
     <label>copper battery</label>
     <description>Honestly, copper batteries just work.</description>
-    <baseCost>500</baseCost>
+    <baseCost>600</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>BaME_Lead_Batteries</li>
@@ -52,7 +52,7 @@
     <defName>BaME_Nickel_Batteries</defName>
     <label>nickel battery</label>
     <description>A futuristic battery even better than steel alternatives.</description>
-    <baseCost>750</baseCost>
+    <baseCost>850</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>Batteries</li>
@@ -66,7 +66,7 @@
     <defName>BaME_Uranium_Batteries</defName>
     <label>uranium battery</label>
     <description>Batteries using potentially dangerous and radioactive materials? Yes please!</description>
-    <baseCost>900</baseCost>
+    <baseCost>1000</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>BaME_Nickel_Batteries</li>
@@ -80,7 +80,7 @@
     <defName>BaME_Lithium_Batteries</defName>
     <label>lithium battery</label>
     <description>Back in the twenty-first century, these batteries where the best in the market. They are made using lithium.</description>
-    <baseCost>1100</baseCost>
+    <baseCost>1400</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>BaME_Uranium_Batteries</li>
@@ -95,7 +95,7 @@
     <defName>BaME_Plasteel_Batteries</defName>
     <label>plasteel battery</label>
     <description>A futuristic battery even better than the lithium ones.</description>
-    <baseCost>1500</baseCost>
+    <baseCost>2000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>BaME_Lithium_Batteries</li>

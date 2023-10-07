@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!--EN: Power Storage -->
+  <Power_Storage_Research.label>Stockage d'énergie</Power_Storage_Research.label>
+  <Power_Storage_Research.description>La première étape menant au stockage d'énergie et à la production de batteries.<Power_Storage_Research.description>
+
+  <!--EN: lead battery -->
+  <BaME_Lead_Batteries.label>batterie au plomb</BaME_Lead_Batteries.label>
+  <BaME_Lead_Batteries.description>La première batterie rechargeable jamais créée, produites à partir de plomb.</BaME_Lead_Batteries.description>
+
+  <!-- EN: copper battery -->
+  <BaME_Copper_Batteries.label>batterie au cuivre</BaME_Copper_Batteries.label>
+  <BaME_Copper_Batteries.description>Elles fonctionnent, rien de plus.</BaME_Copper_Batteries.description>
+
+  <!-- EN: nickel battery -->
+  <BaME_Nickel_Batteries.label> batterie au nickel</BaME_Nickel_Batteries.label>
+  <BaME_Nickel_Batteries.description>Une batterie futuriste, meilleures que les alternatives faites d'acier.</BaME_Nickel_Batteries.description>
+
+  <!-- EN: uranium battery -->
+  <BaME_Uranium_Batteries.label>batterie à l'uranium</BaME_Uranium_Batteries.label>
+  <BaME_Uranium_Batteries.description>Une batterie utilisant des matériaux radioactifs potentiellement dangereux ? plutôt deux fois qu'une !</BaME_Uranium_Batteries.description>
+
+  <!-- EN: lithium battery -->
+  <BaME_Lithium_Batteries.label>batterie au lithium</BaME_Lithium_Batteries.label>
+  <BaME_Lithium_Batteries.description>Au XXIème siècle, il s'agissait des meilleures batteries du marché.</BaME_Lithium_Batteries.description>
+
+  <!-- EN: plasteel battery -->
+  <BaME_Plasteel_Batteries.label>batterie en plastacier</BaME_Plasteel_Batteries.label>
+  <BaME_Plasteel_Batteries.description>La meilleure batterie que tu peux espérer produire</BaME_Plasteel_Batteries.description>
+
+</LanguageData>

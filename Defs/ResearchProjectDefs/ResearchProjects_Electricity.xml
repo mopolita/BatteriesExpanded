@@ -74,6 +74,7 @@
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <researchViewX>4.00</researchViewX>
    <researchViewY>1.30</researchViewY>
+   <tab>power_storage</tab>
   </ResearchProjectDef>
 
   <ResearchProjectDef>

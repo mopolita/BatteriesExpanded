@@ -10,7 +10,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>BaME_Small_Lead_Battery</defName>
     <label>small lead battery</label>
-    <description>Stores electricity for later use. Can store only a small ammount of power and is not very efficient, but is very sturdy.</description>
+    <description>A smaller version of the lead battery, useful if you don't have much space.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
@@ -44,13 +44,13 @@
       <Beauty>-15</Beauty>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Copper_Battery</ThingDef>
-      <ThingDef>Battery</ThingDef>
-      <ThingDef>BaME_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Lithium_Battery</ThingDef>
-      <ThingDef>BaME_Plasteel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Copper_Battery</ThingDef>
+      <ThingDef>BaME_Small_Steel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Small_Nickel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,1)</size>
     <building>
@@ -63,7 +63,7 @@
     </costList>
     <comps>
       <li Class="CompProperties_Battery">
-        <storedEnergyMax>250</storedEnergyMax>
+        <storedEnergyMax>340</storedEnergyMax>
         <efficiency>0.5</efficiency>
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
@@ -78,6 +78,7 @@
     <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>BaME_Lead_Batteries</li>
+      <li>Miniature_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -85,7 +86,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>BaME_Small_Copper_Battery</defName>
     <label>small copper battery</label>
-    <description>Stores electricity for later use. Can store a medium ammount of power and is not very efficient, but is sturdy.</description>
+    <description>A smaller version of the copper battery, useful if you don't have much space.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
@@ -119,13 +120,13 @@
       <Beauty>-10</Beauty>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Lead_Battery</ThingDef>
-      <ThingDef>Battery</ThingDef>
-      <ThingDef>BaME_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Lithium_Battery</ThingDef>
-      <ThingDef>BaME_Plasteel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Small_Steel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Small_Nickel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,1)</size>
     <building>
@@ -138,7 +139,7 @@
     </costList>
     <comps>
       <li Class="CompProperties_Battery">
-        <storedEnergyMax>300</storedEnergyMax>
+        <storedEnergyMax>400</storedEnergyMax>
         <efficiency>0.6</efficiency>
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
@@ -153,6 +154,7 @@
     <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>BaME_Copper_Batteries</li>
+      <li>Miniature_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -160,7 +162,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>BaME_Small_Steel_Battery</defName>
     <label>small steel battery</label>
-    <description>Stores electricity for later use. Can store only a small ammount of power and is not very efficient, but is very sturdy.</description>
+    <description>A smaller version of the steel battery, useful if you don't have much space.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
@@ -194,13 +196,13 @@
       <Beauty>-15</Beauty>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Copper_Battery</ThingDef>
-      <ThingDef>Battery</ThingDef>
-      <ThingDef>BaME_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Lithium_Battery</ThingDef>
-      <ThingDef>BaME_Plasteel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Small_Copper_Battery</ThingDef>
+      <ThingDef>BaME_Small_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Small_Nickel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,1)</size>
     <building>
@@ -212,7 +214,7 @@
     </costList>
     <comps>
       <li Class="CompProperties_Battery">
-        <storedEnergyMax>370</storedEnergyMax>
+        <storedEnergyMax>500</storedEnergyMax>
         <efficiency>0.5</efficiency>
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
@@ -227,6 +229,7 @@
     <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>Batteries</li>
+      <li>Miniature_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -234,7 +237,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>BaME_Small_Waterproof_Battery</defName>
     <label>small waterproof battery</label>
-    <description>Pretty much like a steel battery, but doesn't catch fire or explode when under the rain.</description>
+    <description>A smaller version of the waterproof battery, useful if you don't have much space.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
@@ -268,13 +271,13 @@
       <Beauty>-20</Beauty>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Copper_Battery</ThingDef>
-      <ThingDef>Battery</ThingDef>
-      <ThingDef>BaME_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Lithium_Battery</ThingDef>
-      <ThingDef>BaME_Plasteel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Small_Copper_Battery</ThingDef>
+      <ThingDef>BaME_Small_Steel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Nickel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,1)</size>
     <building>
@@ -286,7 +289,7 @@
     </costList>
     <comps>
       <li Class="CompProperties_Battery">
-        <storedEnergyMax>375</storedEnergyMax>
+        <storedEnergyMax>500</storedEnergyMax>
         <efficiency>0.7</efficiency>
         <shortCircuitInRain>false</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
@@ -301,6 +304,7 @@
     <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>Batteries</li>
+      <li>Miniature_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -308,7 +312,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>BaME_Small_Nickel_Battery</defName>
     <label>small nickel battery</label>
-    <description>An old kind of battery, can store more electricity and is more efficient than lead alternatives.</description>
+    <description>A smaller version of the nickel battery, useful if you don't have much space.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
@@ -342,13 +346,13 @@
       <Beauty>-10</Beauty>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Copper_Battery</ThingDef>
-      <ThingDef>Battery</ThingDef>
-      <ThingDef>BaME_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Lithium_Battery</ThingDef>
-      <ThingDef>BaME_Plasteel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Small_Copper_Battery</ThingDef>
+      <ThingDef>BaME_Small_Steel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Small_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,1)</size>
     <building>
@@ -363,7 +367,7 @@
     </costList>
     <comps>
       <li Class="CompProperties_Battery">
-        <storedEnergyMax>500</storedEnergyMax>
+        <storedEnergyMax>650</storedEnergyMax>
         <efficiency>0.8</efficiency>
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
@@ -378,6 +382,7 @@
     <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>BaME_Nickel_Batteries</li>
+      <li>Miniature_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -385,7 +390,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>BaME_Small_Uranium_Battery</defName>
     <label>small uranium battery</label>
-    <description>A revolutionary battery made from radioactive materials, produces some heat.</description>
+    <description>A smaller version of the uranium battery, useful if you don't have much space.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
@@ -419,13 +424,13 @@
       <Beauty>-15</Beauty>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Copper_Battery</ThingDef>
-      <ThingDef>Battery</ThingDef>
-      <ThingDef>BaME_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Lithium_Battery</ThingDef>
-      <ThingDef>BaME_Plasteel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Small_Copper_Battery</ThingDef>
+      <ThingDef>BaME_Small_Steel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Small_Nickel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,1)</size>
     <building>
@@ -440,7 +445,7 @@
     </costList>
     <comps>
       <li Class="CompProperties_Battery">
-        <storedEnergyMax>750</storedEnergyMax>
+        <storedEnergyMax>1000</storedEnergyMax>
         <efficiency>0.85</efficiency>
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
@@ -460,6 +465,7 @@
     <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>BaME_Uranium_Batteries</li>
+      <li>Miniature_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -467,7 +473,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>BaME_Small_Lithium_Battery</defName>
     <label>small lithium battery</label>
-    <description>Stores large amounts of electricity for later use. Much more efficient than steel and lead ones, but also more fragile.\n\nAlso explodes when destroyed</description>
+    <description>A smaller version of the lithium battery, useful if you don't have much space.\n\nExplodes when destroyed</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
@@ -501,13 +507,13 @@
       <Beauty>-15</Beauty>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Copper_Battery</ThingDef>
-      <ThingDef>Battery</ThingDef>
-      <ThingDef>BaME_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Plasteel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Small_Copper_Battery</ThingDef>
+      <ThingDef>BaME_Small_Steel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Small_Nickel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,1)</size>
     <building>
@@ -521,7 +527,7 @@
     </costList>
     <comps>
       <li Class="CompProperties_Battery">
-        <storedEnergyMax>1000</storedEnergyMax>
+        <storedEnergyMax>1350</storedEnergyMax>
         <efficiency>0.9</efficiency>
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
@@ -544,6 +550,7 @@
     <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>BaME_Lithium_Batteries</li>
+      <li>Miniature_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -551,7 +558,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>BaME_Small_Plasteel_Battery</defName>
     <label>small plasteel battery</label>
-    <description>A even more revolutionary battery made from advanced materials, cans store large amounts of power and is very efficient.</description>
+    <description>A smaller version of the plasteel battery, useful if you don't have much space.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
@@ -585,13 +592,13 @@
       <Beauty>-10</Beauty>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Copper_Battery</ThingDef>
-      <ThingDef>Battery</ThingDef>
-      <ThingDef>BaME_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Small_Copper_Battery</ThingDef>
+      <ThingDef>BaME_Small_Steel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Small_Nickel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Lithium_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,1)</size>
     <building>
@@ -607,7 +614,7 @@
     </costList>
     <comps>
       <li Class="CompProperties_Battery">
-        <storedEnergyMax>1750</storedEnergyMax>
+        <storedEnergyMax>2300</storedEnergyMax>
         <efficiency>1</efficiency>
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
@@ -622,6 +629,7 @@
     <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>BaME_Plasteel_Batteries</li>
+      <li>Miniature_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 

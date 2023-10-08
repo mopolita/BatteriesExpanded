@@ -65,7 +65,7 @@
   <ResearchProjectDef>
     <defName>BaME_Uranium_Batteries</defName>
     <label>uranium battery</label>
-    <description>Batteries using potentially dangerous and radioactive materials? Yes please!</description>
+    <description>A Battery using potentially dangerous and radioactive materials? Yes please!</description>
     <baseCost>1000</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>

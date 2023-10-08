@@ -82,6 +82,13 @@
   </Operation>
 
   <Operation Class="PatchOperationReplace">
+    <xpath>*/ResearchProjectDef[defName = "Batteries"]/description</xpath>
+    <value>
+      <description>Batteries stronger than copper versions, a step further in the direction of better alternatives.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
     <xpath>*/ResearchProjectDef[defName = "Batteries"]/baseCost</xpath>
     <value>
       <baseCost>600</baseCost>

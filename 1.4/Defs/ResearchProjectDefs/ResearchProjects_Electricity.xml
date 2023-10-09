@@ -62,15 +62,31 @@
     <tab>Power_Storage</tab>
   </ResearchProjectDef>
 
-  <ResearchProjectDef>
-    <defName>BaME_Uranium_Batteries</defName>
-    <label>uranium battery</label>
-    <description>A Battery using potentially dangerous and radioactive materials? Yes please!</description>
-    <baseCost>1000</baseCost>
-    <techLevel>Industrial</techLevel>
+    <ResearchProjectDef>
+    <defName>Miniature_Batteries</defName>
+    <label>miniature batteries</label>
+    <description>The possibility to make smaller batteries, almost as powerful as regular ones</description>
+    <baseCost>1200</baseCost>
+    <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>BaME_Nickel_Batteries</li>
     </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>4.00</researchViewX>
+   <researchViewY>1.30</researchViewY>
+   <tab>power_storage</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BaME_Uranium_Batteries</defName>
+    <label>uranium battery</label>
+    <description>Batteries using potentially dangerous and radioactive materials? Yes please!</description>
+    <baseCost>900</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>BaME_Nickel_Batteries</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <researchViewX>4.00</researchViewX>
     <researchViewY>2.30</researchViewY>
     <tab>Power_Storage</tab>

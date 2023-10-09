@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Designator Dropdown group def for small batteries -->
+  <DesignatorDropdownGroupDef>
+    <defName>Small_Batteries</defName>
+  </DesignatorDropdownGroupDef>
+
+  <!-- Small Lead Battery -->
+  <ThingDef ParentName="BaME_BatteryBase">
+    <defName>BaME_Small_Lead_Battery</defName>
+    <label>small lead battery</label>
+    <description>A smaller version of the lead battery, useful if you don't have much space.</description>
+    <thingClass>Batteries.Building_Minibattery</thingClass>
+    <designatorDropdown>Small_Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/BaME_Small_Lead_Battery</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>30</Mass>
+      <Flammability>0.25</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BaME_Small_Copper_Battery</ThingDef>
+      <ThingDef>BaME_Small_Steel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Small_Nickel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <size>(1,1)</size>
+    <costList>
+      <BaME_Lead>30</BaME_Lead>
+      <Steel>10</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>340</storedEnergyMax>
+        <efficiency>0.5</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>BaME_Lead_Batteries</li>
+      <li>Miniature_Batteries</li>
+    </researchPrerequisites>
+    <uiIconScale>0.6</uiIconScale>
+  </ThingDef>
+
+  <!-- Small Copper Battery -->
+  <ThingDef ParentName="BaME_BatteryBase">
+    <defName>BaME_Small_Copper_Battery</defName>
+    <label>small copper battery</label>
+    <description>A smaller version of the copper battery, useful if you don't have much space.</description>
+    <thingClass>Batteries.Building_Minibattery</thingClass>
+    <designatorDropdown>Small_Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/BaME_Small_Copper_Battery</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>450</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.45</Flammability>
+      <Beauty>-10</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BaME_Small_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Small_Steel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Small_Nickel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <size>(1,1)</size>
+    <costList>
+      <BaME_Copper>30</BaME_Copper>
+      <Steel>10</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>400</storedEnergyMax>
+        <efficiency>0.6</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>BaME_Copper_Batteries</li>
+      <li>Miniature_Batteries</li>
+    </researchPrerequisites>
+    <uiIconScale>0.6</uiIconScale>
+  </ThingDef>
+
+  <!-- Small Steel Battery -->
+  <ThingDef ParentName="BaME_BatteryBase">
+    <defName>BaME_Small_Steel_Battery</defName>
+    <label>small steel battery</label>
+    <description>A smaller version of the steel battery, useful if you don't have much space.</description>
+    <thingClass>Batteries.Building_Minibattery</thingClass>
+    <designatorDropdown>Small_Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/BaME_Small_Steel_Battery</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>400</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>0.25</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BaME_Small_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Small_Copper_Battery</ThingDef>
+      <ThingDef>BaME_Small_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Small_Nickel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>45</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>500</storedEnergyMax>
+        <efficiency>0.5</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>Batteries</li>
+      <li>Miniature_Batteries</li>
+    </researchPrerequisites>
+    <uiIconScale>0.6</uiIconScale>
+  </ThingDef>
+
+  <!-- Small Waterproof Battery -->
+  <ThingDef ParentName="BaME_BatteryBase">
+    <defName>BaME_Small_Waterproof_Battery</defName>
+    <label>small waterproof battery</label>
+    <description>A smaller version of the waterproof battery, useful if you don't have much space.</description>
+    <thingClass>Batteries.Building_Minibattery</thingClass>
+    <designatorDropdown>Small_Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/BaME_Small_Waterproof_Battery</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>130</MaxHitPoints>
+      <WorkToBuild>525</WorkToBuild>
+      <Mass>15</Mass>
+      <Flammability>0.8</Flammability>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BaME_Small_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Small_Copper_Battery</ThingDef>
+      <ThingDef>BaME_Small_Steel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Nickel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>65</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>500</storedEnergyMax>
+        <efficiency>0.7</efficiency>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>Batteries</li>
+      <li>Miniature_Batteries</li>
+    </researchPrerequisites>
+    <uiIconScale>0.6</uiIconScale>
+  </ThingDef>
+
+  <!-- Small Nickel Battery -->
+  <ThingDef ParentName="BaME_BatteryBase">
+    <defName>BaME_Small_Nickel_Battery</defName>
+    <label>small nickel battery</label>
+    <description>A smaller version of the nickel battery, useful if you don't have much space.</description>
+    <thingClass>Batteries.Building_Minibattery</thingClass>
+    <designatorDropdown>Small_Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/BaME_Small_Nickel_Battery</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>125</MaxHitPoints>
+      <WorkToBuild>600</WorkToBuild>
+      <Mass>15</Mass>
+      <Flammability>0.75</Flammability>
+      <Beauty>-10</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BaME_Small_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Small_Copper_Battery</ThingDef>
+      <ThingDef>BaME_Small_Steel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Small_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>5</Steel>
+      <Uranium>5</Uranium>
+      <BaME_Lead>5</BaME_Lead>
+      <BaME_Nickel>30</BaME_Nickel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>650</storedEnergyMax>
+        <efficiency>0.8</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>BaME_Nickel_Batteries</li>
+      <li>Miniature_Batteries</li>
+    </researchPrerequisites>
+    <uiIconScale>0.6</uiIconScale>
+  </ThingDef>
+
+  <!-- Small Uranium Battery -->
+  <ThingDef ParentName="BaME_BatteryBase">
+    <defName>BaME_Small_Uranium_Battery</defName>
+    <label>small uranium battery</label>
+    <description>A smaller version of the uranium battery, useful if you don't have much space.</description>
+    <thingClass>Batteries.Building_Minibattery</thingClass>
+    <designatorDropdown>Small_Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/BaME_Small_Uranium_Battery</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>700</WorkToBuild>
+      <Mass>20</Mass>
+      <Flammability>1.1</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BaME_Small_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Small_Copper_Battery</ThingDef>
+      <ThingDef>BaME_Small_Steel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Small_Nickel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>5</Steel>
+      <Uranium>30</Uranium>
+      <BaME_Lead>20</BaME_Lead>
+      <BaME_Lithium>5</BaME_Lithium>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>1000</storedEnergyMax>
+        <efficiency>0.85</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusher</compClass>
+        <heatPerSecond>0.6</heatPerSecond>
+        <heatPushMaxTemperature>50</heatPushMaxTemperature>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>BaME_Uranium_Batteries</li>
+      <li>Miniature_Batteries</li>
+    </researchPrerequisites>
+    <uiIconScale>0.6</uiIconScale>
+  </ThingDef>
+
+  <!-- Small Lithium Battery -->
+  <ThingDef ParentName="BaME_BatteryBase">
+    <defName>BaME_Small_Lithium_Battery</defName>
+    <label>small lithium battery</label>
+    <description>A smaller version of the lithium battery, useful if you don't have much space.\n\nExplodes when destroyed</description>
+    <thingClass>Batteries.Building_Minibattery</thingClass>
+    <designatorDropdown>Small_Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/BaME_Small_Lithium_Battery</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <WorkToBuild>875</WorkToBuild>
+      <Mass>2</Mass>
+      <Flammability>3</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BaME_Small_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Small_Copper_Battery</ThingDef>
+      <ThingDef>BaME_Small_Steel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Small_Nickel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <size>(1,1)</size>
+    <costList>
+      <BaME_Lithium>40</BaME_Lithium>
+      <Steel>10</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>1350</storedEnergyMax>
+        <efficiency>0.9</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <wickTicks>240</wickTicks>
+        <explosiveRadius>2.5</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explodeOnKilled>true</explodeOnKilled>
+        <startWickHitPointsPercent>0.25</startWickHitPointsPercent>
+        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>BaME_Lithium_Batteries</li>
+      <li>Miniature_Batteries</li>
+    </researchPrerequisites>
+    <uiIconScale>0.6</uiIconScale>
+  </ThingDef>
+
+  <!-- Small Plasteel Battery -->
+  <ThingDef ParentName="BaME_BatteryBase">
+    <defName>BaME_Small_Plasteel_Battery</defName>
+    <label>small plasteel battery</label>
+    <description>A smaller version of the plasteel battery, useful if you don't have much space.</description>
+    <thingClass>Batteries.Building_Minibattery</thingClass>
+    <designatorDropdown>Small_Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/BaME_Small_Plasteel_Battery</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>0.15</Flammability>
+      <Beauty>-10</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BaME_Small_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Small_Copper_Battery</ThingDef>
+      <ThingDef>BaME_Small_Steel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Small_Nickel_Battery</ThingDef>
+      <ThingDef>BaME_Small_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Small_Lithium_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>5</Steel>
+      <Uranium>5</Uranium>
+      <Plasteel>30</Plasteel>
+      <BaME_Lithium>10</BaME_Lithium>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>2300</storedEnergyMax>
+        <efficiency>1</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>BaME_Plasteel_Batteries</li>
+      <li>Miniature_Batteries</li>
+    </researchPrerequisites>
+    <uiIconScale>0.6</uiIconScale>
+  </ThingDef>
+
+</Defs>

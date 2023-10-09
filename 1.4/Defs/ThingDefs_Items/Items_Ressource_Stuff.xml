@@ -95,7 +95,7 @@
         <li>Metallic</li>
       </categories>
       <appearance>Metal</appearance>
-      <commonality>0.45</commonality>
+      <commonality>0.35</commonality>
       <color>(180, 97, 59)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>

@@ -29,9 +29,9 @@
       <li>ResourcesRaw</li>
     </thingCategories>
     <stackLimit>75</stackLimit>
-    <deepCommonality>3</deepCommonality>
+    <deepCommonality>2.75</deepCommonality>
     <deepCountPerPortion>25</deepCountPerPortion>
-    <deepLumpSizeRange>20~25</deepLumpSizeRange>
+    <deepLumpSizeRange>15~25</deepLumpSizeRange>
     <burnableByRecipe>false</burnableByRecipe>
     <smeltable>true</smeltable>
     <stuffProps>
@@ -51,7 +51,7 @@
         <Beauty>0</Beauty>
         <WorkToMake>0.8</WorkToMake>
         <WorkToBuild>0.8</WorkToBuild>
-        <MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
+        <MeleeWeapon_CooldownMultiplier>1.2</MeleeWeapon_CooldownMultiplier>
       </statFactors>
     </stuffProps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -85,9 +85,9 @@
       <li>ResourcesRaw</li>
     </thingCategories>
     <stackLimit>75</stackLimit>
-    <deepCommonality>2.5</deepCommonality>
-    <deepCountPerPortion>30</deepCountPerPortion>
-    <deepLumpSizeRange>15~20</deepLumpSizeRange>
+    <deepCommonality>2.25</deepCommonality>
+    <deepCountPerPortion>25</deepCountPerPortion>
+    <deepLumpSizeRange>10~20</deepLumpSizeRange>
     <burnableByRecipe>false</burnableByRecipe>
     <smeltable>true</smeltable>
     <stuffProps>
@@ -140,9 +140,9 @@
       <li>ResourcesRaw</li>
     </thingCategories>
     <stackLimit>75</stackLimit>
-    <deepCommonality>3</deepCommonality>
-    <deepCountPerPortion>30</deepCountPerPortion>
-    <deepLumpSizeRange>17~22</deepLumpSizeRange>
+    <deepCommonality>2</deepCommonality>
+    <deepCountPerPortion>20</deepCountPerPortion>
+    <deepLumpSizeRange>12~22</deepLumpSizeRange>
     <burnableByRecipe>false</burnableByRecipe>
     <smeltable>true</smeltable>
     <stuffProps>
@@ -150,7 +150,7 @@
         <li>Metallic</li>
       </categories>
       <appearance>Metal</appearance>
-      <commonality>0.55</commonality>
+      <commonality>0.3</commonality>
       <color>(154, 156, 156)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -184,17 +184,17 @@
       <MarketValue>3.3</MarketValue>
       <MaxHitPoints>85</MaxHitPoints>
       <Mass>0.1</Mass>
-      <Flammability>2.5</Flammability>
+      <Flammability>3</Flammability>
       <DeteriorationRate>2.0</DeteriorationRate>
     </statBases>
     <thingCategories>
       <li>ResourcesRaw</li>
     </thingCategories>
     <stackLimit>100</stackLimit>
-    <deepCommonality>0.3</deepCommonality>
+    <deepCommonality>0.5</deepCommonality>
     <deepCountPerPortion>15</deepCountPerPortion>
-    <deepLumpSizeRange>4~14</deepLumpSizeRange>
-    <burnableByRecipe>false</burnableByRecipe>
+    <deepLumpSizeRange>5~15</deepLumpSizeRange>
+    <burnableByRecipe>true</burnableByRecipe>
     <smeltable>false</smeltable>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
   </ThingDef>

@@ -78,7 +78,7 @@
   <Operation Class="PatchOperationAdd">
     <xpath>*/ResearchProjectDef[defName = "Batteries"]</xpath>
     <value>
-      <tab>power_storage</tab>
+      <tab>Power_Storage</tab>
     </value>
   </Operation>
 
@@ -86,6 +86,13 @@
     <xpath>*/ResearchProjectDef[defName = "Batteries"]/label</xpath>
     <value>
       <label>steel battery</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ResearchProjectDef[defName = "Batteries"]/description</xpath>
+    <value>
+      <description>Batteries stronger than copper versions, a step further in the direction of better alternatives.</description>
     </value>
   </Operation>
 

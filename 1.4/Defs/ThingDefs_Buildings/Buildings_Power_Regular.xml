@@ -100,7 +100,7 @@
     <description>Stores electricity for later use. Can store a medium amount of power and is not very efficient, but is sturdy.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
-    <designatorDropdown>Batteries</designatorDropdown>
+    <designatorDropdown>Regular_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/BaME_Copper_Battery</texPath>
     </graphicData>

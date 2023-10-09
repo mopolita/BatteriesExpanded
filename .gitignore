@@ -24,5 +24,6 @@ Desktop.ini
 bin/
 obj/
 
-# Dunno what that is, just delete them
+# Misc stuff to remove
 *.vsidx
+*.dll

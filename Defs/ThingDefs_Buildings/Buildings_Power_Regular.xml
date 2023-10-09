@@ -6,11 +6,7 @@
     <defName>Regular_Batteries</defName>
   </DesignatorDropdownGroupDef>
 
-  <!-- Regular Lead Battery -->
-  <ThingDef ParentName="BuildingBase">
-    <defName>BaME_Lead_Battery</defName>
-    <label>lead battery</label>
-    <description>Stores electricity for later use. Can store only a small ammount of power and is not very efficient, but is very sturdy.</description>
+  <ThingDef ParentName="BuildingBase" Name="BaME_BatteryBase" Abstract="True">
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
     <designatorDropdown>Regular_Batteries</designatorDropdown>
@@ -38,6 +34,31 @@
     </thingCategories>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>800</WorkToBuild>
+      <Mass>20</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <size>(1,2)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <uiOrder>2020</uiOrder>
+    <staticSunShadowHeight>0.2</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+    <canOverlapZones>false</canOverlapZones>
+  </ThingDef>
+
+
+  <!-- Regular Lead Battery -->
+  <ThingDef ParentName="BaME_BatteryBase">
+    <defName>BaME_Lead_Battery</defName>
+    <label>lead battery</label>
+    <description>Stores electricity for later use. Can store only a small ammount of power and is not very efficient, but is very sturdy.</description>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
       <WorkToBuild>1000</WorkToBuild>
       <Mass>60</Mass>
       <Flammability>0.25</Flammability>
@@ -52,10 +73,6 @@
       <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
-    <size>(1,2)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
-    </building>
     <costList>
       <BaME_Lead>65</BaME_Lead>
       <Steel>20</Steel>
@@ -70,47 +87,19 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
-    <uiOrder>2020</uiOrder>
-    <staticSunShadowHeight>0.2</staticSunShadowHeight>
-    <constructEffect>ConstructMetal</constructEffect>
-    <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>BaME_Lead_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
   <!-- Regular Copper Battery -->
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Copper_Battery</defName>
     <label>copper battery</label>
     <description>Stores electricity for later use. Can store a medium ammount of power and is not very efficient, but is sturdy.</description>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <thingClass>Building_Battery</thingClass>
-    <designatorDropdown>Regular_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/BaME_Copper_Battery</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(2,3)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
     </graphicData>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
-    <blockWind>true</blockWind>
-    <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>0.40</fillPercent>
-    <tickerType>Normal</tickerType>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <thingCategories>
-      <li>BuildingsPower</li>
-    </thingCategories>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
       <WorkToBuild>900</WorkToBuild>
@@ -127,10 +116,6 @@
       <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
-    <size>(1,2)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
-    </building>
     <costList>
       <BaME_Copper>65</BaME_Copper>
       <Steel>15</Steel>
@@ -145,47 +130,19 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
-    <uiOrder>2020</uiOrder>
-    <staticSunShadowHeight>0.2</staticSunShadowHeight>
-    <constructEffect>ConstructMetal</constructEffect>
-    <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>BaME_Copper_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
   <!-- Regular Waterproof Battery -->
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Waterproof_Battery</defName>
     <label>waterproof battery</label>
     <description>Pretty much like a steel battery, but doesn't catch fire or explode when under the rain.</description>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <thingClass>Building_Battery</thingClass>
-    <designatorDropdown>Regular_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/BaME_Waterproof_Battery</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(2,3)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
     </graphicData>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
-    <blockWind>true</blockWind>
-    <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>0.40</fillPercent>
-    <tickerType>Normal</tickerType>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <thingCategories>
-      <li>BuildingsPower</li>
-    </thingCategories>
     <statBases>
       <MaxHitPoints>260</MaxHitPoints>
       <WorkToBuild>1050</WorkToBuild>
@@ -202,10 +159,6 @@
       <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
-    <size>(1,2)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
-    </building>
     <costList>
       <Steel>125</Steel>
       <ComponentIndustrial>4</ComponentIndustrial>
@@ -219,47 +172,19 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
-    <uiOrder>2020</uiOrder>
-    <staticSunShadowHeight>0.2</staticSunShadowHeight>
-    <constructEffect>ConstructMetal</constructEffect>
-    <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
   <!-- Regular Nickel Battery -->
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Nickel_Battery</defName>
     <label>nickel battery</label>
     <description>An old kind of battery, can store more electricity and is more efficient than lead alternatives.</description>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <thingClass>Building_Battery</thingClass>
-    <designatorDropdown>Regular_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/BaME_Nickel_Battery</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(2,3)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
     </graphicData>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
-    <blockWind>true</blockWind>
-    <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>0.40</fillPercent>
-    <tickerType>Normal</tickerType>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <thingCategories>
-      <li>BuildingsPower</li>
-    </thingCategories>
     <statBases>
       <MaxHitPoints>250</MaxHitPoints>
       <WorkToBuild>1200</WorkToBuild>
@@ -276,10 +201,6 @@
       <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
-    <size>(1,2)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
-    </building>
     <costList>
       <Steel>15</Steel>
       <Uranium>10</Uranium>
@@ -296,47 +217,19 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
-    <uiOrder>2020</uiOrder>
-    <staticSunShadowHeight>0.2</staticSunShadowHeight>
-    <constructEffect>ConstructMetal</constructEffect>
-    <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>BaME_Nickel_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
   <!-- Regular Uranium Battery -->
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Uranium_Battery</defName>
     <label>uranium battery</label>
     <description>A revolutionary battery made from radioactive materials, produces some heat.</description>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <thingClass>Building_Battery</thingClass>
-    <designatorDropdown>Regular_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/BaME_Uranium_Battery</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(2,3)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
     </graphicData>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
-    <blockWind>true</blockWind>
-    <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>0.40</fillPercent>
-    <tickerType>Normal</tickerType>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <thingCategories>
-      <li>BuildingsPower</li>
-    </thingCategories>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
       <WorkToBuild>1400</WorkToBuild>
@@ -353,10 +246,6 @@
       <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
-    <size>(1,2)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
-    </building>
     <costList>
       <Steel>10</Steel>
       <Uranium>60</Uranium>
@@ -378,47 +267,19 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
-    <uiOrder>2020</uiOrder>
-    <staticSunShadowHeight>0.2</staticSunShadowHeight>
-    <constructEffect>ConstructMetal</constructEffect>
-    <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>BaME_Uranium_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
   <!-- Regular Lithium Battery -->
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Lithium_Battery</defName>
     <label>lithium battery</label>
     <description>Stores large amounts of electricity for later use. Much more efficient than steel and lead ones, but also more fragile.\n\nAlso explodes when destroyed</description>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <thingClass>Building_Battery</thingClass>
-    <designatorDropdown>Regular_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/BaME_Lithium_Battery</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(2,3)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
     </graphicData>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
-    <blockWind>true</blockWind>
-    <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>0.40</fillPercent>
-    <tickerType>Normal</tickerType>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <thingCategories>
-      <li>BuildingsPower</li>
-    </thingCategories>
     <statBases>
       <MaxHitPoints>75</MaxHitPoints>
       <WorkToBuild>1750</WorkToBuild>
@@ -435,10 +296,6 @@
       <ThingDef>BaME_Uranium_Battery</ThingDef>
       <ThingDef>BaME_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
-    <size>(1,2)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
-    </building>
     <costList>
       <BaME_Lithium>80</BaME_Lithium>
       <Steel>15</Steel>
@@ -462,47 +319,19 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
-    <uiOrder>2020</uiOrder>
-    <staticSunShadowHeight>0.2</staticSunShadowHeight>
-    <constructEffect>ConstructMetal</constructEffect>
-    <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>BaME_Lithium_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
   <!-- Regular Plasteel Battery -->
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Plasteel_Battery</defName>
     <label>plasteel battery</label>
     <description>A even more revolutionary battery made from advanced materials, cans store large amounts of power and is very efficient.</description>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <thingClass>Building_Battery</thingClass>
-    <designatorDropdown>Regular_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/BaME_Plasteel_Battery</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(2,3)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
     </graphicData>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
-    <blockWind>true</blockWind>
-    <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>0.40</fillPercent>
-    <tickerType>Normal</tickerType>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <thingCategories>
-      <li>BuildingsPower</li>
-    </thingCategories>
     <statBases>
       <MaxHitPoints>400</MaxHitPoints>
       <WorkToBuild>2000</WorkToBuild>
@@ -519,10 +348,6 @@
       <ThingDef>BaME_Uranium_Battery</ThingDef>
       <ThingDef>BaME_Lithium_Battery</ThingDef>
     </descriptionHyperlinks>
-    <size>(1,2)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
-    </building>
     <costList>
       <Steel>5</Steel>
       <Uranium>5</Uranium>
@@ -540,12 +365,6 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
-    <uiOrder>2020</uiOrder>
-    <staticSunShadowHeight>0.2</staticSunShadowHeight>
-    <constructEffect>ConstructMetal</constructEffect>
-    <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>BaME_Plasteel_Batteries</li>
     </researchPrerequisites>

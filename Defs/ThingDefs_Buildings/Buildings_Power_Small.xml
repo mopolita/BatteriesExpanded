@@ -7,35 +7,16 @@
   </DesignatorDropdownGroupDef>
 
   <!-- Small Lead Battery -->
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Small_Lead_Battery</defName>
     <label>small lead battery</label>
     <description>A smaller version of the lead battery, useful if you don't have much space.</description>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <thingClass>Building_Battery</thingClass>
+    <thingClass>Batteries.Building_Minibattery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/BaME_Small_Lead_Battery</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2,2)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
     </graphicData>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
-    <blockWind>true</blockWind>
-    <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>0.40</fillPercent>
-    <tickerType>Normal</tickerType>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <thingCategories>
-      <li>BuildingsPower</li>
-    </thingCategories>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToBuild>500</WorkToBuild>
@@ -53,9 +34,6 @@
       <ThingDef>BaME_Small_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,1)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
-    </building>
     <costList>
       <BaME_Lead>30</BaME_Lead>
       <Steel>10</Steel>
@@ -70,48 +48,24 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
-    <uiOrder>2020</uiOrder>
-    <staticSunShadowHeight>0.2</staticSunShadowHeight>
-    <constructEffect>ConstructMetal</constructEffect>
-    <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>BaME_Lead_Batteries</li>
       <li>Miniature_Batteries</li>
     </researchPrerequisites>
+    <uiIconScale>0.6</uiIconScale>
   </ThingDef>
 
   <!-- Small Copper Battery -->
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Small_Copper_Battery</defName>
     <label>small copper battery</label>
     <description>A smaller version of the copper battery, useful if you don't have much space.</description>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <thingClass>Building_Battery</thingClass>
+    <thingClass>Batteries.Building_Minibattery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/BaME_Small_Copper_Battery</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2,2)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
     </graphicData>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
-    <blockWind>true</blockWind>
-    <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>0.4</fillPercent>
-    <tickerType>Normal</tickerType>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <thingCategories>
-      <li>BuildingsPower</li>
-    </thingCategories>
     <statBases>
       <MaxHitPoints>75</MaxHitPoints>
       <WorkToBuild>450</WorkToBuild>
@@ -129,9 +83,6 @@
       <ThingDef>BaME_Small_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,1)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
-    </building>
     <costList>
       <BaME_Copper>30</BaME_Copper>
       <Steel>10</Steel>
@@ -146,48 +97,24 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
-    <uiOrder>2020</uiOrder>
-    <staticSunShadowHeight>0.2</staticSunShadowHeight>
-    <constructEffect>ConstructMetal</constructEffect>
-    <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>BaME_Copper_Batteries</li>
       <li>Miniature_Batteries</li>
     </researchPrerequisites>
+    <uiIconScale>0.6</uiIconScale>
   </ThingDef>
 
   <!-- Small Steel Battery -->
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Small_Steel_Battery</defName>
     <label>small steel battery</label>
     <description>A smaller version of the steel battery, useful if you don't have much space.</description>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <thingClass>Building_Battery</thingClass>
+    <thingClass>Batteries.Building_Minibattery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/BaME_Small_Steel_Battery</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2,2)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
     </graphicData>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
-    <blockWind>true</blockWind>
-    <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>0.40</fillPercent>
-    <tickerType>Normal</tickerType>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <thingCategories>
-      <li>BuildingsPower</li>
-    </thingCategories>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToBuild>400</WorkToBuild>
@@ -205,9 +132,6 @@
       <ThingDef>BaME_Small_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,1)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
-    </building>
     <costList>
       <Steel>45</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
@@ -221,48 +145,24 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
-    <uiOrder>2020</uiOrder>
-    <staticSunShadowHeight>0.2</staticSunShadowHeight>
-    <constructEffect>ConstructMetal</constructEffect>
-    <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>Batteries</li>
       <li>Miniature_Batteries</li>
     </researchPrerequisites>
+    <uiIconScale>0.6</uiIconScale>
   </ThingDef>
 
   <!-- Small Waterproof Battery -->
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Small_Waterproof_Battery</defName>
     <label>small waterproof battery</label>
     <description>A smaller version of the waterproof battery, useful if you don't have much space.</description>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <thingClass>Building_Battery</thingClass>
+    <thingClass>Batteries.Building_Minibattery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/BaME_Small_Waterproof_Battery</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2,2)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
     </graphicData>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
-    <blockWind>true</blockWind>
-    <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>0.40</fillPercent>
-    <tickerType>Normal</tickerType>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <thingCategories>
-      <li>BuildingsPower</li>
-    </thingCategories>
     <statBases>
       <MaxHitPoints>130</MaxHitPoints>
       <WorkToBuild>525</WorkToBuild>
@@ -280,9 +180,6 @@
       <ThingDef>BaME_Small_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,1)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
-    </building>
     <costList>
       <Steel>65</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
@@ -296,48 +193,24 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
-    <uiOrder>2020</uiOrder>
-    <staticSunShadowHeight>0.2</staticSunShadowHeight>
-    <constructEffect>ConstructMetal</constructEffect>
-    <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>Batteries</li>
       <li>Miniature_Batteries</li>
     </researchPrerequisites>
+    <uiIconScale>0.6</uiIconScale>
   </ThingDef>
 
   <!-- Small Nickel Battery -->
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Small_Nickel_Battery</defName>
     <label>small nickel battery</label>
     <description>A smaller version of the nickel battery, useful if you don't have much space.</description>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <thingClass>Building_Battery</thingClass>
+    <thingClass>Batteries.Building_Minibattery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/BaME_Small_Nickel_Battery</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2,2)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
     </graphicData>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
-    <blockWind>true</blockWind>
-    <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>0.40</fillPercent>
-    <tickerType>Normal</tickerType>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <thingCategories>
-      <li>BuildingsPower</li>
-    </thingCategories>
     <statBases>
       <MaxHitPoints>125</MaxHitPoints>
       <WorkToBuild>600</WorkToBuild>
@@ -355,9 +228,6 @@
       <ThingDef>BaME_Small_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,1)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
-    </building>
     <costList>
       <Steel>5</Steel>
       <Uranium>5</Uranium>
@@ -374,48 +244,24 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
-    <uiOrder>2020</uiOrder>
-    <staticSunShadowHeight>0.2</staticSunShadowHeight>
-    <constructEffect>ConstructMetal</constructEffect>
-    <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>BaME_Nickel_Batteries</li>
       <li>Miniature_Batteries</li>
     </researchPrerequisites>
+    <uiIconScale>0.6</uiIconScale>
   </ThingDef>
 
   <!-- Small Uranium Battery -->
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Small_Uranium_Battery</defName>
     <label>small uranium battery</label>
     <description>A smaller version of the uranium battery, useful if you don't have much space.</description>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <thingClass>Building_Battery</thingClass>
+    <thingClass>Batteries.Building_Minibattery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/BaME_Small_Uranium_Battery</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2,2)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
     </graphicData>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
-    <blockWind>true</blockWind>
-    <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>0.40</fillPercent>
-    <tickerType>Normal</tickerType>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <thingCategories>
-      <li>BuildingsPower</li>
-    </thingCategories>
     <statBases>
       <MaxHitPoints>75</MaxHitPoints>
       <WorkToBuild>700</WorkToBuild>
@@ -433,9 +279,6 @@
       <ThingDef>BaME_Small_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,1)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
-    </building>
     <costList>
       <Steel>5</Steel>
       <Uranium>30</Uranium>
@@ -457,48 +300,24 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
-    <uiOrder>2020</uiOrder>
-    <staticSunShadowHeight>0.2</staticSunShadowHeight>
-    <constructEffect>ConstructMetal</constructEffect>
-    <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>BaME_Uranium_Batteries</li>
       <li>Miniature_Batteries</li>
     </researchPrerequisites>
+    <uiIconScale>0.6</uiIconScale>
   </ThingDef>
 
   <!-- Small Lithium Battery -->
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Small_Lithium_Battery</defName>
     <label>small lithium battery</label>
     <description>A smaller version of the lithium battery, useful if you don't have much space.\n\nExplodes when destroyed</description>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <thingClass>Building_Battery</thingClass>
+    <thingClass>Batteries.Building_Minibattery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/BaME_Small_Lithium_Battery</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2,2)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
     </graphicData>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
-    <blockWind>true</blockWind>
-    <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>0.40</fillPercent>
-    <tickerType>Normal</tickerType>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <thingCategories>
-      <li>BuildingsPower</li>
-    </thingCategories>
     <statBases>
       <MaxHitPoints>40</MaxHitPoints>
       <WorkToBuild>875</WorkToBuild>
@@ -516,9 +335,6 @@
       <ThingDef>BaME_Small_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,1)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
-    </building>
     <costList>
       <BaME_Lithium>40</BaME_Lithium>
       <Steel>10</Steel>
@@ -542,48 +358,24 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
-    <uiOrder>2020</uiOrder>
-    <staticSunShadowHeight>0.2</staticSunShadowHeight>
-    <constructEffect>ConstructMetal</constructEffect>
-    <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>BaME_Lithium_Batteries</li>
       <li>Miniature_Batteries</li>
     </researchPrerequisites>
+    <uiIconScale>0.6</uiIconScale>
   </ThingDef>
 
   <!-- Small Plasteel Battery -->
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Small_Plasteel_Battery</defName>
     <label>small plasteel battery</label>
     <description>A smaller version of the plasteel battery, useful if you don't have much space.</description>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <thingClass>Building_Battery</thingClass>
+    <thingClass>Batteries.Building_Minibattery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/BaME_Small_Plasteel_Battery</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2,2)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
     </graphicData>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
-    <blockWind>true</blockWind>
-    <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>0.40</fillPercent>
-    <tickerType>Normal</tickerType>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <thingCategories>
-      <li>BuildingsPower</li>
-    </thingCategories>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToBuild>1000</WorkToBuild>
@@ -601,9 +393,6 @@
       <ThingDef>BaME_Small_Lithium_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,1)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
-    </building>
     <costList>
       <Steel>5</Steel>
       <Uranium>5</Uranium>
@@ -621,16 +410,11 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
-    <uiOrder>2020</uiOrder>
-    <staticSunShadowHeight>0.2</staticSunShadowHeight>
-    <constructEffect>ConstructMetal</constructEffect>
-    <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>BaME_Plasteel_Batteries</li>
       <li>Miniature_Batteries</li>
     </researchPrerequisites>
+    <uiIconScale>0.6</uiIconScale>
   </ThingDef>
 
 </Defs>

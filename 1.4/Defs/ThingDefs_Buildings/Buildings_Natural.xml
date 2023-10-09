@@ -19,9 +19,9 @@
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>BaME_Lead</mineableThing>
-      <mineableYield>40</mineableYield>
-      <mineableScatterCommonality>1.05</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>30~40</mineableScatterLumpSizeRange>
+      <mineableYield>50</mineableYield>
+      <mineableScatterCommonality>1.15</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>35~45</mineableScatterLumpSizeRange>
     </building>
   </ThingDef>
 
@@ -43,9 +43,9 @@
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>BaME_Copper</mineableThing>
-      <mineableYield>35</mineableYield>
+      <mineableYield>45</mineableYield>
       <mineableScatterCommonality>0.85</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>25~35</mineableScatterLumpSizeRange>
+      <mineableScatterLumpSizeRange>30~40</mineableScatterLumpSizeRange>
     </building>
   </ThingDef>
 
@@ -67,9 +67,9 @@
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>BaME_Nickel</mineableThing>
-      <mineableYield>25</mineableYield>
-      <mineableScatterCommonality>0.55</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>15~30</mineableScatterLumpSizeRange>
+      <mineableYield>35</mineableYield>
+      <mineableScatterCommonality>0.6</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>20~30</mineableScatterLumpSizeRange>
     </building>
   </ThingDef>
 
@@ -91,9 +91,9 @@
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>BaME_Lithium</mineableThing>
-      <mineableYield>20</mineableYield>
+      <mineableYield>25</mineableYield>
       <mineableScatterCommonality>0.4</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>10~20</mineableScatterLumpSizeRange>
+      <mineableScatterLumpSizeRange>15~20</mineableScatterLumpSizeRange>
     </building>
   </ThingDef>
 

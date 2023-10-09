@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
+<!-- steel battery patches-->
   <Operation Class="PatchOperationReplace">
     <xpath>*/ThingDef[defName = "Battery"]/label</xpath>
     <value>
@@ -18,7 +19,7 @@
   <Operation Class="PatchOperationAdd">
     <xpath>*/ThingDef[defName = "Battery"]</xpath>
     <value>
-      <designatorDropdown>Batteries</designatorDropdown>
+      <designatorDropdown>Regular_Batteries</designatorDropdown>
     </value>
   </Operation>
 
@@ -45,6 +46,13 @@
   </Operation>
 
   <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "Battery"]/statBases/Flammability</xpath>
+    <value>
+      <Flammability>0.25</Flammability>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
     <xpath>*/ThingDef[defName = "Battery"]/comps/li[@Class="CompProperties_Battery"]</xpath>
     <value>
       <li Class="CompProperties_Battery">
@@ -66,7 +74,7 @@
     </value>
   </Operation>
 
-  <!-- Research project patches-->
+<!-- Research project patches-->
   <Operation Class="PatchOperationAdd">
     <xpath>*/ResearchProjectDef[defName = "Batteries"]</xpath>
     <value>

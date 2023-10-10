@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-<!-- steel battery patches-->
+<!-- steel battery patches -->
   <Operation Class="PatchOperationReplace">
     <xpath>*/ThingDef[defName = "Battery"]/label</xpath>
     <value>
@@ -74,7 +74,7 @@
     </value>
   </Operation>
 
-<!-- Research project patches-->
+<!-- Research project patches -->
   <Operation Class="PatchOperationAdd">
     <xpath>*/ResearchProjectDef[defName = "Batteries"]</xpath>
     <value>

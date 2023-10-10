@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- EN: lead-->
+  <!-- EN: lead -->
   <BaME_Lead.label>plomb</BaME_Lead.label>
-  <!-- EN: A soft, heavy metal which isn't very useful for making weapons or structures due to its low strength and heaviness. However, it is sometimes used in the production of batteries.-->
+  <!-- EN: A soft, heavy metal which isn't very useful for making weapons or structures due to its low strength and heaviness. However, it is sometimes used in the production of batteries. -->
   <BaME_Lead.description>Un métal lourd, assez peu utile à cause de sa faible résistance et de son poids. Ce métal est parfois utilisé pour fabriquer des batteries.</BaME_Lead.description>
   
-  <!-- EN: copper-->
+  <!-- EN: copper -->
   <BaME_Copper.label>cuivre</BaME_Copper.label>
-  <!-- EN: A light metal which is almost useful for making weapons or structures due to its medium strength. However, it can be used in the production of batteries.-->
+  <!-- EN: A light metal which is almost useful for making weapons or structures due to its medium strength. However, it can be used in the production of batteries. -->
   <BaME_Copper.description>Un métal léger, à peu près utile dans la fabrication de structures et d'équipements. Parfois utile dans la production de batteries.</BaME_Copper.description>
   
-  <!-- EN: nickel-->
+  <!-- EN: nickel -->
   <BaME_Nickel.label>nickel</BaME_Nickel.label>
-  <!-- EN: A shiny metal, not too heavy, often used in the production various equipments and batteries.-->
+  <!-- EN: A shiny metal, not too heavy, often used in the production various equipments and batteries. -->
   <BaME_Nickel.description>Un métal brillant, assez solide, souvent utilisé dans la production de divers équipements et de batteries.</BaME_Nickel.description>
   
-  <!-- EN: lithium-->
+  <!-- EN: lithium -->
   <BaME_Lithium.label>lithium</BaME_Lithium.label>
-  <!-- EN: An unstable metal used in production of batteries.-->
+  <!-- EN: An unstable metal used in production of batteries. -->
   <BaME_Lithium.description>Un minerai instable, utilisé dans la production de batteries.</BaME_Lithium.description>
 
 </LanguageData>

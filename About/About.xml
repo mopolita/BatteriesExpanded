@@ -7,8 +7,11 @@
     <supportedVersions>
         <li>1.4</li>
     </supportedVersions>
-
     <description>Ever wanted more batteries ? This is the mod for you.
         
 Adds new types of materials and their batteries : Lithium, Lead, copper and much more.</description>
+    <incompatibleWith>
+        <li>syrchalis.metallicbatteries</li>
+    </incompatibleWith>
+
 </ModMetaData>

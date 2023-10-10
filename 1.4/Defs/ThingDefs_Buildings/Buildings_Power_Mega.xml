@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Designator Dropdown Group Def for mega batteries -->
+  <DesignatorDropdownGroupDef>
+    <defName>Mega_Batteries</defName>
+  </DesignatorDropdownGroupDef>
+
+  <!-- Mega Steel Battery -->
+  <ThingDef ParentName="BaME_BatteryBase">
+    <defName>BaME_Mega_Steel_Battery</defName>
+    <label>mega steel battery</label>
+    <description>Stores electricity for later use. Can store only a small amount of power and is not very efficient, but is very sturdy.</description>
+    <designatorDropdown>Regular_Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/BaME_Mega_Steel_Battery</texPath>
+      <drawSize>(4,5)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>800</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Mass>60</Mass>
+      <Flammability>0.25</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>Battery</ThingDef>
+    </descriptionHyperlinks>
+    <size>(2,3)</size>
+    <costList>
+      <Steel>315</Steel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>3000</storedEnergyMax>
+        <efficiency>0.5</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+</Defs>

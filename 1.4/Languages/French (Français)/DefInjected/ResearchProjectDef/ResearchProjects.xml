@@ -1,11 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  
-  <!-- EN: steel battery -->
-  <Batteries.label>batterie en acier</Batteries.label>
-  <!-- EN: Batteries stronger than copper versions, a step further in the direction of better alternatives. -->
-  <Batteries.description>Des batteries plus puissantes que les versions faites de cuivre. Permettra plus tard de produire des batteries encore meilleures</Batteries.description>
-  
+    
   <!-- EN: power storage -->
   <Power_Storage_Research.label>stockage d'énergie</Power_Storage_Research.label>
   <!-- EN: The first glimpse at how electricity is stored and batteries are made. -->

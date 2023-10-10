@@ -6,13 +6,12 @@
     <defName>Regular_Batteries</defName>
   </DesignatorDropdownGroupDef>
 
-  <!-- Lead Battery -->
+  <!-- Model Battery -->
   <ThingDef ParentName="BuildingBase" Name="BaME_BatteryBase" Abstract="True">
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
     <designatorDropdown>Regular_Batteries</designatorDropdown>
     <graphicData>
-      <texPath>Things/Building/Power/BaME_Lead_Battery</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2,3)</drawSize>
       <damageData>
@@ -33,13 +32,6 @@
     <thingCategories>
       <li>BuildingsPower</li>
     </thingCategories>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToBuild>800</WorkToBuild>
-      <Mass>20</Mass>
-      <Flammability>1.0</Flammability>
-      <Beauty>-15</Beauty>
-    </statBases>
     <size>(1,2)</size>
     <building>
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
@@ -58,6 +50,9 @@
     <defName>BaME_Lead_Battery</defName>
     <label>lead battery</label>
     <description>Stores electricity for later use. Can store only a small amount of power and is not very efficient, but is very sturdy.</description>
+    <graphicData>
+      <texPath>Things/Building/Power/BaME_Lead_Battery</texPath>
+    </graphicData>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToBuild>1000</WorkToBuild>
@@ -98,9 +93,6 @@
     <defName>BaME_Copper_Battery</defName>
     <label>copper battery</label>
     <description>Stores electricity for later use. Can store a medium amount of power and is not very efficient, but is sturdy.</description>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <thingClass>Building_Battery</thingClass>
-    <designatorDropdown>Regular_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/BaME_Copper_Battery</texPath>
     </graphicData>

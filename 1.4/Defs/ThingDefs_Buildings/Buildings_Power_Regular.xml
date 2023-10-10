@@ -31,6 +31,7 @@
     <thingCategories>
       <li>BuildingsPower</li>
     </thingCategories>
+    <minifiedDef>MinifiedThing</minifiedDef>
     <size>(1,2)</size>
     <building>
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
@@ -68,7 +69,6 @@
       <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
-    <minifiedDef>MinifiedThing</minifiedDef>
     <costList>
       <BaME_Lead>65</BaME_Lead>
       <Steel>20</Steel>
@@ -112,7 +112,6 @@
       <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
-    <minifiedDef>MinifiedThing</minifiedDef>
     <costList>
       <BaME_Copper>65</BaME_Copper>
       <Steel>15</Steel>
@@ -156,7 +155,6 @@
       <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
-    <minifiedDef>MinifiedThing</minifiedDef>
     <costList>
       <Steel>125</Steel>
       <ComponentIndustrial>4</ComponentIndustrial>
@@ -199,7 +197,6 @@
       <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
-    <minifiedDef>MinifiedThing</minifiedDef>
     <costList>
       <Steel>15</Steel>
       <Uranium>10</Uranium>
@@ -252,7 +249,6 @@
       <BaME_Lithium>5</BaME_Lithium>
       <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
-    <minifiedDef>MinifiedThing</minifiedDef>
     <comps>
       <li Class="CompProperties_Battery">
         <storedEnergyMax>1500</storedEnergyMax>
@@ -302,7 +298,6 @@
       <ComponentIndustrial>5</ComponentIndustrial>
       <ComponentSpacer>1</ComponentSpacer>
     </costList>
-    <minifiedDef>MinifiedThing</minifiedDef>
     <comps>
       <li Class="CompProperties_Battery">
         <storedEnergyMax>2000</storedEnergyMax>
@@ -357,7 +352,6 @@
       <ComponentIndustrial>4</ComponentIndustrial>
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
-    <minifiedDef>MinifiedThing</minifiedDef>
     <comps>
       <li Class="CompProperties_Battery">
         <storedEnergyMax>3500</storedEnergyMax>

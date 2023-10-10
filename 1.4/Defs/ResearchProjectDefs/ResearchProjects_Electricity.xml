@@ -78,6 +78,24 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
+    <defName>Mega_Batteries</defName>
+    <label>giant batteries</label>
+    <description>The possibility to make giant batteries, the most powerful ones</description>
+    <baseCost>1800</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>Miniature_Batteries</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>5.00</researchViewX>
+   <researchViewY>1.30</researchViewY>
+   <tab>Power_Storage</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
     <defName>BaME_Uranium_Batteries</defName>
     <label>uranium battery</label>
     <description>Batteries using potentially dangerous and radioactive materials? Yes please!</description>

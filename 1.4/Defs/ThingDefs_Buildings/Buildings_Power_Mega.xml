@@ -34,7 +34,7 @@
     </descriptionHyperlinks>
     <size>(2,3)</size>
     <building>
-      <destroySound>BuildingDestroyed_Metal_Large</destroySound>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
     </building>
     <costList>
       <BaME_Lead>195</BaME_Lead>
@@ -71,7 +71,7 @@
     <statBases>
       <MaxHitPoints>750</MaxHitPoints>
       <WorkToBuild>4500</WorkToBuild>
-      <Mass>36</Mass>
+      <Mass>120</Mass>
       <Flammability>0.45</Flammability>
       <Beauty>-10</Beauty>
     </statBases>
@@ -86,7 +86,7 @@
     </descriptionHyperlinks>
     <size>(2,3)</size>
     <building>
-      <destroySound>BuildingDestroyed_Metal_Large</destroySound>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
     </building>
     <costList>
       <BaME_Copper>195</BaME_Copper>
@@ -122,7 +122,7 @@
     <statBases>
       <MaxHitPoints>1000</MaxHitPoints>
       <WorkToBuild>4000</WorkToBuild>
-      <Mass>60</Mass>
+      <Mass>180</Mass>
       <Flammability>0.25</Flammability>
       <Beauty>-15</Beauty>
     </statBases>
@@ -137,7 +137,7 @@
     </descriptionHyperlinks>
     <size>(2,3)</size>
     <building>
-      <destroySound>BuildingDestroyed_Metal_Large</destroySound>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
     </building>    
     <costList>
       <Steel>270</Steel>
@@ -173,7 +173,7 @@
     <statBases>
       <MaxHitPoints>1300</MaxHitPoints>
       <WorkToBuild>5250</WorkToBuild>
-      <Mass>75</Mass>
+      <Mass>175</Mass>
       <Flammability>0.1</Flammability>
       <Beauty>-20</Beauty>
     </statBases>
@@ -188,7 +188,7 @@
     </descriptionHyperlinks>
     <size>(2,3)</size>
     <building>
-      <destroySound>BuildingDestroyed_Metal_Large</destroySound>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
     </building>
     <costList>
       <Steel>625</Steel>
@@ -223,7 +223,7 @@
     <statBases>
       <MaxHitPoints>1250</MaxHitPoints>
       <WorkToBuild>6000</WorkToBuild>
-      <Mass>90</Mass>
+      <Mass>190</Mass>
       <Flammability>0.75</Flammability>
       <Beauty>-10</Beauty>
     </statBases>
@@ -238,7 +238,7 @@
     </descriptionHyperlinks>
     <size>(2,3)</size>
     <building>
-      <destroySound>BuildingDestroyed_Metal_Large</destroySound>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
     </building>
     <costList>
       <Steel>45</Steel>
@@ -276,7 +276,7 @@
     <statBases>
       <MaxHitPoints>750</MaxHitPoints>
       <WorkToBuild>7000</WorkToBuild>
-      <Mass>120</Mass>
+      <Mass>240</Mass>
       <Flammability>1.1</Flammability>
       <Beauty>-15</Beauty>
     </statBases>
@@ -291,7 +291,7 @@
     </descriptionHyperlinks>
     <size>(2,3)</size>
     <building>
-      <destroySound>BuildingDestroyed_Metal_Large</destroySound>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
     </building>
     <costList>
       <Steel>30</Steel>
@@ -334,7 +334,7 @@
     <statBases>
       <MaxHitPoints>375</MaxHitPoints>
       <WorkToBuild>8750</WorkToBuild>
-      <Mass>24</Mass>
+      <Mass>80</Mass>
       <Flammability>3</Flammability>
       <Beauty>-15</Beauty>
     </statBases>
@@ -349,7 +349,7 @@
     </descriptionHyperlinks>
     <size>(2,3)</size>
     <building>
-      <destroySound>BuildingDestroyed_Metal_Large</destroySound>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
     </building>
     <costList>
       <Steel>45</Steel>
@@ -394,7 +394,7 @@
     <statBases>
       <MaxHitPoints>2000</MaxHitPoints>
       <WorkToBuild>10000</WorkToBuild>
-      <Mass>45</Mass>
+      <Mass>135</Mass>
       <Flammability>0.15</Flammability>
       <Beauty>-10</Beauty>
     </statBases>
@@ -409,7 +409,7 @@
     </descriptionHyperlinks>
     <size>(2,3)</size>
     <building>
-      <destroySound>BuildingDestroyed_Metal_Large</destroySound>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
     </building>
     <costList>
       <Steel>15</Steel>

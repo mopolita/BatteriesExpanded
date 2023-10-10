@@ -14,7 +14,7 @@
     <thingClass>Batteries.Building_Minibattery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
     <graphicData>
-      <texPath>Things/Building/Power/BaME_Small_Lead_Battery</texPath>
+      <texPath>Things/Building/Power/Small_Batteries/BaME_Small_Lead_Battery</texPath>
       <drawSize>(2,2)</drawSize>
     </graphicData>
     <statBases>
@@ -63,7 +63,7 @@
     <thingClass>Batteries.Building_Minibattery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
     <graphicData>
-      <texPath>Things/Building/Power/BaME_Small_Copper_Battery</texPath>
+      <texPath>Things/Building/Power/Small_Batteries/BaME_Small_Copper_Battery</texPath>
       <drawSize>(2,2)</drawSize>
     </graphicData>
     <statBases>
@@ -112,7 +112,7 @@
     <thingClass>Batteries.Building_Minibattery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
     <graphicData>
-      <texPath>Things/Building/Power/BaME_Small_Steel_Battery</texPath>
+      <texPath>Things/Building/Power/Small_Batteries/BaME_Small_Steel_Battery</texPath>
       <drawSize>(2,2)</drawSize>
     </graphicData>
     <statBases>
@@ -160,7 +160,7 @@
     <thingClass>Batteries.Building_Minibattery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
     <graphicData>
-      <texPath>Things/Building/Power/BaME_Small_Waterproof_Battery</texPath>
+      <texPath>Things/Building/Power/Small_Batteries/BaME_Small_Waterproof_Battery</texPath>
       <drawSize>(2,2)</drawSize>
     </graphicData>
     <statBases>
@@ -208,7 +208,7 @@
     <thingClass>Batteries.Building_Minibattery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
     <graphicData>
-      <texPath>Things/Building/Power/BaME_Small_Nickel_Battery</texPath>
+      <texPath>Things/Building/Power/Small_Batteries/BaME_Small_Nickel_Battery</texPath>
       <drawSize>(2,2)</drawSize>
     </graphicData>
     <statBases>
@@ -259,7 +259,7 @@
     <thingClass>Batteries.Building_Minibattery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
     <graphicData>
-      <texPath>Things/Building/Power/BaME_Small_Uranium_Battery</texPath>
+      <texPath>Things/Building/Power/Small_Batteries/BaME_Small_Uranium_Battery</texPath>
       <drawSize>(2,2)</drawSize>
     </graphicData>
     <statBases>
@@ -315,7 +315,7 @@
     <thingClass>Batteries.Building_Minibattery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
     <graphicData>
-      <texPath>Things/Building/Power/BaME_Small_Lithium_Battery</texPath>
+      <texPath>Things/Building/Power/Small_Batteries/BaME_Small_Lithium_Battery</texPath>
       <drawSize>(2,2)</drawSize>
     </graphicData>
     <statBases>
@@ -373,7 +373,7 @@
     <thingClass>Batteries.Building_Minibattery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
     <graphicData>
-      <texPath>Things/Building/Power/BaME_Small_Plasteel_Battery</texPath>
+      <texPath>Things/Building/Power/Small_Batteries/BaME_Small_Plasteel_Battery</texPath>
       <drawSize>(2,2)</drawSize>
     </graphicData>
     <statBases>

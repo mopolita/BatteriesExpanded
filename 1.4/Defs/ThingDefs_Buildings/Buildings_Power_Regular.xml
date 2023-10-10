@@ -50,7 +50,7 @@
     <label>lead battery</label>
     <description>Stores electricity for later use. Can store only a small amount of power and is not very efficient, but is very sturdy.</description>
     <graphicData>
-      <texPath>Things/Building/Power/BaME_Lead_Battery</texPath>
+      <texPath>Things/Building/Power/Regular_Batteries/BaME_Lead_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
@@ -94,7 +94,7 @@
     <label>copper battery</label>
     <description>Stores electricity for later use. Can store a medium amount of power and is not very efficient, but is sturdy.</description>
     <graphicData>
-      <texPath>Things/Building/Power/BaME_Copper_Battery</texPath>
+      <texPath>Things/Building/Power/Regular_Batteries/BaME_Copper_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
@@ -138,7 +138,7 @@
     <label>waterproof battery</label>
     <description>Pretty much like a steel battery, but doesn't catch fire or explode when under the rain.</description>
     <graphicData>
-      <texPath>Things/Building/Power/BaME_Waterproof_Battery</texPath>
+      <texPath>Things/Building/Power/Regular_Batteries/BaME_Waterproof_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>260</MaxHitPoints>
@@ -181,7 +181,7 @@
     <label>nickel battery</label>
     <description>An old kind of battery, can store more electricity and is more efficient than lead alternatives.</description>
     <graphicData>
-      <texPath>Things/Building/Power/BaME_Nickel_Battery</texPath>
+      <texPath>Things/Building/Power/Regular_Batteries/BaME_Nickel_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>250</MaxHitPoints>
@@ -227,7 +227,7 @@
     <label>uranium battery</label>
     <description>A revolutionary battery made from radioactive materials, produces some heat.</description>
     <graphicData>
-      <texPath>Things/Building/Power/BaME_Uranium_Battery</texPath>
+      <texPath>Things/Building/Power/Regular_Batteries/BaME_Uranium_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
@@ -278,7 +278,7 @@
     <label>lithium battery</label>
     <description>Stores large amounts of electricity for later use. Much more efficient than steel and lead ones, but also more fragile.\n\nAlso explodes when destroyed</description>
     <graphicData>
-      <texPath>Things/Building/Power/BaME_Lithium_Battery</texPath>
+      <texPath>Things/Building/Power/Regular_Batteries/BaME_Lithium_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>75</MaxHitPoints>
@@ -331,7 +331,7 @@
     <label>plasteel battery</label>
     <description>A even more revolutionary battery made from advanced materials, cans store large amounts of power and is very efficient.</description>
     <graphicData>
-      <texPath>Things/Building/Power/BaME_Plasteel_Battery</texPath>
+      <texPath>Things/Building/Power/Regular_Batteries/BaME_Plasteel_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>400</MaxHitPoints>

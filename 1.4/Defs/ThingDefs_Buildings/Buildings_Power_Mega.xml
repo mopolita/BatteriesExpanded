@@ -13,7 +13,7 @@
     <description>Stores larges amounts of electricity for later.</description>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
-      <texPath>Things/Building/Power/BaME_Mega_Lead_Battery</texPath>
+      <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Lead_Battery</texPath>
       <drawSize>(4,5)</drawSize>
     </graphicData>
     <statBases>
@@ -65,7 +65,7 @@
     <description>Stores larges amounts of electricity for later.</description>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
-      <texPath>Things/Building/Power/BaME_Mega_Copper_Battery</texPath>
+      <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Copper_Battery</texPath>
       <drawSize>(4,5)</drawSize>
     </graphicData>
     <statBases>
@@ -116,7 +116,7 @@
     <description>Stores larges amounts of electricity for later.</description>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
-      <texPath>Things/Building/Power/BaME_Mega_Steel_Battery</texPath>
+      <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Steel_Battery</texPath>
       <drawSize>(4,5)</drawSize>
     </graphicData>
     <statBases>
@@ -167,7 +167,7 @@
     <description>Stores larges amounts of electricity for later.</description>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
-      <texPath>Things/Building/Power/BaME_Mega_Waterproof_Battery</texPath>
+      <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Waterproof_Battery</texPath>
       <drawSize>(4,5)</drawSize>
     </graphicData>
     <statBases>
@@ -217,7 +217,7 @@
     <description>Stores larges amounts of electricity for later.</description>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
-      <texPath>Things/Building/Power/BaME_Mega_Nickel_Battery</texPath>
+      <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Nickel_Battery</texPath>
       <drawSize>(4,5)</drawSize>
     </graphicData>
     <statBases>
@@ -270,7 +270,7 @@
     <description>Stores larges amounts of electricity for later.</description>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
-      <texPath>Things/Building/Power/BaME_Mega_Uranium_Battery</texPath>
+      <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Uranium_Battery</texPath>
       <drawSize>(4,5)</drawSize>
     </graphicData>
     <statBases>
@@ -328,7 +328,7 @@
     <description>Stores larges amounts of electricity for later.</description>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
-      <texPath>Things/Building/Power/BaME_Mega_Lithium_Battery</texPath>
+      <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Lithium_Battery</texPath>
       <drawSize>(4,5)</drawSize>
     </graphicData>
     <statBases>
@@ -388,7 +388,7 @@
     <description>Stores larges amounts of electricity for later.</description>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
-      <texPath>Things/Building/Power/BaME_Mega_Plasteel_Battery</texPath>
+      <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Plasteel_Battery</texPath>
       <drawSize>(4,5)</drawSize>
     </graphicData>
     <statBases>

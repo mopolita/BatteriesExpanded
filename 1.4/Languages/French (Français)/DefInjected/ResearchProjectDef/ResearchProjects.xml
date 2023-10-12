@@ -36,9 +36,14 @@
   <!-- EN: The best battery you can ever hope to produce. -->
   <BaME_Plasteel_Batteries.description>La meilleure batterie que tu peux espérer produire</BaME_Plasteel_Batteries.description>
 
-  <!-- EN: Miniature batteries -->
+  <!-- EN: miniature batteries -->
   <Miniature_Batteries.label>batteries miniatures</Miniature_Batteries.label>
   <!-- EN: The possibility to make smaller batteries, almost as powerful as regular ones -->
   <Miniature_Batteries.description>Permet de produire des batteries plus petites, mais presques aussi efficaces que les normales</Miniature_Batteries.description>
+
+  <!-- EN: giant batteries -->
+  <Mega_Batteries.label>batteries géantes</Mega_Batteries.label>
+  <!-- EN: The possibility to make giant batteries, the most powerful ones -->
+  <Mega_Batteries.description>Permet de produire des batteries géantes, les plus puissantes de toutes</Mega_Batteries.description>
 
 </LanguageData>

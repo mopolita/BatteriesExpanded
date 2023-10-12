@@ -10,7 +10,7 @@
   <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Mega_Lead_Battery</defName>
     <label>giant lead battery</label>
-    <description>Stores larges amounts of electricity for later.</description>
+    <description>A giant version of the lead battery. Stores larges amounts of electricity for later.</description>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Lead_Battery</texPath>
@@ -62,7 +62,7 @@
   <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Mega_Copper_Battery</defName>
     <label>giant copper battery</label>
-    <description>Stores larges amounts of electricity for later.</description>
+    <description>A giant version of the copper battery. Stores larges amounts of electricity for later.</description>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Copper_Battery</texPath>
@@ -113,7 +113,7 @@
   <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Mega_Steel_Battery</defName>
     <label>giant steel battery</label>
-    <description>Stores larges amounts of electricity for later.</description>
+    <description>A giant version of the steel battery. Stores larges amounts of electricity for later.</description>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Steel_Battery</texPath>
@@ -164,7 +164,7 @@
   <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Mega_Waterproof_Battery</defName>
     <label>giant waterproof battery</label>
-    <description>Stores larges amounts of electricity for later.</description>
+    <description>A giant version of the waterproof battery. Stores larges amounts of electricity for later.</description>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Waterproof_Battery</texPath>
@@ -214,7 +214,7 @@
   <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Mega_Nickel_Battery</defName>
     <label>giant nickel battery</label>
-    <description>Stores larges amounts of electricity for later.</description>
+    <description>A giant version of the nickel battery. Stores larges amounts of electricity for later.</description>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Nickel_Battery</texPath>
@@ -267,7 +267,7 @@
   <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Mega_Uranium_Battery</defName>
     <label>giant uranium battery</label>
-    <description>Stores larges amounts of electricity for later.</description>
+    <description>A giant version of the uranium battery. Stores larges amounts of electricity for later.</description>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Uranium_Battery</texPath>
@@ -325,7 +325,7 @@
   <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Mega_Lithium_Battery</defName>
     <label>giant lithium battery</label>
-    <description>Stores larges amounts of electricity for later.</description>
+    <description>A giant version of the lithium battery. Stores larges amounts of electricity for later.</description>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Lithium_Battery</texPath>
@@ -385,7 +385,7 @@
   <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Mega_Plasteel_Battery</defName>
     <label>giant plasteel battery</label>
-    <description>Stores larges amounts of electricity for later.</description>
+    <description>A giant version of the plasteel battery. Stores larges amounts of electricity for later.</description>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Plasteel_Battery</texPath>

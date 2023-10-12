@@ -39,7 +39,12 @@
   <!-- EN: miniature batteries -->
   <Miniature_Batteries.label>batteries miniatures</Miniature_Batteries.label>
   <!-- EN: The possibility to make smaller batteries, almost as powerful as regular ones -->
-  <Miniature_Batteries.description>Permet de produire des batteries plus petites, mais presques aussi efficaces que les normales</Miniature_Batteries.description>
+  <Miniature_Batteries.description>Permet de produire des batteries plus petites, mais presque aussi efficaces que les normales</Miniature_Batteries.description>
+
+  <!-- EN: big batteries -->
+  <Big_Batteries.label>grandes batteries</Big_Batteries.label>
+  <!-- EN: The possibility to make bigger batteries, the more powerful than regular ones -->
+  <Big_Batteries.description>Permet de produire des batteries plus grandes et plus puissantes que les normales</Big_Batteries.description>
 
   <!-- EN: giant batteries -->
   <Mega_Batteries.label>batteries géantes</Mega_Batteries.label>

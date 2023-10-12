@@ -14,10 +14,8 @@ mono_crash.*
 Desktop.ini
 
 # NuGet
-/packages/
-*.nupkg
-# The packages folder can be ignored because of Package Restore
 **/packages/*
+*.nupkg
 
 # Ignore build output folders
 bin/

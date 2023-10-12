@@ -11,6 +11,7 @@
     <defName>BaME_Mega_Lead_Battery</defName>
     <label>giant lead battery</label>
     <description>A giant version of the lead battery. Stores larges amounts of electricity for later.</description>
+    <thingClass>Batteries.Building_Megabattery</thingClass>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Lead_Battery</texPath>
@@ -56,6 +57,7 @@
       <li>BaME_Lead_Batteries</li>
       <li>Mega_Batteries</li>
     </researchPrerequisites>
+    <staticSunShadowHeight>0.4</staticSunShadowHeight>
   </ThingDef>
 
   <!-- Mega copper Battery -->
@@ -63,6 +65,7 @@
     <defName>BaME_Mega_Copper_Battery</defName>
     <label>giant copper battery</label>
     <description>A giant version of the copper battery. Stores larges amounts of electricity for later.</description>
+    <thingClass>Batteries.Building_Megabattery</thingClass>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Copper_Battery</texPath>
@@ -107,6 +110,7 @@
       <li>BaME_Copper_Batteries</li>
       <li>Mega_Batteries</li>
     </researchPrerequisites>
+    <staticSunShadowHeight>0.4</staticSunShadowHeight>
   </ThingDef>
 
   <!-- Mega Steel Battery -->
@@ -114,6 +118,7 @@
     <defName>BaME_Mega_Steel_Battery</defName>
     <label>giant steel battery</label>
     <description>A giant version of the steel battery. Stores larges amounts of electricity for later.</description>
+    <thingClass>Batteries.Building_Megabattery</thingClass>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Steel_Battery</texPath>
@@ -158,6 +163,7 @@
       <li>Batteries</li>
       <li>Mega_Batteries</li>
     </researchPrerequisites>
+    <staticSunShadowHeight>0.4</staticSunShadowHeight>
   </ThingDef>
 
   <!-- Mega Waterproof Battery -->
@@ -165,6 +171,7 @@
     <defName>BaME_Mega_Waterproof_Battery</defName>
     <label>giant waterproof battery</label>
     <description>A giant version of the waterproof battery. Stores larges amounts of electricity for later.</description>
+    <thingClass>Batteries.Building_Megabattery</thingClass>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Waterproof_Battery</texPath>
@@ -208,6 +215,7 @@
       <li>Batteries</li>
       <li>Mega_Batteries</li>
     </researchPrerequisites>
+    <staticSunShadowHeight>0.4</staticSunShadowHeight>
   </ThingDef>
 
   <!-- Mega Nickel Battery -->
@@ -215,6 +223,7 @@
     <defName>BaME_Mega_Nickel_Battery</defName>
     <label>giant nickel battery</label>
     <description>A giant version of the nickel battery. Stores larges amounts of electricity for later.</description>
+    <thingClass>Batteries.Building_Megabattery</thingClass>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Nickel_Battery</texPath>
@@ -261,6 +270,7 @@
       <li>BaME_Nickel_Batteries</li>
       <li>Mega_Batteries</li>
     </researchPrerequisites>
+    <staticSunShadowHeight>0.4</staticSunShadowHeight>
   </ThingDef>
 
   <!-- Mega Uranium Battery -->
@@ -268,6 +278,7 @@
     <defName>BaME_Mega_Uranium_Battery</defName>
     <label>giant uranium battery</label>
     <description>A giant version of the uranium battery. Stores larges amounts of electricity for later.</description>
+    <thingClass>Batteries.Building_Megabattery</thingClass>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Uranium_Battery</texPath>
@@ -319,6 +330,7 @@
       <li>BaME_Uranium_Batteries</li>
       <li>Mega_Batteries</li>
     </researchPrerequisites>
+    <staticSunShadowHeight>0.4</staticSunShadowHeight>
   </ThingDef>
 
   <!-- Mega Lithium Battery -->
@@ -326,6 +338,7 @@
     <defName>BaME_Mega_Lithium_Battery</defName>
     <label>giant lithium battery</label>
     <description>A giant version of the lithium battery. Stores larges amounts of electricity for later.</description>
+    <thingClass>Batteries.Building_Megabattery</thingClass>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Lithium_Battery</texPath>
@@ -379,6 +392,7 @@
       <li>BaME_Lithium_Batteries</li>
       <li>Mega_Batteries</li>
     </researchPrerequisites>
+    <staticSunShadowHeight>0.4</staticSunShadowHeight>
   </ThingDef>
 
   <!-- Mega Plasteel Battery -->
@@ -386,6 +400,7 @@
     <defName>BaME_Mega_Plasteel_Battery</defName>
     <label>giant plasteel battery</label>
     <description>A giant version of the plasteel battery. Stores larges amounts of electricity for later.</description>
+    <thingClass>Batteries.Building_Megabattery</thingClass>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Plasteel_Battery</texPath>
@@ -433,6 +448,7 @@
       <li>BaME_Plasteel_Batteries</li>
       <li>Mega_Batteries</li>
     </researchPrerequisites>
+    <staticSunShadowHeight>0.4</staticSunShadowHeight>
   </ThingDef>
 
 </Defs>

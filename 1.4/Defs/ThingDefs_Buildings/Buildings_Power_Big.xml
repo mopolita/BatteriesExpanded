@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Designator Dropdown Group Def for Big batteries -->
+  <DesignatorDropdownGroupDef>
+    <defName>Big_Batteries</defName>
+  </DesignatorDropdownGroupDef>
+
+  <!-- Big Lead Battery -->
+  <ThingDef ParentName="BaME_BatteryBase">
+    <defName>BaME_Big_Lead_Battery</defName>
+    <label>big lead battery</label>
+    <description>A big version of the lead battery. Stores larges amounts of electricity for later.</description>
+    <thingClass>Batteries.Building_Megabattery</thingClass>
+    <designatorDropdown>Big_Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/Big_Batteries/BaME_Big_Lead_Battery</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>5000</WorkToBuild>
+      <Mass>180</Mass>
+      <Flammability>0.25</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BaME_Big_Copper_Battery</ThingDef>
+      <ThingDef>BaME_Big_Steel_Battery</ThingDef>
+      <ThingDef>BaME_Big_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Big_Nickel_Battery</ThingDef>
+      <ThingDef>BaME_Big_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Big_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Big_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <size>(2,3)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+    </building>
+    <costList>
+      <BaME_Lead>195</BaME_Lead>
+      <Steel>60</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>2500</storedEnergyMax>
+        <efficiency>0.5</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <uiOrder>2021</uiOrder>
+    <researchPrerequisites>
+      <li>BaME_Lead_Batteries</li>
+      <li>Big_Batteries</li>
+    </researchPrerequisites>
+    <staticSunShadowHeight>0.3</staticSunShadowHeight>
+  </ThingDef>
+
+  <!-- Big copper Battery -->
+  <ThingDef ParentName="BaME_BatteryBase">
+    <defName>BaME_Big_Copper_Battery</defName>
+    <label>big copper battery</label>
+    <description>A big version of the copper battery. Stores larges amounts of electricity for later.</description>
+    <thingClass>Batteries.Building_Megabattery</thingClass>
+    <designatorDropdown>Big_Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/Big_Batteries/BaME_Big_Copper_Battery</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>750</MaxHitPoints>
+      <WorkToBuild>4500</WorkToBuild>
+      <Mass>120</Mass>
+      <Flammability>0.35</Flammability>
+      <Beauty>-10</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BaME_Big_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Big_Steel_Battery</ThingDef>
+      <ThingDef>BaME_Big_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Big_Nickel_Battery</ThingDef>
+      <ThingDef>BaME_Big_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Big_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Big_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <size>(2,3)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+    </building>
+    <costList>
+      <BaME_Copper>195</BaME_Copper>
+      <Steel>45</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>3000</storedEnergyMax>
+        <efficiency>0.6</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <uiOrder>2021</uiOrder>
+    <researchPrerequisites>
+      <li>BaME_Copper_Batteries</li>
+      <li>Big_Batteries</li>
+    </researchPrerequisites>
+    <staticSunShadowHeight>0.3</staticSunShadowHeight>
+  </ThingDef>
+
+  <!-- Big Steel Battery -->
+  <ThingDef ParentName="BaME_BatteryBase">
+    <defName>BaME_Big_Steel_Battery</defName>
+    <label>big steel battery</label>
+    <description>A big version of the steel battery. Stores larges amounts of electricity for later.</description>
+    <thingClass>Batteries.Building_Megabattery</thingClass>
+    <designatorDropdown>Big_Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/Big_Batteries/BaME_Big_Steel_Battery</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <WorkToBuild>4000</WorkToBuild>
+      <Mass>180</Mass>
+      <Flammability>0.25</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BaME_Big_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Big_Copper_Battery</ThingDef>
+      <ThingDef>BaME_Big_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Big_Nickel_Battery</ThingDef>
+      <ThingDef>BaME_Big_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Big_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Big_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <size>(2,3)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+    </building>    
+    <costList>
+      <Steel>270</Steel>
+      <ComponentIndustrial>9</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>3750</storedEnergyMax>
+        <efficiency>0.7</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <uiOrder>2021</uiOrder>
+    <researchPrerequisites>
+      <li>Batteries</li>
+      <li>Big_Batteries</li>
+    </researchPrerequisites>
+    <staticSunShadowHeight>0.3</staticSunShadowHeight>
+  </ThingDef>
+
+  <!-- Big Waterproof Battery -->
+  <ThingDef ParentName="BaME_BatteryBase">
+    <defName>BaME_Big_Waterproof_Battery</defName>
+    <label>big waterproof battery</label>
+    <description>A big version of the waterproof battery. Stores larges amounts of electricity for later.</description>
+    <thingClass>Batteries.Building_Megabattery</thingClass>
+    <designatorDropdown>Big_Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/Big_Batteries/BaME_Big_Waterproof_Battery</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1300</MaxHitPoints>
+      <WorkToBuild>5250</WorkToBuild>
+      <Mass>175</Mass>
+      <Flammability>0.1</Flammability>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BaME_Big_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Big_Copper_Battery</ThingDef>
+      <ThingDef>BaME_Big_Steel_Battery</ThingDef>
+      <ThingDef>BaME_Big_Nickel_Battery</ThingDef>
+      <ThingDef>BaME_Big_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Big_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Big_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <size>(2,3)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+    </building>
+    <costList>
+      <Steel>625</Steel>
+      <ComponentIndustrial>20</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>3750</storedEnergyMax>
+        <efficiency>0.7</efficiency>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <uiOrder>2021</uiOrder>
+    <researchPrerequisites>
+      <li>Batteries</li>
+      <li>Big_Batteries</li>
+    </researchPrerequisites>
+    <staticSunShadowHeight>0.3</staticSunShadowHeight>
+  </ThingDef>
+
+  <!-- Big Nickel Battery -->
+  <ThingDef ParentName="BaME_BatteryBase">
+    <defName>BaME_Big_Nickel_Battery</defName>
+    <label>big nickel battery</label>
+    <description>A big version of the nickel battery. Stores larges amounts of electricity for later.</description>
+    <thingClass>Batteries.Building_Megabattery</thingClass>
+    <designatorDropdown>Big_Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/Big_Batteries/BaME_Big_Nickel_Battery</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1250</MaxHitPoints>
+      <WorkToBuild>6000</WorkToBuild>
+      <Mass>190</Mass>
+      <Flammability>0.75</Flammability>
+      <Beauty>-10</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BaME_Big_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Big_Copper_Battery</ThingDef>
+      <ThingDef>BaME_Big_Steel_Battery</ThingDef>
+      <ThingDef>BaME_Big_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Big_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Big_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Big_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <size>(2,3)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+    </building>
+    <costList>
+      <Steel>45</Steel>
+      <Uranium>30</Uranium>
+      <BaME_Lead>15</BaME_Lead>
+      <BaME_Nickel>180</BaME_Nickel>
+      <ComponentIndustrial>12</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>5000</storedEnergyMax>
+        <efficiency>0.8</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <uiOrder>2021</uiOrder>
+    <researchPrerequisites>
+      <li>BaME_Nickel_Batteries</li>
+      <li>Big_Batteries</li>
+    </researchPrerequisites>
+    <staticSunShadowHeight>0.3</staticSunShadowHeight>
+  </ThingDef>
+
+  <!-- Big Uranium Battery -->
+  <ThingDef ParentName="BaME_BatteryBase">
+    <defName>BaME_Big_Uranium_Battery</defName>
+    <label>big uranium battery</label>
+    <description>A big version of the uranium battery. Stores larges amounts of electricity for later.</description>
+    <thingClass>Batteries.Building_Megabattery</thingClass>
+    <designatorDropdown>Big_Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/Big_Batteries/BaME_Big_Uranium_Battery</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>750</MaxHitPoints>
+      <WorkToBuild>7000</WorkToBuild>
+      <Mass>240</Mass>
+      <Flammability>1.1</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BaME_Big_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Big_Copper_Battery</ThingDef>
+      <ThingDef>BaME_Big_Steel_Battery</ThingDef>
+      <ThingDef>BaME_Big_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Big_Nickel_Battery</ThingDef>
+      <ThingDef>BaME_Big_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Big_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <size>(2,3)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+    </building>
+    <costList>
+      <Steel>30</Steel>
+      <Uranium>180</Uranium>
+      <BaME_Lead>135</BaME_Lead>
+      <BaME_Lithium>15</BaME_Lithium>
+      <ComponentIndustrial>12</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>5000</storedEnergyMax>
+        <efficiency>0.85</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusher</compClass>
+        <heatPerSecond>6</heatPerSecond>
+        <heatPushMaxTemperature>125</heatPushMaxTemperature>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <uiOrder>2021</uiOrder>
+    <researchPrerequisites>
+      <li>BaME_Uranium_Batteries</li>
+      <li>Big_Batteries</li>
+    </researchPrerequisites>
+    <staticSunShadowHeight>0.3</staticSunShadowHeight>
+  </ThingDef>
+
+  <!-- Big Lithium Battery -->
+  <ThingDef ParentName="BaME_BatteryBase">
+    <defName>BaME_Big_Lithium_Battery</defName>
+    <label>big lithium battery</label>
+    <description>A big version of the lithium battery. Stores larges amounts of electricity for later.</description>
+    <thingClass>Batteries.Building_Megabattery</thingClass>
+    <designatorDropdown>Big_Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/Big_Batteries/BaME_Big_Lithium_Battery</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>375</MaxHitPoints>
+      <WorkToBuild>8750</WorkToBuild>
+      <Mass>80</Mass>
+      <Flammability>3</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BaME_Big_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Big_Copper_Battery</ThingDef>
+      <ThingDef>BaME_Big_Steel_Battery</ThingDef>
+      <ThingDef>BaME_Big_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Big_Nickel_Battery</ThingDef>
+      <ThingDef>BaME_Big_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Big_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <size>(2,3)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+    </building>
+    <costList>
+      <Steel>45</Steel>
+      <BaME_Lithium>240</BaME_Lithium>
+      <ComponentIndustrial>15</ComponentIndustrial>
+      <ComponentSpacer>3</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>5000</storedEnergyMax>
+        <efficiency>0.9</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <wickTicks>240</wickTicks>
+        <explosiveRadius>15</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explodeOnKilled>true</explodeOnKilled>
+        <startWickHitPointsPercent>0.25</startWickHitPointsPercent>
+        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <uiOrder>2021</uiOrder>
+    <researchPrerequisites>
+      <li>BaME_Lithium_Batteries</li>
+      <li>Big_Batteries</li>
+    </researchPrerequisites>
+    <staticSunShadowHeight>0.3</staticSunShadowHeight>
+  </ThingDef>
+
+  <!-- Big Plasteel Battery -->
+  <ThingDef ParentName="BaME_BatteryBase">
+    <defName>BaME_Big_Plasteel_Battery</defName>
+    <label>big plasteel battery</label>
+    <description>A big version of the plasteel battery. Stores larges amounts of electricity for later.</description>
+    <thingClass>Batteries.Building_Megabattery</thingClass>
+    <designatorDropdown>Big_Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/Big_Batteries/BaME_Big_Plasteel_Battery</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <WorkToBuild>10000</WorkToBuild>
+      <Mass>135</Mass>
+      <Flammability>0.15</Flammability>
+      <Beauty>-10</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BaME_Big_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Big_Copper_Battery</ThingDef>
+      <ThingDef>BaME_Big_Steel_Battery</ThingDef>
+      <ThingDef>BaME_Big_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Big_Nickel_Battery</ThingDef>
+      <ThingDef>BaME_Big_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Big_Lithium_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <size>(2,3)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+    </building>
+    <costList>
+      <Steel>15</Steel>
+      <Uranium>15</Uranium>
+      <Plasteel>225</Plasteel>
+      <BaME_Lithium>60</BaME_Lithium>
+      <ComponentIndustrial>12</ComponentIndustrial>
+      <ComponentSpacer>6</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>17500</storedEnergyMax>
+        <efficiency>1</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <uiOrder>2021</uiOrder>
+    <researchPrerequisites>
+      <li>BaME_Plasteel_Batteries</li>
+      <li>Big_Batteries</li>
+    </researchPrerequisites>
+    <staticSunShadowHeight>0.3</staticSunShadowHeight>
+  </ThingDef>
+
+</Defs>

@@ -65,11 +65,25 @@
     <ResearchProjectDef>
     <defName>Miniature_Batteries</defName>
     <label>miniature batteries</label>
-    <description>The possibility to make smaller batteries, almost as powerful as regular ones</description>
-    <baseCost>1200</baseCost>
+    <description>The possibility to make smaller batteries, a bit less powerful than regular ones</description>
+    <baseCost>1000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
-      <li>BaME_Nickel_Batteries</li>
+      <li>Batteries</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+   <researchViewY>1.30</researchViewY>
+   <tab>Power_Storage</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Big_Batteries</defName>
+    <label>big batteries</label>
+    <description>The possibility to make bigger batteries, the more powerful than regular ones</description>
+    <baseCost>1400</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>Miniature_Batteries</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <researchViewX>4.00</researchViewX>
@@ -84,7 +98,7 @@
     <baseCost>1800</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
-      <li>Miniature_Batteries</li>
+      <li>Big_Batteries</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <requiredResearchFacilities>

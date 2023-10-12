@@ -10,7 +10,7 @@
   <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Big_Lead_Battery</defName>
     <label>big lead battery</label>
-    <description>A big version of the lead battery. Stores larges amounts of electricity for later.</description>
+    <description>A bigger version of the lead battery. Stores larges amounts of electricity for later.</description>
     <thingClass>Batteries.Building_Megabattery</thingClass>
     <designatorDropdown>Big_Batteries</designatorDropdown>
     <graphicData>
@@ -64,7 +64,7 @@
   <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Big_Copper_Battery</defName>
     <label>big copper battery</label>
-    <description>A big version of the copper battery. Stores larges amounts of electricity for later.</description>
+    <description>A bigger version of the copper battery. Stores larges amounts of electricity for later.</description>
     <thingClass>Batteries.Building_Megabattery</thingClass>
     <designatorDropdown>Big_Batteries</designatorDropdown>
     <graphicData>
@@ -117,7 +117,7 @@
   <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Big_Steel_Battery</defName>
     <label>big steel battery</label>
-    <description>A big version of the steel battery. Stores larges amounts of electricity for later.</description>
+    <description>A bigger version of the steel battery. Stores larges amounts of electricity for later.</description>
     <thingClass>Batteries.Building_Megabattery</thingClass>
     <designatorDropdown>Big_Batteries</designatorDropdown>
     <graphicData>
@@ -170,7 +170,7 @@
   <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Big_Waterproof_Battery</defName>
     <label>big waterproof battery</label>
-    <description>A big version of the waterproof battery. Stores larges amounts of electricity for later.</description>
+    <description>A bigger version of the waterproof battery. Stores larges amounts of electricity for later.</description>
     <thingClass>Batteries.Building_Megabattery</thingClass>
     <designatorDropdown>Big_Batteries</designatorDropdown>
     <graphicData>
@@ -222,7 +222,7 @@
   <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Big_Nickel_Battery</defName>
     <label>big nickel battery</label>
-    <description>A big version of the nickel battery. Stores larges amounts of electricity for later.</description>
+    <description>A bigger version of the nickel battery. Stores larges amounts of electricity for later.</description>
     <thingClass>Batteries.Building_Megabattery</thingClass>
     <designatorDropdown>Big_Batteries</designatorDropdown>
     <graphicData>
@@ -277,7 +277,7 @@
   <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Big_Uranium_Battery</defName>
     <label>big uranium battery</label>
-    <description>A big version of the uranium battery. Stores larges amounts of electricity for later.</description>
+    <description>A bigger version of the uranium battery. Stores larges amounts of electricity for later.</description>
     <thingClass>Batteries.Building_Megabattery</thingClass>
     <designatorDropdown>Big_Batteries</designatorDropdown>
     <graphicData>
@@ -337,7 +337,7 @@
   <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Big_Lithium_Battery</defName>
     <label>big lithium battery</label>
-    <description>A big version of the lithium battery. Stores larges amounts of electricity for later.</description>
+    <description>A bigger version of the lithium battery. Stores larges amounts of electricity for later.</description>
     <thingClass>Batteries.Building_Megabattery</thingClass>
     <designatorDropdown>Big_Batteries</designatorDropdown>
     <graphicData>
@@ -399,7 +399,7 @@
   <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Big_Plasteel_Battery</defName>
     <label>big plasteel battery</label>
-    <description>A big version of the plasteel battery. Stores larges amounts of electricity for later.</description>
+    <description>A bigger version of the plasteel battery. Stores larges amounts of electricity for later.</description>
     <thingClass>Batteries.Building_Megabattery</thingClass>
     <designatorDropdown>Big_Batteries</designatorDropdown>
     <graphicData>

@@ -32,7 +32,7 @@
       <ThingDef>BaME_Big_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Big_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
-    <size>(2,3)</size>
+    <size>(2,2)</size>
     <building>
       <destroySound>BuildingDestroyed_Metal_Big</destroySound>
     </building>
@@ -85,7 +85,7 @@
       <ThingDef>BaME_Big_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Big_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
-    <size>(2,3)</size>
+    <size>(2,2)</size>
     <building>
       <destroySound>BuildingDestroyed_Metal_Big</destroySound>
     </building>
@@ -137,7 +137,7 @@
       <ThingDef>BaME_Big_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Big_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
-    <size>(2,3)</size>
+    <size>(2,2)</size>
     <building>
       <destroySound>BuildingDestroyed_Metal_Big</destroySound>
     </building>    
@@ -189,7 +189,7 @@
       <ThingDef>BaME_Big_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Big_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
-    <size>(2,3)</size>
+    <size>(2,2)</size>
     <building>
       <destroySound>BuildingDestroyed_Metal_Big</destroySound>
     </building>
@@ -240,7 +240,7 @@
       <ThingDef>BaME_Big_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Big_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
-    <size>(2,3)</size>
+    <size>(2,2)</size>
     <building>
       <destroySound>BuildingDestroyed_Metal_Big</destroySound>
     </building>
@@ -294,7 +294,7 @@
       <ThingDef>BaME_Big_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Big_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
-    <size>(2,3)</size>
+    <size>(2,2)</size>
     <building>
       <destroySound>BuildingDestroyed_Metal_Big</destroySound>
     </building>
@@ -353,7 +353,7 @@
       <ThingDef>BaME_Big_Uranium_Battery</ThingDef>
       <ThingDef>BaME_Big_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
-    <size>(2,3)</size>
+    <size>(2,2)</size>
     <building>
       <destroySound>BuildingDestroyed_Metal_Big</destroySound>
     </building>
@@ -414,7 +414,7 @@
       <ThingDef>BaME_Big_Uranium_Battery</ThingDef>
       <ThingDef>BaME_Big_Lithium_Battery</ThingDef>
     </descriptionHyperlinks>
-    <size>(2,3)</size>
+    <size>(2,2)</size>
     <building>
       <destroySound>BuildingDestroyed_Metal_Big</destroySound>
     </building>

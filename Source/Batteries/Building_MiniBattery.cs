@@ -47,7 +47,7 @@ namespace Batteries
 
     public class Building_Megabattery : Building_Battery
     {
-        private static readonly Vector2 BarSize = new Vector2(1.4f, 0.5f);
+        private static readonly Vector2 BarSize = new Vector2(1.54f, 0.54f);
 
         private Vector2 GetBarSize()
         {

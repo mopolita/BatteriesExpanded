@@ -7,15 +7,12 @@
   </DesignatorDropdownGroupDef>
 
   <!-- Mega Lead Battery -->
-  <ThingDef ParentName="BaME_BatteryBase">
+  <ThingDef ParentName="BaME_BatteryMega">
     <defName>BaME_Mega_Lead_Battery</defName>
     <label>giant lead battery</label>
     <description>A giant version of the lead battery. Stores larges amounts of electricity for later.</description>
-    <thingClass>Batteries.Building_Megabattery</thingClass>
-    <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Lead_Battery</texPath>
-      <drawSize>(3,4)</drawSize>
     </graphicData>
     <statBases>
       <MaxHitPoints>500</MaxHitPoints>
@@ -33,10 +30,6 @@
       <ThingDef>BaME_Mega_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Mega_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
-    <size>(2,3)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
-    </building>
     <costList>
       <BaME_Lead>195</BaME_Lead>
       <Steel>60</Steel>
@@ -50,26 +43,19 @@
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <uiOrder>2021</uiOrder>
     <researchPrerequisites>
       <li>BaME_Lead_Batteries</li>
-      <li>Mega_Batteries</li>
     </researchPrerequisites>
-    <staticSunShadowHeight>0.4</staticSunShadowHeight>
   </ThingDef>
 
   <!-- Mega copper Battery -->
-  <ThingDef ParentName="BaME_BatteryBase">
+  <ThingDef ParentName="BaME_BatteryMega">
     <defName>BaME_Mega_Copper_Battery</defName>
     <label>giant copper battery</label>
     <description>A giant version of the copper battery. Stores larges amounts of electricity for later.</description>
-    <thingClass>Batteries.Building_Megabattery</thingClass>
-    <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Copper_Battery</texPath>
-      <drawSize>(3,4)</drawSize>
     </graphicData>
     <statBases>
       <MaxHitPoints>750</MaxHitPoints>
@@ -87,10 +73,6 @@
       <ThingDef>BaME_Mega_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Mega_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
-    <size>(2,3)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
-    </building>
     <costList>
       <BaME_Copper>195</BaME_Copper>
       <Steel>45</Steel>
@@ -103,26 +85,19 @@
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <uiOrder>2021</uiOrder>
     <researchPrerequisites>
       <li>BaME_Copper_Batteries</li>
-      <li>Mega_Batteries</li>
     </researchPrerequisites>
-    <staticSunShadowHeight>0.4</staticSunShadowHeight>
   </ThingDef>
 
   <!-- Mega Steel Battery -->
-  <ThingDef ParentName="BaME_BatteryBase">
+  <ThingDef ParentName="BaME_BatteryMega">
     <defName>BaME_Mega_Steel_Battery</defName>
     <label>giant steel battery</label>
     <description>A giant version of the steel battery. Stores larges amounts of electricity for later.</description>
-    <thingClass>Batteries.Building_Megabattery</thingClass>
-    <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Steel_Battery</texPath>
-      <drawSize>(3,4)</drawSize>
     </graphicData>
     <statBases>
       <MaxHitPoints>1000</MaxHitPoints>
@@ -140,10 +115,6 @@
       <ThingDef>BaME_Mega_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Mega_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
-    <size>(2,3)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
-    </building>    
     <costList>
       <Steel>270</Steel>
       <ComponentIndustrial>9</ComponentIndustrial>
@@ -156,26 +127,19 @@
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <uiOrder>2021</uiOrder>
     <researchPrerequisites>
       <li>Batteries</li>
-      <li>Mega_Batteries</li>
     </researchPrerequisites>
-    <staticSunShadowHeight>0.4</staticSunShadowHeight>
   </ThingDef>
 
   <!-- Mega Waterproof Battery -->
-  <ThingDef ParentName="BaME_BatteryBase">
+  <ThingDef ParentName="BaME_BatteryMega">
     <defName>BaME_Mega_Waterproof_Battery</defName>
     <label>giant waterproof battery</label>
     <description>A giant version of the waterproof battery. Stores larges amounts of electricity for later.</description>
-    <thingClass>Batteries.Building_Megabattery</thingClass>
-    <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Waterproof_Battery</texPath>
-      <drawSize>(3,4)</drawSize>
     </graphicData>
     <statBases>
       <MaxHitPoints>1300</MaxHitPoints>
@@ -193,10 +157,6 @@
       <ThingDef>BaME_Mega_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Mega_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
-    <size>(2,3)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
-    </building>
     <costList>
       <Steel>625</Steel>
       <ComponentIndustrial>20</ComponentIndustrial>
@@ -208,26 +168,20 @@
         <shortCircuitInRain>false</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <uiOrder>2021</uiOrder>
     <researchPrerequisites>
       <li>Batteries</li>
-      <li>Mega_Batteries</li>
     </researchPrerequisites>
-    <staticSunShadowHeight>0.4</staticSunShadowHeight>
   </ThingDef>
 
   <!-- Mega Nickel Battery -->
-  <ThingDef ParentName="BaME_BatteryBase">
+  <ThingDef ParentName="BaME_BatteryMega">
     <defName>BaME_Mega_Nickel_Battery</defName>
     <label>giant nickel battery</label>
     <description>A giant version of the nickel battery. Stores larges amounts of electricity for later.</description>
-    <thingClass>Batteries.Building_Megabattery</thingClass>
-    <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Nickel_Battery</texPath>
-      <drawSize>(3,4)</drawSize>
     </graphicData>
     <statBases>
       <MaxHitPoints>1250</MaxHitPoints>
@@ -245,7 +199,6 @@
       <ThingDef>BaME_Mega_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Mega_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
-    <size>(2,3)</size>
     <building>
       <destroySound>BuildingDestroyed_Metal_Big</destroySound>
     </building>
@@ -263,26 +216,20 @@
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <uiOrder>2021</uiOrder>
     <researchPrerequisites>
       <li>BaME_Nickel_Batteries</li>
-      <li>Mega_Batteries</li>
     </researchPrerequisites>
-    <staticSunShadowHeight>0.4</staticSunShadowHeight>
   </ThingDef>
 
   <!-- Mega Uranium Battery -->
-  <ThingDef ParentName="BaME_BatteryBase">
+  <ThingDef ParentName="BaME_BatteryMega">
     <defName>BaME_Mega_Uranium_Battery</defName>
     <label>giant uranium battery</label>
     <description>A giant version of the uranium battery. Stores larges amounts of electricity for later.</description>
-    <thingClass>Batteries.Building_Megabattery</thingClass>
-    <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Uranium_Battery</texPath>
-      <drawSize>(3,4)</drawSize>
     </graphicData>
     <statBases>
       <MaxHitPoints>750</MaxHitPoints>
@@ -300,10 +247,6 @@
       <ThingDef>BaME_Mega_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Mega_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
-    <size>(2,3)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
-    </building>
     <costList>
       <Steel>30</Steel>
       <Uranium>180</Uranium>
@@ -323,26 +266,20 @@
         <heatPerSecond>6</heatPerSecond>
         <heatPushMaxTemperature>125</heatPushMaxTemperature>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <uiOrder>2021</uiOrder>
     <researchPrerequisites>
       <li>BaME_Uranium_Batteries</li>
-      <li>Mega_Batteries</li>
     </researchPrerequisites>
-    <staticSunShadowHeight>0.4</staticSunShadowHeight>
   </ThingDef>
 
   <!-- Mega Lithium Battery -->
-  <ThingDef ParentName="BaME_BatteryBase">
+  <ThingDef ParentName="BaME_BatteryMega">
     <defName>BaME_Mega_Lithium_Battery</defName>
     <label>giant lithium battery</label>
     <description>A giant version of the lithium battery. Stores larges amounts of electricity for later.</description>
-    <thingClass>Batteries.Building_Megabattery</thingClass>
-    <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Lithium_Battery</texPath>
-      <drawSize>(3,4)</drawSize>
     </graphicData>
     <statBases>
       <MaxHitPoints>375</MaxHitPoints>
@@ -360,10 +297,6 @@
       <ThingDef>BaME_Mega_Uranium_Battery</ThingDef>
       <ThingDef>BaME_Mega_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
-    <size>(2,3)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
-    </building>
     <costList>
       <Steel>45</Steel>
       <BaME_Lithium>240</BaME_Lithium>
@@ -385,26 +318,19 @@
         <startWickHitPointsPercent>0.25</startWickHitPointsPercent>
         <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <uiOrder>2021</uiOrder>
     <researchPrerequisites>
       <li>BaME_Lithium_Batteries</li>
-      <li>Mega_Batteries</li>
     </researchPrerequisites>
-    <staticSunShadowHeight>0.4</staticSunShadowHeight>
   </ThingDef>
 
   <!-- Mega Plasteel Battery -->
-  <ThingDef ParentName="BaME_BatteryBase">
+  <ThingDef ParentName="BaME_BatteryMega">
     <defName>BaME_Mega_Plasteel_Battery</defName>
     <label>giant plasteel battery</label>
     <description>A giant version of the plasteel battery. Stores larges amounts of electricity for later.</description>
-    <thingClass>Batteries.Building_Megabattery</thingClass>
-    <designatorDropdown>Mega_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Mega_Batteries/BaME_Mega_Plasteel_Battery</texPath>
-      <drawSize>(3,4)</drawSize>
     </graphicData>
     <statBases>
       <MaxHitPoints>2000</MaxHitPoints>
@@ -422,10 +348,6 @@
       <ThingDef>BaME_Mega_Uranium_Battery</ThingDef>
       <ThingDef>BaME_Mega_Lithium_Battery</ThingDef>
     </descriptionHyperlinks>
-    <size>(2,3)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
-    </building>
     <costList>
       <Steel>15</Steel>
       <Uranium>15</Uranium>
@@ -441,14 +363,10 @@
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <uiOrder>2021</uiOrder>
     <researchPrerequisites>
       <li>BaME_Plasteel_Batteries</li>
-      <li>Mega_Batteries</li>
     </researchPrerequisites>
-    <staticSunShadowHeight>0.4</staticSunShadowHeight>
   </ThingDef>
 
 </Defs>

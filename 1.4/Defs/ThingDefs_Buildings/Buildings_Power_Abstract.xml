@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Model Battery -->
+  <ThingDef ParentName="BuildingBase" Name="BaME_BatteryBase" Abstract="True">
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <thingClass>Building_Battery</thingClass>
+    <designatorDropdown>Regular_Batteries</designatorDropdown>
+    <graphicData>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,3)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.40</fillPercent>
+    <tickerType>Normal</tickerType>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <size>(1,2)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
+    <comps>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <uiOrder>2020</uiOrder>
+    <staticSunShadowHeight>0.2</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+    <canOverlapZones>false</canOverlapZones>
+  </ThingDef>
+
+  <!-- Small Model Battery -->
+  <ThingDef ParentName="BaME_BatteryBase" Name="BaME_BatterySmall" Abstract="True">
+    <thingClass>Batteries.Building_Minibattery</thingClass>
+    <designatorDropdown>Small_Batteries</designatorDropdown>
+    <graphicData>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <size>(1,1)</size>
+    <researchPrerequisites>
+      <li>Miniature_Batteries</li>
+    </researchPrerequisites>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <uiIconScale>0.6</uiIconScale>
+    <uiOrder>2019</uiOrder>
+  </ThingDef>
+
+  <!-- Big Model Battery -->
+  <ThingDef ParentName="BaME_BatteryBase" Name="BaME_BatteryBig" Abstract="True">
+    <designatorDropdown>Big_Batteries</designatorDropdown>
+    <graphicData>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <size>(2,2)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+    </building>
+    <researchPrerequisites>
+      <li>Big_Batteries</li>
+    </researchPrerequisites>
+    <uiOrder>2021</uiOrder>
+    <staticSunShadowHeight>0.3</staticSunShadowHeight>
+  </ThingDef>
+
+  <!-- Mega Model Battery -->
+  <ThingDef ParentName="BaME_BatteryBase" Name="BaME_BatteryMega" Abstract="True">
+    <thingClass>Batteries.Building_Megabattery</thingClass>
+    <designatorDropdown>Mega_Batteries</designatorDropdown>
+    <graphicData>
+      <drawSize>(3,4)</drawSize>
+    </graphicData>
+    <size>(2,3)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+    </building>
+    <researchPrerequisites>
+      <li>Mega_Batteries</li>
+    </researchPrerequisites>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <uiOrder>2021</uiOrder>
+    <staticSunShadowHeight>0.4</staticSunShadowHeight>
+  </ThingDef>
+
+</Defs>

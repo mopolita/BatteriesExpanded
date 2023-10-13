@@ -6,45 +6,6 @@
     <defName>Regular_Batteries</defName>
   </DesignatorDropdownGroupDef>
 
-  <!-- Model Battery -->
-  <ThingDef ParentName="BuildingBase" Name="BaME_BatteryBase" Abstract="True">
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <thingClass>Building_Battery</thingClass>
-    <designatorDropdown>Regular_Batteries</designatorDropdown>
-    <graphicData>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(2,3)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
-    </graphicData>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
-    <blockWind>true</blockWind>
-    <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>0.40</fillPercent>
-    <tickerType>Normal</tickerType>
-    <thingCategories>
-      <li>BuildingsPower</li>
-    </thingCategories>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <size>(1,2)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
-    </building>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
-    <uiOrder>2020</uiOrder>
-    <staticSunShadowHeight>0.2</staticSunShadowHeight>
-    <constructEffect>ConstructMetal</constructEffect>
-    <canOverlapZones>false</canOverlapZones>
-  </ThingDef>
-
-
   <!-- Regular Lead Battery -->
   <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Lead_Battery</defName>
@@ -81,7 +42,6 @@
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
       <li>BaME_Lead_Batteries</li>
@@ -124,7 +84,6 @@
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
       <li>BaME_Copper_Batteries</li>
@@ -166,7 +125,6 @@
         <shortCircuitInRain>false</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
       <li>Batteries</li>
@@ -211,7 +169,6 @@
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
       <li>BaME_Nickel_Batteries</li>
@@ -261,7 +218,6 @@
         <heatPerSecond>1.2</heatPerSecond>
         <heatPushMaxTemperature>100</heatPushMaxTemperature>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
       <li>BaME_Uranium_Batteries</li>
@@ -313,7 +269,6 @@
         <startWickHitPointsPercent>0.25</startWickHitPointsPercent>
         <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
       <li>BaME_Lithium_Batteries</li>
@@ -359,7 +314,6 @@
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
       <li>BaME_Plasteel_Batteries</li>

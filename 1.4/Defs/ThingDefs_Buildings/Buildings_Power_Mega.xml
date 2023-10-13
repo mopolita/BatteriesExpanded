@@ -171,7 +171,7 @@
     </comps>
     <uiOrder>2021</uiOrder>
     <researchPrerequisites>
-      <li>Batteries</li>
+      <li>Plated_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 

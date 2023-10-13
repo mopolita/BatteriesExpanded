@@ -62,6 +62,20 @@
     <tab>Power_Storage</tab>
   </ResearchProjectDef>
 
+  <ResearchProjectDef>
+    <defName>Plated_Batteries</defName>
+    <label>plated batteries</label>
+    <description>The possibility to make plated batteries, with various materials to make them fancier</description>
+    <baseCost>800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Batteries</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+   <researchViewY>3.30</researchViewY>
+   <tab>Power_Storage</tab>
+  </ResearchProjectDef>
+
     <ResearchProjectDef>
     <defName>Miniature_Batteries</defName>
     <label>miniature batteries</label>

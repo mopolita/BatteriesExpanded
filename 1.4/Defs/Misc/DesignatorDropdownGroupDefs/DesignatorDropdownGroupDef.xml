@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Designator Dropdown group def for small batteries -->
+  <DesignatorDropdownGroupDef>
+    <defName>Small_Batteries</defName>
+    <label>small batteries</label>
+  </DesignatorDropdownGroupDef>
+
+  <!-- Designator Dropdown Group Def for regular batteries -->
+  <DesignatorDropdownGroupDef>
+    <defName>Regular_Batteries</defName>
+    <label>regular batteries</label>
+  </DesignatorDropdownGroupDef>
+
+  <!-- Designator Dropdown Group Def for plated batteries -->
+  <DesignatorDropdownGroupDef>
+    <defName>Plated_Batteries</defName>
+    <label>plated batteries</label>
+  </DesignatorDropdownGroupDef>
+
+  <!-- Designator Dropdown Group Def for big batteries -->
+  <DesignatorDropdownGroupDef>
+    <defName>Big_Batteries</defName>
+    <label>big batteries</label>
+  </DesignatorDropdownGroupDef>
+
+  <!-- Designator Dropdown Group Def for mega batteries -->
+  <DesignatorDropdownGroupDef>
+    <defName>Mega_Batteries</defName>
+    <label>giant batteries</label>
+  </DesignatorDropdownGroupDef>
+
+</Defs>

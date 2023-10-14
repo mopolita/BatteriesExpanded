@@ -76,7 +76,7 @@
    <tab>Power_Storage</tab>
   </ResearchProjectDef>
 
-    <ResearchProjectDef>
+  <ResearchProjectDef>
     <defName>Miniature_Batteries</defName>
     <label>miniature batteries</label>
     <description>The possibility to make smaller batteries, a bit less powerful than regular ones</description>

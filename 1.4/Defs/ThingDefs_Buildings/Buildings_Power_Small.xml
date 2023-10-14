@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- Designator Dropdown group def for small batteries -->
-  <DesignatorDropdownGroupDef>
-    <defName>Small_Batteries</defName>
-  </DesignatorDropdownGroupDef>
-
   <!-- Small Lead Battery -->
   <ThingDef ParentName="BaME_BatterySmall">
     <defName>BaME_Small_Lead_Battery</defName>

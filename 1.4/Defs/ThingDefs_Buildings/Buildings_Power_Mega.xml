@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- Designator Dropdown Group Def for mega batteries -->
-  <DesignatorDropdownGroupDef>
-    <defName>Mega_Batteries</defName>
-  </DesignatorDropdownGroupDef>
-
   <!-- Mega Lead Battery -->
   <ThingDef ParentName="BaME_BatteryMega">
     <defName>BaME_Mega_Lead_Battery</defName>

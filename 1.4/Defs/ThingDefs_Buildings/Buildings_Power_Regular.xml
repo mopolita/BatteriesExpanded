@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- Designator Dropdown Group Def for regular batteries -->
-  <DesignatorDropdownGroupDef>
-    <defName>Regular_Batteries</defName>
-  </DesignatorDropdownGroupDef>
-
-  <!-- Designator Dropdown Group Def for regular batteries -->
-  <DesignatorDropdownGroupDef>
-    <defName>Plated_Batteries</defName>
-  </DesignatorDropdownGroupDef>
-
   <!-- Regular Lead Battery -->
   <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Lead_Battery</defName>

@@ -6,6 +6,11 @@
     <defName>Regular_Batteries</defName>
   </DesignatorDropdownGroupDef>
 
+  <!-- Designator Dropdown Group Def for regular batteries -->
+  <DesignatorDropdownGroupDef>
+    <defName>Plated_Batteries</defName>
+  </DesignatorDropdownGroupDef>
+
   <!-- Regular Lead Battery -->
   <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Lead_Battery</defName>
@@ -145,6 +150,7 @@
     <defName>BaME_Silverplated_Battery</defName>
     <label>Silver Plated battery</label>
     <description>A steel battery plated with silver to make it fancier.</description>
+    <designatorDropdown>Plated_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Regular_Batteries/BaME_Silverplated_Battery</texPath>
     </graphicData>
@@ -190,6 +196,7 @@
     <defName>BaME_Jadeplated_Battery</defName>
     <label>Jade Plated battery</label>
     <description>A steel battery plated with jade to make it fancier.</description>
+    <designatorDropdown>Plated_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Regular_Batteries/BaME_Jadeplated_Battery</texPath>
     </graphicData>
@@ -235,6 +242,7 @@
     <defName>BaME_Goldplated_Battery</defName>
     <label>Gold Plated battery</label>
     <description>A steel battery plated with gold to make it fancier.</description>
+    <designatorDropdown>Plated_Batteries</designatorDropdown>
     <graphicData>
       <texPath>Things/Building/Power/Regular_Batteries/BaME_Goldplated_Battery</texPath>
     </graphicData>

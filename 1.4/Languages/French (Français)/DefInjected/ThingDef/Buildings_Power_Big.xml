@@ -5,7 +5,7 @@
   <BaME_Big_Lead_Battery.label>Grosse batterie au plomb</BaME_Big_Lead_Battery.label>
   <!-- EN: A bigger version of the lead battery. Stores larges amounts of electricity for later. -->
   <BaME_Big_Lead_Battery.description>Une version plus grande des batteries au plomb. Stocke de larges quantités d'électricité pour plus tard.</BaME_Big_Lead_Battery.description>
-  
+
   <!-- EN: big copper battery -->
   <BaME_Big_Copper_Battery.label>Grosse batterie de cuivre</BaME_Big_Copper_Battery.label>
   <!-- EN: A bigger version of the copper battery. Stores larges amounts of electricity for later. -->
@@ -15,27 +15,27 @@
   <BaME_Big_Steel_Battery.label>Grosse batterie en acier</BaME_Big_Steel_Battery.label>
   <!-- EN: A bigger version of the steel battery. Stores larges amounts of electricity for later. -->
   <BaME_Big_Steel_Battery.description>Une version plus grande des batteries en acier. Stocke de larges quantités d'électricité pour plus tard.</BaME_Big_Steel_Battery.description>
-   
+
   <!-- EN: big waterproof battery -->
   <BaME_Big_Waterproof_Battery.label>Grosse batterie résistante à l'eau</BaME_Big_Waterproof_Battery.label>
   <!-- EN: A bigger version of the waterproof battery. Stores larges amounts of electricity for later. -->
   <BaME_Big_Waterproof_Battery.description>Une version plus grande des batteries résistante à l'eau. Stocke de larges quantités d'électricité pour plus tard.</BaME_Big_Waterproof_Battery.description>
-  
+
   <!-- EN: big nickel battery -->
   <BaME_Big_Nickel_Battery.label>Grosse batterie au nickel</BaME_Big_Nickel_Battery.label>
   <!-- EN: A bigger version of the nickel battery. Stores larges amounts of electricity for later. -->
   <BaME_Big_Nickel_Battery.description>Une version plus grande des batteries au nickel. Stocke de larges quantités d'électricité pour plus tard.</BaME_Big_Nickel_Battery.description>
-  
+
   <!-- EN: big uranium battery -->
   <BaME_Big_Uranium_Battery.label>Grosse batterie à l'uranium</BaME_Big_Uranium_Battery.label>
   <!-- EN: A bigger version of the uranium battery. Stores larges amounts of electricity for later. -->
   <BaME_Big_Uranium_Battery.description>Une version plus grande des batteries a l'uranium. Stocke de larges quantités d'électricité pour plus tard.</BaME_Big_Uranium_Battery.description>
-  
+
   <!-- EN: big lithium battery -->
   <BaME_Big_Lithium_Battery.label>Grosse batterie au lithium</BaME_Big_Lithium_Battery.label>
   <!-- EN: A bigger version of the lithium battery. Stores larges amounts of electricity for later. \n\nExplodes when destroyed-->
   <BaME_Big_Lithium_Battery.description>Une version plus grande d'une batterie au lithium. Stocke de grandes larges quantités d'électricité.\n\nExplose une fois détruite</BaME_Big_Lithium_Battery.description>
-  
+
   <!-- EN: big plasteel battery -->
   <BaME_Big_Plasteel_Battery.label>Grosse batterie en plastacier</BaME_Big_Plasteel_Battery.label>
   <!-- EN: A bigger version of the plasteel battery. Stores larges amounts of electricity for later. -->

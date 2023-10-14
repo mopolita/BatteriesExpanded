@@ -5,17 +5,17 @@
   <BaME_MineableLead.label>minerai de plomb</BaME_MineableLead.label>
   <!-- EN: Rock containing bits of lead. -->
   <BaME_MineableLead.description>Pierre contenant des morceaux de plomb.</BaME_MineableLead.description>
-  
+
   <!-- EN: copper ore -->
   <BaME_MineableCopper.label>minerai de cuivre</BaME_MineableCopper.label>
   <!-- EN: Rock containing bits of copper. -->
   <BaME_MineableCopper.description>Pierre contenant des morceaux de cuivre.</BaME_MineableCopper.description>
-  
+
   <!-- EN: nickel ore -->
   <BaME_MineableNickel.label>minerai de nickel</BaME_MineableNickel.label>
   <!-- EN: Rock containing bits of nickel. -->
   <BaME_MineableNickel.description>Pierre contenant des morceaux de nickel.</BaME_MineableNickel.description>
-  
+
   <!-- EN: lithium ore -->
   <BaME_MineableLithium.label>minerai de lithium</BaME_MineableLithium.label>
   <!-- EN: Rock containing bits of lithium. -->

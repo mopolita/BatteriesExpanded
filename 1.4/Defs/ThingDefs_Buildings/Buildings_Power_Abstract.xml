@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- Model Battery -->
+  <!-- Small Model Battery -->
+  <ThingDef ParentName="BaME_BatteryBase" Name="BaME_BatterySmall" Abstract="True">
+    <thingClass>Batteries.Building_Minibattery</thingClass>
+    <designatorDropdown>Small_Batteries</designatorDropdown>
+    <graphicData>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <size>(1,1)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+    </building>
+    <researchPrerequisites>
+      <li>Miniature_Batteries</li>
+    </researchPrerequisites>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <uiIconScale>0.6</uiIconScale>
+    <uiOrder>2019</uiOrder>
+  </ThingDef>
+
+  <!-- Regular Model Battery -->
   <ThingDef ParentName="BuildingBase" Name="BaME_BatteryBase" Abstract="True">
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
@@ -40,22 +59,6 @@
     <staticSunShadowHeight>0.2</staticSunShadowHeight>
     <constructEffect>ConstructMetal</constructEffect>
     <canOverlapZones>false</canOverlapZones>
-  </ThingDef>
-
-  <!-- Small Model Battery -->
-  <ThingDef ParentName="BaME_BatteryBase" Name="BaME_BatterySmall" Abstract="True">
-    <thingClass>Batteries.Building_Minibattery</thingClass>
-    <designatorDropdown>Small_Batteries</designatorDropdown>
-    <graphicData>
-      <drawSize>(2,2)</drawSize>
-    </graphicData>
-    <size>(1,1)</size>
-    <researchPrerequisites>
-      <li>Miniature_Batteries</li>
-    </researchPrerequisites>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    <uiIconScale>0.6</uiIconScale>
-    <uiOrder>2019</uiOrder>
   </ThingDef>
 
   <!-- Big Model Battery -->

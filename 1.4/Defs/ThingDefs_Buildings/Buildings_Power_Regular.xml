@@ -277,7 +277,7 @@
   <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Nickel_Battery</defName>
     <label>nickel battery</label>
-    <description>An old kind of battery, can store more electricity and is more efficient than lead alternatives.</description>
+    <description>A battery made using nickel, making it better than steel alternatives<description>
     <graphicData>
       <texPath>Things/Building/Power/Regular_Batteries/BaME_Nickel_Battery</texPath>
     </graphicData>

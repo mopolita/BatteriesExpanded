@@ -5,7 +5,7 @@
   <ThingDef ParentName="BaME_BatteryBig">
     <defName>BaME_Big_Lead_Battery</defName>
     <label>big lead battery</label>
-    <description>A bigger version of the lead battery. Stores larges amounts of electricity for later.</description>
+    <description>A bigger version of the lead battery. Stores large amounts of electricity for later.</description>
     <graphicData>
       <texPath>Things/Building/Power/Big_Batteries/BaME_Big_Lead_Battery</texPath>
     </graphicData>
@@ -47,7 +47,7 @@
   <ThingDef ParentName="BaME_BatteryBig">
     <defName>BaME_Big_Copper_Battery</defName>
     <label>big copper battery</label>
-    <description>A bigger version of the copper battery. Stores larges amounts of electricity for later.</description>
+    <description>A bigger version of the copper battery. Stores large amounts of electricity for later.</description>
     <graphicData>
       <texPath>Things/Building/Power/Big_Batteries/BaME_Big_Copper_Battery</texPath>
     </graphicData>
@@ -89,7 +89,7 @@
   <ThingDef ParentName="BaME_BatteryBig">
     <defName>BaME_Big_Steel_Battery</defName>
     <label>big steel battery</label>
-    <description>A bigger version of the steel battery. Stores larges amounts of electricity for later.</description>
+    <description>A bigger version of the steel battery. Stores large amounts of electricity for later.</description>
     <graphicData>
       <texPath>Things/Building/Power/Big_Batteries/BaME_Big_Steel_Battery</texPath>
     </graphicData>
@@ -130,7 +130,7 @@
   <ThingDef ParentName="BaME_BatteryBig">
     <defName>BaME_Big_Waterproof_Battery</defName>
     <label>big waterproof battery</label>
-    <description>A bigger version of the waterproof battery. Stores larges amounts of electricity for later.</description>
+    <description>A bigger version of the waterproof battery. Stores large amounts of electricity for later.</description>
     <graphicData>
       <texPath>Things/Building/Power/Big_Batteries/BaME_Big_Waterproof_Battery</texPath>
     </graphicData>
@@ -171,7 +171,7 @@
   <ThingDef ParentName="BaME_BatteryBig">
     <defName>BaME_Big_Nickel_Battery</defName>
     <label>big nickel battery</label>
-    <description>A bigger version of the nickel battery. Stores larges amounts of electricity for later.</description>
+    <description>A bigger version of the nickel battery. Stores large amounts of electricity for later.</description>
     <graphicData>
       <texPath>Things/Building/Power/Big_Batteries/BaME_Big_Nickel_Battery</texPath>
     </graphicData>
@@ -215,7 +215,7 @@
   <ThingDef ParentName="BaME_BatteryBig">
     <defName>BaME_Big_Uranium_Battery</defName>
     <label>big uranium battery</label>
-    <description>A bigger version of the uranium battery. Stores larges amounts of electricity for later.</description>
+    <description>A bigger version of the uranium battery. Stores large amounts of electricity for later.</description>
     <graphicData>
       <texPath>Things/Building/Power/Big_Batteries/BaME_Big_Uranium_Battery</texPath>
     </graphicData>
@@ -264,7 +264,7 @@
   <ThingDef ParentName="BaME_BatteryBig">
     <defName>BaME_Big_Lithium_Battery</defName>
     <label>big lithium battery</label>
-    <description>A bigger version of the lithium battery. Stores larges amounts of electricity for later.</description>
+    <description>A bigger version of the lithium battery. Stores large amounts of electricity for later.</description>
     <graphicData>
       <texPath>Things/Building/Power/Big_Batteries/BaME_Big_Lithium_Battery</texPath>
     </graphicData>
@@ -315,7 +315,7 @@
   <ThingDef ParentName="BaME_BatteryBig">
     <defName>BaME_Big_Plasteel_Battery</defName>
     <label>big plasteel battery</label>
-    <description>A bigger version of the plasteel battery. Stores larges amounts of electricity for later.</description>
+    <description>A bigger version of the plasteel battery. Stores large amounts of electricity for later.</description>
     <graphicData>
       <texPath>Things/Building/Power/Big_Batteries/BaME_Big_Plasteel_Battery</texPath>
     </graphicData>

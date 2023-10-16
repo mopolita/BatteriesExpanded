@@ -33,8 +33,8 @@
 
   <!-- EN: Nickel battery -->
   <BaME_Nickel_Battery.label>Batterie au nickel</BaME_Nickel_Battery.label>
-  <!-- EN: An old kind of battery, can store more electricity and is more efficient than lead alternatives. -->
-  <BaME_Nickel_Battery.description>Un type de batterie qui est plus efficace que les alternatives en acier ou en cuivre.</BaME_Nickel_Battery.description>
+  <!-- EN: A battery made using nickel, making it better than steel or copper alternatives -->
+  <BaME_Nickel_Battery.description>Un type de batterie faite à partir de nickel qui est plus efficace que les alternatives en acier ou en cuivre.</BaME_Nickel_Battery.description>
 
   <!-- EN: Uranium battery -->
   <BaME_Uranium_Battery.label>Batterie à l'Uranium</BaME_Uranium_Battery.label>

@@ -3,13 +3,13 @@
     
   <!-- EN: power storage -->
   <Power_Storage_Research.label>stockage d'énergie</Power_Storage_Research.label>
-  <!-- EN: The first glimpse at how electricity is stored and batteries are made. -->
-  <Power_Storage_Research.description>Un premier aperçu du processus de stockage d'énergie et de production de batteries.</Power_Storage_Research.description>
+  <!-- EN: The first step toward learning how to store energy. -->
+  <Power_Storage_Research.description>La première étape pour apprendre la manière de stocker de l'énergie.</Power_Storage_Research.description>
   
   <!-- EN: lead battery -->
   <BaME_Lead_Batteries.label>batteries au plomb</BaME_Lead_Batteries.label>
-  <!-- EN: The first refillable battery ever created, using lead. -->
-  <BaME_Lead_Batteries.description>La première batterie rechargeable jamais créée, produites à partir de plomb.</BaME_Lead_Batteries.description>
+  <!-- EN: One of the first refillable batteries ever made. They are made from lead. -->
+  <BaME_Lead_Batteries.description>L'une des premières batteries rechargeable jamais créée, produites à partir de plomb.</BaME_Lead_Batteries.description>
   
   <!-- EN: copper battery -->
   <BaME_Copper_Batteries.label>batteries en cuivre</BaME_Copper_Batteries.label>
@@ -18,13 +18,13 @@
   
   <!-- EN: nickel battery -->
   <BaME_Nickel_Batteries.label>batteries au nickel</BaME_Nickel_Batteries.label>
-  <!-- EN: A futuristic battery even better than steel alternatives. -->
-  <BaME_Nickel_Batteries.description>Une batterie futuriste, meilleures que les alternatives faites d'acier.</BaME_Nickel_Batteries.description>
+  <!-- EN: A battery made using nickel, making it better than steel alternatives. -->
+  <BaME_Nickel_Batteries.description>Une batterie faite de nickel, la rendant plus efficace que les alternatives faites d'acier.</BaME_Nickel_Batteries.description>
   
   <!-- EN: uranium battery -->
   <BaME_Uranium_Batteries.label>batteries à l'uranium</BaME_Uranium_Batteries.label>
-  <!-- EN: Batteries using potentially dangerous and radioactive materials? Yes please! -->
-  <BaME_Uranium_Batteries.description>Une batterie utilisant des matériaux radioactifs potentiellement dangereux ? plutôt deux fois qu'une !</BaME_Uranium_Batteries.description>
+  <!-- EN: Batteries made using potentially dangerous and radioactive materials? Yes please! -->
+  <BaME_Uranium_Batteries.description>Une batterie faite en utilisant des matériaux radioactifs potentiellement dangereux ? plutôt deux fois qu'une !</BaME_Uranium_Batteries.description>
   
   <!-- EN: lithium battery -->
   <BaME_Lithium_Batteries.label>batterie au lithium</BaME_Lithium_Batteries.label>
@@ -36,14 +36,19 @@
   <!-- EN: The best battery you can ever hope to produce. -->
   <BaME_Plasteel_Batteries.description>La meilleure batterie que tu peux espérer produire</BaME_Plasteel_Batteries.description>
 
+  <!-- EN: plated batteries -->
+  <Plated_Batteries.label>batteries plaquées</Plated_Batteries.label>
+  <!-- EN: A way to add sheets made of various materials to batteries to make them plated -->
+  <Plated_Batteries.description>Une manière d'ajouter des plaques faites de divers matériaux sur une batterie en acier</Plated_Batteries.description>
+
   <!-- EN: miniature batteries -->
   <Miniature_Batteries.label>batteries miniatures</Miniature_Batteries.label>
-  <!-- EN: The possibility to make smaller batteries, almost as powerful as regular ones -->
-  <Miniature_Batteries.description>Permet de produire des batteries plus petites, mais presque aussi efficaces que les normales</Miniature_Batteries.description>
+  <!-- EN: The possibility to make smaller batteries, a bit less powerful than regular ones but more space-efficient -->
+  <Miniature_Batteries.description>Permet de produire des batteries plus petites, un peu moins efficaces que les normales mais prennent moins de place.</Miniature_Batteries.description>
 
   <!-- EN: big batteries -->
   <Big_Batteries.label>grandes batteries</Big_Batteries.label>
-  <!-- EN: The possibility to make bigger batteries, the more powerful than regular ones -->
+  <!-- EN: The possibility to make bigger batteries, more powerful than regular ones -->
   <Big_Batteries.description>Permet de produire des batteries plus grandes et plus puissantes que les normales</Big_Batteries.description>
 
   <!-- EN: giant batteries -->

@@ -156,6 +156,7 @@
       <Mass>30</Mass>
       <Flammability>0.1</Flammability>
       <Beauty>10</Beauty>
+      <MarketValue>800</MarketValue>
     </statBases>
     <descriptionHyperlinks>
       <ThingDef>BaME_Lead_Battery</ThingDef>
@@ -204,6 +205,7 @@
       <Mass>30</Mass>
       <Flammability>0.1</Flammability>
       <Beauty>10</Beauty>
+      <MarketValue>1000</MarketValue>
     </statBases>
     <descriptionHyperlinks>
       <ThingDef>BaME_Lead_Battery</ThingDef>
@@ -252,6 +254,7 @@
       <Mass>30</Mass>
       <Flammability>0.1</Flammability>
       <Beauty>20</Beauty>
+      <MarketValue>1200</MarketValue>
     </statBases>
     <descriptionHyperlinks>
       <ThingDef>BaME_Lead_Battery</ThingDef>
@@ -458,6 +461,7 @@
       <Mass>15</Mass>
       <Flammability>0.15</Flammability>
       <Beauty>-10</Beauty>
+      <MarketValue>1200</MarketValue>
     </statBases>
     <descriptionHyperlinks>
       <ThingDef>BaME_Lead_Battery</ThingDef>
@@ -497,7 +501,7 @@
   <ThingDef ParentName="BaME_BatteryBase">
     <defName>BaME_Ancient_Battery</defName>
     <label>ancient battery</label>
-    <description>A battery developed by archotechs. It is sometimes dug up from ruins by travelling merchants. This battery won't short-circuit in rain, not break down.</description>
+    <description>A battery developed by archotechs. It is sometimes dug up from ruins by travelling merchants.\nThis battery won't short-circuit in rain and not break down.\n\nIt is also useful to not that this battery actually store more energy than the amount you provide, thanks to it's ancient vanometric technology</description>
     <graphicData>
       <texPath>Things/Building/Power/Regular_Batteries/BaME_Ancient_Battery</texPath>
     </graphicData>
@@ -510,7 +514,7 @@
       <Mass>20</Mass>
       <Flammability>0.0</Flammability>
       <Beauty>0</Beauty>
-      <MarketValue>3000</MarketValue>
+      <MarketValue>1500</MarketValue>
     </statBases>
         <descriptionHyperlinks>
       <ThingDef>BaME_Lead_Battery</ThingDef>
@@ -527,8 +531,8 @@
     </descriptionHyperlinks>
     <comps>
       <li Class="CompProperties_Battery">
-        <storedEnergyMax>2500</storedEnergyMax>
-        <efficiency>1.0</efficiency>
+        <storedEnergyMax>7500</storedEnergyMax>
+        <efficiency>1.2</efficiency>
         <shortCircuitInRain>false</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>

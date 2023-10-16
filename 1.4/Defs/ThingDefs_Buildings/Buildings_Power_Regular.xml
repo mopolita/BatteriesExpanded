@@ -27,6 +27,7 @@
       <ThingDef>BaME_Uranium_Battery</ThingDef>
       <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Plasteel_Battery</ThingDef>
+      <ThingDef>BaME_Ancient_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
       <BaME_Lead>65</BaME_Lead>
@@ -39,7 +40,8 @@
         <efficiency>0.5</efficiency>
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
-      </li>
+      </li>  
+      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
       <li>BaME_Lead_Batteries</li>
@@ -72,6 +74,7 @@
       <ThingDef>BaME_Uranium_Battery</ThingDef>
       <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Plasteel_Battery</ThingDef>
+      <ThingDef>BaME_Ancient_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
       <BaME_Copper>65</BaME_Copper>
@@ -85,6 +88,7 @@
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
+      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
       <li>BaME_Copper_Batteries</li>
@@ -117,6 +121,7 @@
       <ThingDef>BaME_Uranium_Battery</ThingDef>
       <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Plasteel_Battery</ThingDef>
+      <ThingDef>BaME_Ancient_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>125</Steel>
@@ -129,6 +134,7 @@
         <shortCircuitInRain>false</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
+      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
       <li>Plated_Batteries</li>
@@ -162,6 +168,7 @@
       <ThingDef>BaME_Uranium_Battery</ThingDef>
       <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Plasteel_Battery</ThingDef>
+      <ThingDef>BaME_Ancient_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>90</Steel>
@@ -175,6 +182,7 @@
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
+      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
       <li>Plated_Batteries</li>
@@ -208,6 +216,7 @@
       <ThingDef>BaME_Uranium_Battery</ThingDef>
       <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Plasteel_Battery</ThingDef>
+      <ThingDef>BaME_Ancient_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>90</Steel>
@@ -221,6 +230,7 @@
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
+      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
       <li>Plated_Batteries</li>
@@ -254,6 +264,7 @@
       <ThingDef>BaME_Uranium_Battery</ThingDef>
       <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Plasteel_Battery</ThingDef>
+      <ThingDef>BaME_Ancient_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>90</Steel>
@@ -267,6 +278,7 @@
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
+      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
       <li>Plated_Batteries</li>
@@ -299,6 +311,7 @@
       <ThingDef>BaME_Uranium_Battery</ThingDef>
       <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Plasteel_Battery</ThingDef>
+      <ThingDef>BaME_Ancient_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>15</Steel>
@@ -314,6 +327,7 @@
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
+      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
       <li>BaME_Nickel_Batteries</li>
@@ -346,6 +360,7 @@
       <ThingDef>BaME_Nickel_Battery</ThingDef>
       <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Plasteel_Battery</ThingDef>
+      <ThingDef>BaME_Ancient_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>10</Steel>
@@ -366,6 +381,7 @@
         <heatPerSecond>1.2</heatPerSecond>
         <heatPushMaxTemperature>100</heatPushMaxTemperature>
       </li>
+      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
       <li>BaME_Uranium_Batteries</li>
@@ -398,6 +414,7 @@
       <ThingDef>BaME_Nickel_Battery</ThingDef>
       <ThingDef>BaME_Uranium_Battery</ThingDef>
       <ThingDef>BaME_Plasteel_Battery</ThingDef>
+      <ThingDef>BaME_Ancient_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
       <BaME_Lithium>80</BaME_Lithium>
@@ -420,6 +437,7 @@
         <startWickHitPointsPercent>0.25</startWickHitPointsPercent>
         <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
       </li>
+      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
       <li>BaME_Lithium_Batteries</li>
@@ -452,6 +470,7 @@
       <ThingDef>BaME_Nickel_Battery</ThingDef>
       <ThingDef>BaME_Uranium_Battery</ThingDef>
       <ThingDef>BaME_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Ancient_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>5</Steel>
@@ -468,10 +487,58 @@
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
+      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
       <li>BaME_Plasteel_Batteries</li>
     </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BaME_BatteryBase">
+    <defName>BaME_Ancient_Battery</defName>
+    <label>ancient battery</label>
+    <description>A battery developed by archotechs. It is sometimes dug up from ruins by travelling merchants. This battery won't short-circuit in rain, not break down.</description>
+    <graphicData>
+      <texPath>Things/Building/Power/Regular_Batteries/BaME_Ancient_Battery</texPath>
+    </graphicData>
+    <thingCategories>
+      <li>BuildingsSpecial</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>600</MaxHitPoints>
+      <WorkToBuild>2100</WorkToBuild>
+      <Mass>20</Mass>
+      <Flammability>0.0</Flammability>
+      <Beauty>0</Beauty>
+      <MarketValue>3000</MarketValue>
+    </statBases>
+        <descriptionHyperlinks>
+      <ThingDef>BaME_Lead_Battery</ThingDef>
+      <ThingDef>BaME_Copper_Battery</ThingDef>
+      <ThingDef>Battery</ThingDef>
+      <ThingDef>BaME_Waterproof_Battery</ThingDef>
+      <ThingDef>BaME_Silverplated_Battery</ThingDef>
+      <ThingDef>BaME_Jadeplated_Battery</ThingDef>
+      <ThingDef>BaME_Goldplated_Battery</ThingDef>
+      <ThingDef>BaME_Nickel_Battery</ThingDef>
+      <ThingDef>BaME_Uranium_Battery</ThingDef>
+      <ThingDef>BaME_Lithium_Battery</ThingDef>
+      <ThingDef>BaME_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>2500</storedEnergyMax>
+        <efficiency>1.0</efficiency>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardHighFreq</li>
+    </thingSetMakerTags>
+    <tradeTags>
+      <li>ExoticBuilding</li>
+    </tradeTags>
   </ThingDef>
 
 </Defs>

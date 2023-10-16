@@ -12,6 +12,9 @@
     <building>
       <destroySound>BuildingDestroyed_Metal_Small</destroySound>
     </building>
+    <comps>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
     <researchPrerequisites>
       <li>Miniature_Batteries</li>
     </researchPrerequisites>
@@ -50,9 +53,6 @@
     <building>
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
     </building>
-    <comps>
-      <li Class="CompProperties_Breakdownable"/>
-    </comps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <designationCategory>Power</designationCategory>
     <uiOrder>2020</uiOrder>
@@ -71,6 +71,9 @@
     <building>
       <destroySound>BuildingDestroyed_Metal_Big</destroySound>
     </building>
+    <comps>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
     <researchPrerequisites>
       <li>Big_Batteries</li>
     </researchPrerequisites>
@@ -89,6 +92,9 @@
     <building>
       <destroySound>BuildingDestroyed_Metal_Big</destroySound>
     </building>
+    <comps>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
     <researchPrerequisites>
       <li>Mega_Batteries</li>
     </researchPrerequisites>

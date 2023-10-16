@@ -37,7 +37,7 @@
   <BaME_Nickel_Battery.description>Un type de batterie faite à partir de nickel qui est plus efficace que les alternatives en acier ou en cuivre.</BaME_Nickel_Battery.description>
 
   <!-- EN: Uranium battery -->
-  <BaME_Uranium_Battery.label>Batterie à l'Uranium</BaME_Uranium_Battery.label>
+  <BaME_Uranium_Battery.label>Batterie à l'uranium</BaME_Uranium_Battery.label>
   <!-- EN: A revolutionary battery made from radioactive materials, produces some heat. -->
   <BaME_Uranium_Battery.description>Une batterie avancée, faite de matériaux radioactifs, produit de la chaleur.</BaME_Uranium_Battery.description>
 
@@ -50,5 +50,11 @@
   <BaME_Plasteel_Battery.label>Batterie en plastacier</BaME_Plasteel_Battery.label>
   <!-- EN: A even more revolutionary battery made from advanced materials, cans store large amounts of power and is very efficient. -->
   <BaME_Plasteel_Battery.description>Une batterie révolutionnaire faite à partir de matériaux avancés. Permet de stocker de grandes quantités d'énergie de manière efficace.</BaME_Plasteel_Battery.description>
+
+  <!-- EN: ancient battery -->
+  <BaME_Ancient_Battery.label>Batterie ancienne</BaME_Ancient_Battery.label>
+  <!-- EN: A battery developed by archotechs. It is sometimes dug up from ruins by travelling merchants. This battery won't short-circuit in rain, not break down. -->
+  <BaME_Ancient_Battery.description>Une batteries venant des Archotechs. Parfois déterrées des ruines par des marchants itinérants, elles ne court-circuitent pas et sont extremement solides.</BaME_Ancient_Battery.description>
+
 
 </LanguageData>

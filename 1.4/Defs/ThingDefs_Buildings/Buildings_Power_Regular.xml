@@ -498,11 +498,12 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="BuildingBase">
+  <!-- Ancient Battery-->
+    <ThingDef ParentName="BuildingBase">
     <defName>BaME_Ancient_Battery</defName>
     <label>ancient battery</label>
     <description>A battery developed by archotechs. It is sometimes dug up from ruins by travelling merchants.\nThis battery won't short-circuit in rain and not break down.\n\nIt is also useful to not that this battery actually store more energy than the amount you provide, thanks to it's ancient vanometric technology</description>
-    
+    <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
     <graphicData>
       <texPath>Things/Building/Power/Regular_Batteries/BaME_Ancient_Battery</texPath>
@@ -515,10 +516,6 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
-    <thingCategories>
-      <li>BuildingsSpecial</li>
-    </thingCategories>
-    <statBases>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
@@ -527,6 +524,10 @@
     <fillPercent>0.40</fillPercent>
     <tickerType>Normal</tickerType>
     <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsSpecial</li>
+    </thingCategories>
+    <statBases>
       <MaxHitPoints>600</MaxHitPoints>
       <WorkToBuild>2100</WorkToBuild>
       <Mass>20</Mass>
@@ -534,7 +535,7 @@
       <Beauty>0</Beauty>
       <MarketValue>1500</MarketValue>
     </statBases>
-        <descriptionHyperlinks>
+    <descriptionHyperlinks>
       <ThingDef>BaME_Lead_Battery</ThingDef>
       <ThingDef>BaME_Copper_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
@@ -547,6 +548,10 @@
       <ThingDef>BaME_Lithium_Battery</ThingDef>
       <ThingDef>BaME_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
+    <size>(1,2)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
     <comps>
       <li Class="CompProperties_Battery">
         <storedEnergyMax>7500</storedEnergyMax>
@@ -554,24 +559,18 @@
         <shortCircuitInRain>false</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
+      <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <size>(1,2)</size>
-    <building>
-      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
-    </building>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
-    <uiOrder>2020</uiOrder>
-    <staticSunShadowHeight>0.2</staticSunShadowHeight>
-    <constructEffect>ConstructMetal</constructEffect>
-    <canOverlapZones>false</canOverlapZones>
     <thingSetMakerTags>
       <li>RewardStandardHighFreq</li>
     </thingSetMakerTags>
     <tradeTags>
       <li>ExoticBuilding</li>
     </tradeTags>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <staticSunShadowHeight>0.2</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+    <canOverlapZones>false</canOverlapZones>
   </ThingDef>
 
 </Defs>

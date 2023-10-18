@@ -498,17 +498,35 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="BaME_BatteryBase">
+  <ThingDef ParentName="BuildingBase">
     <defName>BaME_Ancient_Battery</defName>
     <label>ancient battery</label>
     <description>A battery developed by archotechs. It is sometimes dug up from ruins by travelling merchants.\nThis battery won't short-circuit in rain and not break down.\n\nIt is also useful to not that this battery actually store more energy than the amount you provide, thanks to it's ancient vanometric technology</description>
+    
+    <thingClass>Building_Battery</thingClass>
     <graphicData>
       <texPath>Things/Building/Power/Regular_Batteries/BaME_Ancient_Battery</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,3)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
     </graphicData>
     <thingCategories>
       <li>BuildingsSpecial</li>
     </thingCategories>
     <statBases>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.40</fillPercent>
+    <tickerType>Normal</tickerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
       <MaxHitPoints>600</MaxHitPoints>
       <WorkToBuild>2100</WorkToBuild>
       <Mass>20</Mass>
@@ -537,6 +555,17 @@
         <transmitsPower>true</transmitsPower>
       </li>
     </comps>
+    <size>(1,2)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <uiOrder>2020</uiOrder>
+    <staticSunShadowHeight>0.2</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+    <canOverlapZones>false</canOverlapZones>
     <thingSetMakerTags>
       <li>RewardStandardHighFreq</li>
     </thingSetMakerTags>

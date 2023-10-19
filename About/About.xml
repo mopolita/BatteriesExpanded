@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
-    <name>Batteries and Materials Expanded</name>
-    <author>Mopolita</author>
-    <url>https://github.com/mopolita/BatteriesandMaterialsExpanded</url>
-    <packageId>mopolita.bame</packageId>
-    <supportedVersions>
-        <li>1.4</li>
-    </supportedVersions>
-    <description>Ever wanted more batteries ? This is the mod for you.\n\nAdds 4 new materials and 10 types of batteries, some coming in 4 differents sizes</description>
-    <incompatibleWith>
-        <li>syrchalis.metallicbatteries</li>
-    </incompatibleWith>
+  <name>Batteries Expanded</name>
+  <author>Mopolita</author>
+  <url>https://github.com/mopolita/BatteriesandMaterialsExpanded</url>
+  <packageId>mopolita.batteriesexpanded</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <description>Ever wanted more batteries ? This is the mod for you.\n\nAdds 10 new types of batteries, coming in 4 differents sizes</description>
+  <modDependencies>
+    <li>
+      <packageId>mopolita.morematerials</packageId>
+      <displayName>More Materials</displayName>
+      <steamWorkshopUrl></steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>mopolita.morematerials</li>
+  </loadAfter>
 </ModMetaData>

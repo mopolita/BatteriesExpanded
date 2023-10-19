@@ -1,5 +1,17 @@
 # Batteries and Materials Expanded
-A mod for Rimworld that adds: 
-- new materials, lead, lithium and much more
-- some are usable to make all usual metal objects (such as walls, armors, etc.)
-- new batteries, made from these new materials.
+A mod for Rimworld that adds a total of 39 batteries:
+ - 4 sizes:
+   - Small
+   - Regular
+   - Big
+   - Giant
+ - 9 types of batteries:
+    - Lead
+    - Copper
+    - Nickel
+    - Plated (include waterproof and precious ones)
+    - Nickel
+    - Uranium
+    - Lithium
+    - Plasteel
+    - Ancient

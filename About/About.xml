@@ -13,7 +13,7 @@
     <li>
       <packageId>mopolita.morematerials</packageId>
       <displayName>More Materials</displayName>
-      <steamWorkshopUrl></steamWorkshopUrl>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3055040889</steamWorkshopUrl>
     </li>
   </modDependencies>
   <loadAfter>

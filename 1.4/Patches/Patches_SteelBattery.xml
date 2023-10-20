@@ -17,13 +17,6 @@
   </Operation>
 
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "Battery"]</xpath>
-    <value>
-      <designatorDropdown>Regular_Batteries</designatorDropdown>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
     <xpath>*/ThingDef[defName="Battery"]</xpath>
     <value>
         <descriptionHyperlinks>
@@ -72,6 +65,26 @@
         <ComponentIndustrial>3</ComponentIndustrial>
       </costList>
     </value>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>*/ThingDef[defName = "Battery"]/designatorDropdown</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>*/ThingDef[defName = "Battery"]</xpath>
+      <value>
+        <designatorDropdown>Regular_Batteries</designatorDropdown>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>*/ThingDef[defName = "Battery"]/designatorDropdown</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>*/ThingDef[defName = "Battery"]/designatorDropdown</xpath>
+      <value>
+        <designatorDropdown>Regular_Batteries</designatorDropdown>
+      </value>
+    </match>
   </Operation>
 
 <!-- Research project patches -->

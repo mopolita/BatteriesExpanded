@@ -17,6 +17,10 @@
     </li>
   </modDependencies>
   <loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>Ludeon.RimWorld.Biotech</li>
     <li>mopolita.bame.morematerials</li>
     <li>syrchalis.metallicbatteries</li>
   </loadAfter>

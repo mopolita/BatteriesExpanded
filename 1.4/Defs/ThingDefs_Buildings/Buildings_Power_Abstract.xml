@@ -3,7 +3,7 @@
 
   <!-- Small Model Battery -->
   <ThingDef ParentName="BaME_BatteryBase" Name="BaME_BatterySmall" Abstract="True">
-    <thingClass>Battery.Building_CustomBattery</thingClass>
+    <thingClass>Batteries.Building_CustomBattery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
     <modExtensions>
       <li Class="Batteries.ModExtension_BatterySize">
@@ -89,7 +89,7 @@
 
   <!-- Mega Model Battery -->
   <ThingDef ParentName="BaME_BatteryBase" Name="BaME_BatteryMega" Abstract="True">
-    <thingClass>Battery.Building_CustomBattery</thingClass>
+    <thingClass>Batteries.Building_CustomBattery</thingClass>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <modExtensions>
       <li Class="Batteries.ModExtension_BatterySize">

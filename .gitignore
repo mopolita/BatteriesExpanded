@@ -1,7 +1,7 @@
-# Ignore Visual Studio temporary files, build results.
+# Ignore Visual Studio temporary files and build results.
+.vs/
 
 # User-specific files
-*.suo
 *.user
 *.userosscache
 *.sln.docstates
@@ -21,6 +21,5 @@ Desktop.ini
 bin/
 obj/
 
-# Misc stuff to remove
-*.vsidx
+# build results to remove
 *.dll

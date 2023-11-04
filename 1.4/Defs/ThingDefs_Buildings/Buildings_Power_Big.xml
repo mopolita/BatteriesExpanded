@@ -2,12 +2,12 @@
 <Defs>
 
   <!-- Big Lead Battery -->
-  <ThingDef ParentName="BaME_BatteryBig">
-    <defName>BaME_Big_Lead_Battery</defName>
+  <ThingDef ParentName="BE_BatteryBig">
+    <defName>BE_Big_Lead_Battery</defName>
     <label>big lead battery</label>
     <description>A bigger version of the lead battery. Stores large amounts of electricity for later.</description>
     <graphicData>
-      <texPath>Things/Building/Power/Big_Batteries/BaME_Big_Lead_Battery</texPath>
+      <texPath>Things/Building/Power/Big_Batteries/BE_Big_Lead_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>300</MaxHitPoints>
@@ -17,16 +17,16 @@
       <Beauty>-15</Beauty>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Big_Copper_Battery</ThingDef>
-      <ThingDef>BaME_Big_Steel_Battery</ThingDef>
-      <ThingDef>BaME_Big_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Big_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Big_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Big_Lithium_Battery</ThingDef>
-      <ThingDef>BaME_Big_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Big_Copper_Battery</ThingDef>
+      <ThingDef>BE_Big_Steel_Battery</ThingDef>
+      <ThingDef>BE_Big_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Big_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Big_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Big_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Big_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
-      <BaME_Lead>130</BaME_Lead>
+      <ME_Lead>130</ME_Lead>
       <Steel>40</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
@@ -39,17 +39,17 @@
       </li>
     </comps>
     <researchPrerequisites>
-      <li>BaME_Lead_Batteries</li>
+      <li>BE_Lead_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
   <!-- Big copper Battery -->
-  <ThingDef ParentName="BaME_BatteryBig">
-    <defName>BaME_Big_Copper_Battery</defName>
+  <ThingDef ParentName="BE_BatteryBig">
+    <defName>BE_Big_Copper_Battery</defName>
     <label>big copper battery</label>
     <description>A bigger version of the copper battery. Stores large amounts of electricity for later.</description>
     <graphicData>
-      <texPath>Things/Building/Power/Big_Batteries/BaME_Big_Copper_Battery</texPath>
+      <texPath>Things/Building/Power/Big_Batteries/BE_Big_Copper_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>450</MaxHitPoints>
@@ -59,16 +59,16 @@
       <Beauty>-10</Beauty>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Big_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Big_Steel_Battery</ThingDef>
-      <ThingDef>BaME_Big_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Big_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Big_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Big_Lithium_Battery</ThingDef>
-      <ThingDef>BaME_Big_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Big_Lead_Battery</ThingDef>
+      <ThingDef>BE_Big_Steel_Battery</ThingDef>
+      <ThingDef>BE_Big_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Big_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Big_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Big_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Big_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
-      <BaME_Copper>130</BaME_Copper>
+      <ME_Copper>130</ME_Copper>
       <Steel>30</Steel>
       <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
@@ -81,17 +81,17 @@
       </li>
     </comps>
     <researchPrerequisites>
-      <li>BaME_Copper_Batteries</li>
+      <li>BE_Copper_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
   <!-- Big Steel Battery -->
-  <ThingDef ParentName="BaME_BatteryBig">
-    <defName>BaME_Big_Steel_Battery</defName>
+  <ThingDef ParentName="BE_BatteryBig">
+    <defName>BE_Big_Steel_Battery</defName>
     <label>big steel battery</label>
     <description>A bigger version of the steel battery. Stores large amounts of electricity for later.</description>
     <graphicData>
-      <texPath>Things/Building/Power/Big_Batteries/BaME_Big_Steel_Battery</texPath>
+      <texPath>Things/Building/Power/Big_Batteries/BE_Big_Steel_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>600</MaxHitPoints>
@@ -101,13 +101,13 @@
       <Beauty>-15</Beauty>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Big_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Big_Copper_Battery</ThingDef>
-      <ThingDef>BaME_Big_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Big_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Big_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Big_Lithium_Battery</ThingDef>
-      <ThingDef>BaME_Big_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Big_Lead_Battery</ThingDef>
+      <ThingDef>BE_Big_Copper_Battery</ThingDef>
+      <ThingDef>BE_Big_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Big_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Big_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Big_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Big_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>   
     <costList>
       <Steel>180</Steel>
@@ -127,12 +127,12 @@
   </ThingDef>
 
   <!-- Big Waterproof Battery -->
-  <ThingDef ParentName="BaME_BatteryBig">
-    <defName>BaME_Big_Waterproof_Battery</defName>
+  <ThingDef ParentName="BE_BatteryBig">
+    <defName>BE_Big_Waterproof_Battery</defName>
     <label>big waterproof battery</label>
     <description>A bigger version of the waterproof battery. Stores large amounts of electricity for later.</description>
     <graphicData>
-      <texPath>Things/Building/Power/Big_Batteries/BaME_Big_Waterproof_Battery</texPath>
+      <texPath>Things/Building/Power/Big_Batteries/BE_Big_Waterproof_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>780</MaxHitPoints>
@@ -142,13 +142,13 @@
       <Beauty>-20</Beauty>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Big_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Big_Copper_Battery</ThingDef>
-      <ThingDef>BaME_Big_Steel_Battery</ThingDef>
-      <ThingDef>BaME_Big_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Big_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Big_Lithium_Battery</ThingDef>
-      <ThingDef>BaME_Big_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Big_Lead_Battery</ThingDef>
+      <ThingDef>BE_Big_Copper_Battery</ThingDef>
+      <ThingDef>BE_Big_Steel_Battery</ThingDef>
+      <ThingDef>BE_Big_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Big_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Big_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Big_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>250</Steel>
@@ -168,12 +168,12 @@
   </ThingDef>
 
   <!-- Big Nickel Battery -->
-  <ThingDef ParentName="BaME_BatteryBig">
-    <defName>BaME_Big_Nickel_Battery</defName>
+  <ThingDef ParentName="BE_BatteryBig">
+    <defName>BE_Big_Nickel_Battery</defName>
     <label>big nickel battery</label>
     <description>A bigger version of the nickel battery. Stores large amounts of electricity for later.</description>
     <graphicData>
-      <texPath>Things/Building/Power/Big_Batteries/BaME_Big_Nickel_Battery</texPath>
+      <texPath>Things/Building/Power/Big_Batteries/BE_Big_Nickel_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>750</MaxHitPoints>
@@ -183,19 +183,19 @@
       <Beauty>-10</Beauty>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Big_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Big_Copper_Battery</ThingDef>
-      <ThingDef>BaME_Big_Steel_Battery</ThingDef>
-      <ThingDef>BaME_Big_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Big_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Big_Lithium_Battery</ThingDef>
-      <ThingDef>BaME_Big_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Big_Lead_Battery</ThingDef>
+      <ThingDef>BE_Big_Copper_Battery</ThingDef>
+      <ThingDef>BE_Big_Steel_Battery</ThingDef>
+      <ThingDef>BE_Big_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Big_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Big_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Big_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>30</Steel>
       <Uranium>20</Uranium>
-      <BaME_Lead>10</BaME_Lead>
-      <BaME_Nickel>110</BaME_Nickel>
+      <ME_Lead>10</ME_Lead>
+      <ME_Nickel>110</ME_Nickel>
       <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <comps>
@@ -207,17 +207,17 @@
       </li>
     </comps>
     <researchPrerequisites>
-      <li>BaME_Nickel_Batteries</li>
+      <li>BE_Nickel_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
   <!-- Big Uranium Battery -->
-  <ThingDef ParentName="BaME_BatteryBig">
-    <defName>BaME_Big_Uranium_Battery</defName>
+  <ThingDef ParentName="BE_BatteryBig">
+    <defName>BE_Big_Uranium_Battery</defName>
     <label>big uranium battery</label>
     <description>A bigger version of the uranium battery. Stores large amounts of electricity for later.</description>
     <graphicData>
-      <texPath>Things/Building/Power/Big_Batteries/BaME_Big_Uranium_Battery</texPath>
+      <texPath>Things/Building/Power/Big_Batteries/BE_Big_Uranium_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>450</MaxHitPoints>
@@ -227,19 +227,19 @@
       <Beauty>-15</Beauty>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Big_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Big_Copper_Battery</ThingDef>
-      <ThingDef>BaME_Big_Steel_Battery</ThingDef>
-      <ThingDef>BaME_Big_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Big_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Big_Lithium_Battery</ThingDef>
-      <ThingDef>BaME_Big_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Big_Lead_Battery</ThingDef>
+      <ThingDef>BE_Big_Copper_Battery</ThingDef>
+      <ThingDef>BE_Big_Steel_Battery</ThingDef>
+      <ThingDef>BE_Big_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Big_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Big_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Big_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>20</Steel>
       <Uranium>120</Uranium>
-      <BaME_Lead>90</BaME_Lead>
-      <BaME_Lithium>10</BaME_Lithium>
+      <ME_Lead>90</ME_Lead>
+      <ME_Lithium>10</ME_Lithium>
       <ComponentIndustrial>9</ComponentIndustrial>
     </costList>
     <comps>
@@ -256,17 +256,17 @@
       </li>
     </comps>
     <researchPrerequisites>
-      <li>BaME_Uranium_Batteries</li>
+      <li>BE_Uranium_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
   <!-- Big Lithium Battery -->
-  <ThingDef ParentName="BaME_BatteryBig">
-    <defName>BaME_Big_Lithium_Battery</defName>
+  <ThingDef ParentName="BE_BatteryBig">
+    <defName>BE_Big_Lithium_Battery</defName>
     <label>big lithium battery</label>
     <description>A bigger version of the lithium battery. Stores large amounts of electricity for later.</description>
     <graphicData>
-      <texPath>Things/Building/Power/Big_Batteries/BaME_Big_Lithium_Battery</texPath>
+      <texPath>Things/Building/Power/Big_Batteries/BE_Big_Lithium_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>225</MaxHitPoints>
@@ -276,17 +276,17 @@
       <Beauty>-15</Beauty>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Big_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Big_Copper_Battery</ThingDef>
-      <ThingDef>BaME_Big_Steel_Battery</ThingDef>
-      <ThingDef>BaME_Big_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Big_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Big_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Big_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Big_Lead_Battery</ThingDef>
+      <ThingDef>BE_Big_Copper_Battery</ThingDef>
+      <ThingDef>BE_Big_Steel_Battery</ThingDef>
+      <ThingDef>BE_Big_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Big_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Big_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Big_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>30</Steel>
-      <BaME_Lithium>160</BaME_Lithium>
+      <ME_Lithium>160</ME_Lithium>
       <ComponentIndustrial>10</ComponentIndustrial>
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
@@ -307,17 +307,17 @@
       </li>
     </comps>
     <researchPrerequisites>
-      <li>BaME_Lithium_Batteries</li>
+      <li>BE_Lithium_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
   <!-- Big Plasteel Battery -->
-  <ThingDef ParentName="BaME_BatteryBig">
-    <defName>BaME_Big_Plasteel_Battery</defName>
+  <ThingDef ParentName="BE_BatteryBig">
+    <defName>BE_Big_Plasteel_Battery</defName>
     <label>big plasteel battery</label>
     <description>A bigger version of the plasteel battery. Stores large amounts of electricity for later.</description>
     <graphicData>
-      <texPath>Things/Building/Power/Big_Batteries/BaME_Big_Plasteel_Battery</texPath>
+      <texPath>Things/Building/Power/Big_Batteries/BE_Big_Plasteel_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>1200</MaxHitPoints>
@@ -327,19 +327,19 @@
       <Beauty>-10</Beauty>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Big_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Big_Copper_Battery</ThingDef>
-      <ThingDef>BaME_Big_Steel_Battery</ThingDef>
-      <ThingDef>BaME_Big_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Big_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Big_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Big_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Big_Lead_Battery</ThingDef>
+      <ThingDef>BE_Big_Copper_Battery</ThingDef>
+      <ThingDef>BE_Big_Steel_Battery</ThingDef>
+      <ThingDef>BE_Big_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Big_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Big_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Big_Lithium_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>10</Steel>
       <Uranium>10</Uranium>
       <Plasteel>150</Plasteel>
-      <BaME_Lithium>40</BaME_Lithium>
+      <ME_Lithium>40</ME_Lithium>
       <ComponentIndustrial>8</ComponentIndustrial>
       <ComponentSpacer>4</ComponentSpacer>
     </costList>
@@ -353,7 +353,7 @@
     </comps>
     <uiOrder>2021</uiOrder>
     <researchPrerequisites>
-      <li>BaME_Plasteel_Batteries</li>
+      <li>BE_Plasteel_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 

@@ -21,7 +21,7 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>BaME_Lead_Batteries</defName>
+    <defName>BE_Lead_Batteries</defName>
     <label>lead battery</label>
     <description>One of the first refillable batteries ever made. They are made from lead</description>
     <baseCost>500</baseCost>
@@ -35,13 +35,13 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>BaME_Copper_Batteries</defName>
+    <defName>BE_Copper_Batteries</defName>
     <label>copper battery</label>
     <description>Honestly, copper batteries just work.</description>
     <baseCost>600</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
-      <li>BaME_Lead_Batteries</li>
+      <li>BE_Lead_Batteries</li>
     </prerequisites>
     <researchViewX>1.00</researchViewX>
     <researchViewY>2.30</researchViewY>
@@ -49,7 +49,7 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>BaME_Nickel_Batteries</defName>
+    <defName>BE_Nickel_Batteries</defName>
     <label>nickel battery</label>
     <description>A battery made using nickel, making it better than steel alternatives.</description>
     <baseCost>850</baseCost>
@@ -124,13 +124,13 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>BaME_Uranium_Batteries</defName>
+    <defName>BE_Uranium_Batteries</defName>
     <label>uranium battery</label>
     <description>Batteries made using potentially dangerous and radioactive materials? Yes please!</description>
     <baseCost>900</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
-      <li>BaME_Nickel_Batteries</li>
+      <li>BE_Nickel_Batteries</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <researchViewX>4.00</researchViewX>
@@ -139,13 +139,13 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>BaME_Lithium_Batteries</defName>
+    <defName>BE_Lithium_Batteries</defName>
     <label>lithium battery</label>
     <description>Back in the twenty-first century, these batteries where the best in the market, thez are still very useful.</description>
     <baseCost>1400</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
-      <li>BaME_Uranium_Batteries</li>
+      <li>BE_Uranium_Batteries</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <researchViewX>5.00</researchViewX>
@@ -154,13 +154,13 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>BaME_Plasteel_Batteries</defName>
+    <defName>BE_Plasteel_Batteries</defName>
     <label>plasteel battery</label>
     <description>The best battery you can ever hope to produce.</description>
     <baseCost>2000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
-      <li>BaME_Lithium_Batteries</li>
+      <li>BE_Lithium_Batteries</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <researchViewX>6.00</researchViewX>

@@ -2,12 +2,12 @@
 <Defs>
 
   <!-- Regular Lead Battery -->
-  <ThingDef ParentName="BaME_BatteryBase">
-    <defName>BaME_Lead_Battery</defName>
+  <ThingDef ParentName="BE_BatteryBase">
+    <defName>BE_Lead_Battery</defName>
     <label>lead battery</label>
     <description>Stores electricity for later use. Can store only a small amount of power and is not very efficient, but is very sturdy.</description>
     <graphicData>
-      <texPath>Things/Building/Power/Regular_Batteries/BaME_Lead_Battery</texPath>
+      <texPath>Things/Building/Power/Regular_Batteries/BE_Lead_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
@@ -17,20 +17,20 @@
       <Beauty>-15</Beauty>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Copper_Battery</ThingDef>
+      <ThingDef>BE_Copper_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
-      <ThingDef>BaME_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Silverplated_Battery</ThingDef>
-      <ThingDef>BaME_Jadeplated_Battery</ThingDef>
-      <ThingDef>BaME_Goldplated_Battery</ThingDef>
-      <ThingDef>BaME_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Lithium_Battery</ThingDef>
-      <ThingDef>BaME_Plasteel_Battery</ThingDef>
-      <ThingDef>BaME_Ancient_Battery</ThingDef>
+      <ThingDef>BE_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Silverplated_Battery</ThingDef>
+      <ThingDef>BE_Jadeplated_Battery</ThingDef>
+      <ThingDef>BE_Goldplated_Battery</ThingDef>
+      <ThingDef>BE_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Ancient_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
-      <BaME_Lead>65</BaME_Lead>
+      <ME_Lead>65</ME_Lead>
       <Steel>20</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
@@ -44,17 +44,17 @@
       <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
-      <li>BaME_Lead_Batteries</li>
+      <li>BE_Lead_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
   <!-- Regular Copper Battery -->
-  <ThingDef ParentName="BaME_BatteryBase">
-    <defName>BaME_Copper_Battery</defName>
+  <ThingDef ParentName="BE_BatteryBase">
+    <defName>BE_Copper_Battery</defName>
     <label>copper battery</label>
     <description>Stores electricity for later use. Can store a medium amount of power and is not very efficient, but is sturdy.</description>
     <graphicData>
-      <texPath>Things/Building/Power/Regular_Batteries/BaME_Copper_Battery</texPath>
+      <texPath>Things/Building/Power/Regular_Batteries/BE_Copper_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
@@ -64,20 +64,20 @@
       <Beauty>-10</Beauty>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Lead_Battery</ThingDef>
+      <ThingDef>BE_Lead_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
-      <ThingDef>BaME_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Silverplated_Battery</ThingDef>
-      <ThingDef>BaME_Jadeplated_Battery</ThingDef>
-      <ThingDef>BaME_Goldplated_Battery</ThingDef>
-      <ThingDef>BaME_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Lithium_Battery</ThingDef>
-      <ThingDef>BaME_Plasteel_Battery</ThingDef>
-      <ThingDef>BaME_Ancient_Battery</ThingDef>
+      <ThingDef>BE_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Silverplated_Battery</ThingDef>
+      <ThingDef>BE_Jadeplated_Battery</ThingDef>
+      <ThingDef>BE_Goldplated_Battery</ThingDef>
+      <ThingDef>BE_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Ancient_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
-      <BaME_Copper>65</BaME_Copper>
+      <ME_Copper>65</ME_Copper>
       <Steel>15</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
@@ -91,17 +91,17 @@
       <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
-      <li>BaME_Copper_Batteries</li>
+      <li>BE_Copper_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
   <!-- Regular Waterproof Battery -->
-  <ThingDef ParentName="BaME_BatteryBase">
-    <defName>BaME_Waterproof_Battery</defName>
+  <ThingDef ParentName="BE_BatteryBase">
+    <defName>BE_Waterproof_Battery</defName>
     <label>waterproof battery</label>
     <description>Pretty much like a steel battery, but doesn't catch fire or explode when under the rain.</description>
     <graphicData>
-      <texPath>Things/Building/Power/Regular_Batteries/BaME_Waterproof_Battery</texPath>
+      <texPath>Things/Building/Power/Regular_Batteries/BE_Waterproof_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>260</MaxHitPoints>
@@ -111,17 +111,17 @@
       <Beauty>-20</Beauty>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Copper_Battery</ThingDef>
+      <ThingDef>BE_Lead_Battery</ThingDef>
+      <ThingDef>BE_Copper_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
-      <ThingDef>BaME_Silverplated_Battery</ThingDef>
-      <ThingDef>BaME_Jadeplated_Battery</ThingDef>
-      <ThingDef>BaME_Goldplated_Battery</ThingDef>
-      <ThingDef>BaME_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Lithium_Battery</ThingDef>
-      <ThingDef>BaME_Plasteel_Battery</ThingDef>
-      <ThingDef>BaME_Ancient_Battery</ThingDef>
+      <ThingDef>BE_Silverplated_Battery</ThingDef>
+      <ThingDef>BE_Jadeplated_Battery</ThingDef>
+      <ThingDef>BE_Goldplated_Battery</ThingDef>
+      <ThingDef>BE_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Ancient_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>125</Steel>
@@ -142,13 +142,13 @@
   </ThingDef>
 
   <!-- Silver Plated Battery -->
-  <ThingDef ParentName="BaME_BatteryBase">
-    <defName>BaME_Silverplated_Battery</defName>
+  <ThingDef ParentName="BE_BatteryBase">
+    <defName>BE_Silverplated_Battery</defName>
     <label>Silver Plated battery</label>
     <description>A steel battery plated with silver to make it fancier.</description>
     <designatorDropdown>Plated_Batteries</designatorDropdown>
     <graphicData>
-      <texPath>Things/Building/Power/Regular_Batteries/BaME_Silverplated_Battery</texPath>
+      <texPath>Things/Building/Power/Regular_Batteries/BE_Silverplated_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>260</MaxHitPoints>
@@ -159,17 +159,17 @@
       <MarketValue>800</MarketValue>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Copper_Battery</ThingDef>
+      <ThingDef>BE_Lead_Battery</ThingDef>
+      <ThingDef>BE_Copper_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
-      <ThingDef>BaME_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Jadeplated_Battery</ThingDef>
-      <ThingDef>BaME_Goldplated_Battery</ThingDef>
-      <ThingDef>BaME_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Lithium_Battery</ThingDef>
-      <ThingDef>BaME_Plasteel_Battery</ThingDef>
-      <ThingDef>BaME_Ancient_Battery</ThingDef>
+      <ThingDef>BE_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Jadeplated_Battery</ThingDef>
+      <ThingDef>BE_Goldplated_Battery</ThingDef>
+      <ThingDef>BE_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Ancient_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>90</Steel>
@@ -191,13 +191,13 @@
   </ThingDef>
 
   <!-- Jade Plated Battery -->
-  <ThingDef ParentName="BaME_BatteryBase">
-    <defName>BaME_Jadeplated_Battery</defName>
+  <ThingDef ParentName="BE_BatteryBase">
+    <defName>BE_Jadeplated_Battery</defName>
     <label>Jade Plated battery</label>
     <description>A steel battery plated with jade to make it fancier.</description>
     <designatorDropdown>Plated_Batteries</designatorDropdown>
     <graphicData>
-      <texPath>Things/Building/Power/Regular_Batteries/BaME_Jadeplated_Battery</texPath>
+      <texPath>Things/Building/Power/Regular_Batteries/BE_Jadeplated_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>260</MaxHitPoints>
@@ -208,17 +208,17 @@
       <MarketValue>1000</MarketValue>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Copper_Battery</ThingDef>
+      <ThingDef>BE_Lead_Battery</ThingDef>
+      <ThingDef>BE_Copper_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
-      <ThingDef>BaME_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Silverplated_Battery</ThingDef>
-      <ThingDef>BaME_Goldplated_Battery</ThingDef>
-      <ThingDef>BaME_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Lithium_Battery</ThingDef>
-      <ThingDef>BaME_Plasteel_Battery</ThingDef>
-      <ThingDef>BaME_Ancient_Battery</ThingDef>
+      <ThingDef>BE_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Silverplated_Battery</ThingDef>
+      <ThingDef>BE_Goldplated_Battery</ThingDef>
+      <ThingDef>BE_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Ancient_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>90</Steel>
@@ -240,13 +240,13 @@
   </ThingDef>
 
   <!-- Gold Plated Battery -->
-  <ThingDef ParentName="BaME_BatteryBase">
-    <defName>BaME_Goldplated_Battery</defName>
+  <ThingDef ParentName="BE_BatteryBase">
+    <defName>BE_Goldplated_Battery</defName>
     <label>Gold Plated battery</label>
     <description>A steel battery plated with gold to make it fancier.</description>
     <designatorDropdown>Plated_Batteries</designatorDropdown>
     <graphicData>
-      <texPath>Things/Building/Power/Regular_Batteries/BaME_Goldplated_Battery</texPath>
+      <texPath>Things/Building/Power/Regular_Batteries/BE_Goldplated_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>260</MaxHitPoints>
@@ -257,17 +257,17 @@
       <MarketValue>1200</MarketValue>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Copper_Battery</ThingDef>
+      <ThingDef>BE_Lead_Battery</ThingDef>
+      <ThingDef>BE_Copper_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
-      <ThingDef>BaME_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Silverplated_Battery</ThingDef>
-      <ThingDef>BaME_Jadeplated_Battery</ThingDef>
-      <ThingDef>BaME_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Lithium_Battery</ThingDef>
-      <ThingDef>BaME_Plasteel_Battery</ThingDef>
-      <ThingDef>BaME_Ancient_Battery</ThingDef>
+      <ThingDef>BE_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Silverplated_Battery</ThingDef>
+      <ThingDef>BE_Jadeplated_Battery</ThingDef>
+      <ThingDef>BE_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Ancient_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>90</Steel>
@@ -289,12 +289,12 @@
   </ThingDef>
 
   <!-- Regular Nickel Battery -->
-  <ThingDef ParentName="BaME_BatteryBase">
-    <defName>BaME_Nickel_Battery</defName>
+  <ThingDef ParentName="BE_BatteryBase">
+    <defName>BE_Nickel_Battery</defName>
     <label>nickel battery</label>
     <description>A battery made using nickel, making it better than steel alternatives</description>
     <graphicData>
-      <texPath>Things/Building/Power/Regular_Batteries/BaME_Nickel_Battery</texPath>
+      <texPath>Things/Building/Power/Regular_Batteries/BE_Nickel_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>250</MaxHitPoints>
@@ -304,23 +304,23 @@
       <Beauty>-10</Beauty>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Copper_Battery</ThingDef>
+      <ThingDef>BE_Lead_Battery</ThingDef>
+      <ThingDef>BE_Copper_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
-      <ThingDef>BaME_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Silverplated_Battery</ThingDef>
-      <ThingDef>BaME_Jadeplated_Battery</ThingDef>
-      <ThingDef>BaME_Goldplated_Battery</ThingDef>
-      <ThingDef>BaME_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Lithium_Battery</ThingDef>
-      <ThingDef>BaME_Plasteel_Battery</ThingDef>
-      <ThingDef>BaME_Ancient_Battery</ThingDef>
+      <ThingDef>BE_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Silverplated_Battery</ThingDef>
+      <ThingDef>BE_Jadeplated_Battery</ThingDef>
+      <ThingDef>BE_Goldplated_Battery</ThingDef>
+      <ThingDef>BE_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Ancient_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>15</Steel>
       <Uranium>10</Uranium>
-      <BaME_Lead>5</BaME_Lead>
-      <BaME_Nickel>60</BaME_Nickel>
+      <ME_Lead>5</ME_Lead>
+      <ME_Nickel>60</ME_Nickel>
       <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <comps>
@@ -333,17 +333,17 @@
       <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
-      <li>BaME_Nickel_Batteries</li>
+      <li>BE_Nickel_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
   <!-- Regular Uranium Battery -->
-  <ThingDef ParentName="BaME_BatteryBase">
-    <defName>BaME_Uranium_Battery</defName>
+  <ThingDef ParentName="BE_BatteryBase">
+    <defName>BE_Uranium_Battery</defName>
     <label>uranium battery</label>
     <description>A revolutionary battery made from radioactive materials, produces some heat.</description>
     <graphicData>
-      <texPath>Things/Building/Power/Regular_Batteries/BaME_Uranium_Battery</texPath>
+      <texPath>Things/Building/Power/Regular_Batteries/BE_Uranium_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
@@ -353,23 +353,23 @@
       <Beauty>-15</Beauty>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Copper_Battery</ThingDef>
+      <ThingDef>BE_Lead_Battery</ThingDef>
+      <ThingDef>BE_Copper_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
-      <ThingDef>BaME_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Silverplated_Battery</ThingDef>
-      <ThingDef>BaME_Jadeplated_Battery</ThingDef>
-      <ThingDef>BaME_Goldplated_Battery</ThingDef>
-      <ThingDef>BaME_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Lithium_Battery</ThingDef>
-      <ThingDef>BaME_Plasteel_Battery</ThingDef>
-      <ThingDef>BaME_Ancient_Battery</ThingDef>
+      <ThingDef>BE_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Silverplated_Battery</ThingDef>
+      <ThingDef>BE_Jadeplated_Battery</ThingDef>
+      <ThingDef>BE_Goldplated_Battery</ThingDef>
+      <ThingDef>BE_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Ancient_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>10</Steel>
       <Uranium>60</Uranium>
-      <BaME_Lead>45</BaME_Lead>
-      <BaME_Lithium>5</BaME_Lithium>
+      <ME_Lead>45</ME_Lead>
+      <ME_Lithium>5</ME_Lithium>
       <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <comps>
@@ -387,17 +387,17 @@
       <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
-      <li>BaME_Uranium_Batteries</li>
+      <li>BE_Uranium_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
   <!-- Regular Lithium Battery -->
-  <ThingDef ParentName="BaME_BatteryBase">
-    <defName>BaME_Lithium_Battery</defName>
+  <ThingDef ParentName="BE_BatteryBase">
+    <defName>BE_Lithium_Battery</defName>
     <label>lithium battery</label>
     <description>Stores large amounts of electricity for later use. Much more efficient than steel and lead ones, but also more fragile.\n\nAlso explodes when destroyed</description>
     <graphicData>
-      <texPath>Things/Building/Power/Regular_Batteries/BaME_Lithium_Battery</texPath>
+      <texPath>Things/Building/Power/Regular_Batteries/BE_Lithium_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>75</MaxHitPoints>
@@ -407,20 +407,20 @@
       <Beauty>-15</Beauty>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Copper_Battery</ThingDef>
+      <ThingDef>BE_Lead_Battery</ThingDef>
+      <ThingDef>BE_Copper_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
-      <ThingDef>BaME_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Silverplated_Battery</ThingDef>
-      <ThingDef>BaME_Jadeplated_Battery</ThingDef>
-      <ThingDef>BaME_Goldplated_Battery</ThingDef>
-      <ThingDef>BaME_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Plasteel_Battery</ThingDef>
-      <ThingDef>BaME_Ancient_Battery</ThingDef>
+      <ThingDef>BE_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Silverplated_Battery</ThingDef>
+      <ThingDef>BE_Jadeplated_Battery</ThingDef>
+      <ThingDef>BE_Goldplated_Battery</ThingDef>
+      <ThingDef>BE_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Ancient_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
-      <BaME_Lithium>80</BaME_Lithium>
+      <ME_Lithium>80</ME_Lithium>
       <Steel>15</Steel>
       <ComponentIndustrial>5</ComponentIndustrial>
       <ComponentSpacer>1</ComponentSpacer>
@@ -443,17 +443,17 @@
       <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
-      <li>BaME_Lithium_Batteries</li>
+      <li>BE_Lithium_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
   <!-- Regular Plasteel Battery -->
-  <ThingDef ParentName="BaME_BatteryBase">
-    <defName>BaME_Plasteel_Battery</defName>
+  <ThingDef ParentName="BE_BatteryBase">
+    <defName>BE_Plasteel_Battery</defName>
     <label>plasteel battery</label>
     <description>A even more revolutionary battery made from advanced materials, cans store large amounts of power and is very efficient.</description>
     <graphicData>
-      <texPath>Things/Building/Power/Regular_Batteries/BaME_Plasteel_Battery</texPath>
+      <texPath>Things/Building/Power/Regular_Batteries/BE_Plasteel_Battery</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>400</MaxHitPoints>
@@ -464,23 +464,23 @@
       <MarketValue>1200</MarketValue>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Copper_Battery</ThingDef>
+      <ThingDef>BE_Lead_Battery</ThingDef>
+      <ThingDef>BE_Copper_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
-      <ThingDef>BaME_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Silverplated_Battery</ThingDef>
-      <ThingDef>BaME_Jadeplated_Battery</ThingDef>
-      <ThingDef>BaME_Goldplated_Battery</ThingDef>
-      <ThingDef>BaME_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Lithium_Battery</ThingDef>
-      <ThingDef>BaME_Ancient_Battery</ThingDef>
+      <ThingDef>BE_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Silverplated_Battery</ThingDef>
+      <ThingDef>BE_Jadeplated_Battery</ThingDef>
+      <ThingDef>BE_Goldplated_Battery</ThingDef>
+      <ThingDef>BE_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Ancient_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>5</Steel>
       <Uranium>5</Uranium>
       <Plasteel>75</Plasteel>
-      <BaME_Lithium>20</BaME_Lithium>
+      <ME_Lithium>20</ME_Lithium>
       <ComponentIndustrial>4</ComponentIndustrial>
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
@@ -494,19 +494,19 @@
       <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
-      <li>BaME_Plasteel_Batteries</li>
+      <li>BE_Plasteel_Batteries</li>
     </researchPrerequisites>
   </ThingDef>
 
   <!-- Ancient Battery-->
     <ThingDef ParentName="BuildingBase">
-    <defName>BaME_Ancient_Battery</defName>
+    <defName>BE_Ancient_Battery</defName>
     <label>ancient battery</label>
     <description>A battery developed by archotechs. It is sometimes dug up from ruins by travelling merchants.\nThis battery won't short-circuit in rain and not break down.\n\nIt is also useful to not that this battery actually store more energy than the amount you provide, thanks to it's ancient vanometric technology</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
     <graphicData>
-      <texPath>Things/Building/Power/Regular_Batteries/BaME_Ancient_Battery</texPath>
+      <texPath>Things/Building/Power/Regular_Batteries/BE_Ancient_Battery</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2,3)</drawSize>
       <damageData>
@@ -536,17 +536,17 @@
       <MarketValue>1400</MarketValue>
     </statBases>
     <descriptionHyperlinks>
-      <ThingDef>BaME_Lead_Battery</ThingDef>
-      <ThingDef>BaME_Copper_Battery</ThingDef>
+      <ThingDef>BE_Lead_Battery</ThingDef>
+      <ThingDef>BE_Copper_Battery</ThingDef>
       <ThingDef>Battery</ThingDef>
-      <ThingDef>BaME_Waterproof_Battery</ThingDef>
-      <ThingDef>BaME_Silverplated_Battery</ThingDef>
-      <ThingDef>BaME_Jadeplated_Battery</ThingDef>
-      <ThingDef>BaME_Goldplated_Battery</ThingDef>
-      <ThingDef>BaME_Nickel_Battery</ThingDef>
-      <ThingDef>BaME_Uranium_Battery</ThingDef>
-      <ThingDef>BaME_Lithium_Battery</ThingDef>
-      <ThingDef>BaME_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Silverplated_Battery</ThingDef>
+      <ThingDef>BE_Jadeplated_Battery</ThingDef>
+      <ThingDef>BE_Goldplated_Battery</ThingDef>
+      <ThingDef>BE_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <size>(1,2)</size>
     <building>

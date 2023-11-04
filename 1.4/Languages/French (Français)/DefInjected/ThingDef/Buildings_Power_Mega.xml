@@ -2,43 +2,43 @@
 <LanguageData>
 
   <!-- EN: giant lead battery -->
-  <BaME_Mega_Lead_Battery.label>Batterie géante au plomb</BaME_Mega_Lead_Battery.label>
+  <BE_Mega_Lead_Battery.label>Batterie géante au plomb</BE_Mega_Lead_Battery.label>
   <!-- EN: A giant version of the lead battery. Stores very large amounts of electricity for later. -->
-  <BaME_Mega_Lead_Battery.description>La version géante des batteries au plomb. Stocke de très grandes quantités d'électricité pour plus tard.</BaME_Mega_Lead_Battery.description>
+  <BE_Mega_Lead_Battery.description>La version géante des batteries au plomb. Stocke de très grandes quantités d'électricité pour plus tard.</BE_Mega_Lead_Battery.description>
 
   <!-- EN: giant copper battery -->
-  <BaME_Mega_Copper_Battery.label>Batterie de cuivre géante</BaME_Mega_Copper_Battery.label>
+  <BE_Mega_Copper_Battery.label>Batterie de cuivre géante</BE_Mega_Copper_Battery.label>
   <!-- EN: A giant version of the copper battery. Stores very large amounts of electricity for later. -->
-  <BaME_Mega_Copper_Battery.description>La version géante des batteries de cuivre. Stocke de très grandes quantités d'électricité pour plus tard.</BaME_Mega_Copper_Battery.description>
+  <BE_Mega_Copper_Battery.description>La version géante des batteries de cuivre. Stocke de très grandes quantités d'électricité pour plus tard.</BE_Mega_Copper_Battery.description>
 
   <!-- EN: giant steel battery -->
-  <BaME_Mega_Steel_Battery.label>Batterie en acier géante</BaME_Mega_Steel_Battery.label>
+  <BE_Mega_Steel_Battery.label>Batterie en acier géante</BE_Mega_Steel_Battery.label>
   <!-- EN: A giant version of the steel battery. Stores very large amounts of electricity for later. -->
-  <BaME_Mega_Steel_Battery.description>La version géante des batteries en acier. Stocke de très grandes quantités d'électricité pour plus tard.</BaME_Mega_Steel_Battery.description>
+  <BE_Mega_Steel_Battery.description>La version géante des batteries en acier. Stocke de très grandes quantités d'électricité pour plus tard.</BE_Mega_Steel_Battery.description>
 
   <!-- EN: giant waterproof battery -->
-  <BaME_Mega_Waterproof_Battery.label>Batterie résistante à l'eau géante</BaME_Mega_Waterproof_Battery.label>
+  <BE_Mega_Waterproof_Battery.label>Batterie résistante à l'eau géante</BE_Mega_Waterproof_Battery.label>
   <!-- EN: A giant version of the waterproof battery. Stores very large amounts of electricity for later. -->
-  <BaME_Mega_Waterproof_Battery.description>La version géante des batteries résistante à l'eau. Stocke de très grandes quantités d'électricité pour plus tard.</BaME_Mega_Waterproof_Battery.description>
+  <BE_Mega_Waterproof_Battery.description>La version géante des batteries résistante à l'eau. Stocke de très grandes quantités d'électricité pour plus tard.</BE_Mega_Waterproof_Battery.description>
 
   <!-- EN: giant nickel battery -->
-  <BaME_Mega_Nickel_Battery.label>Batterie géante au nickel</BaME_Mega_Nickel_Battery.label>
+  <BE_Mega_Nickel_Battery.label>Batterie géante au nickel</BE_Mega_Nickel_Battery.label>
   <!-- EN: A giant version of the nickel battery. Stores very large amounts of electricity for later. -->
-  <BaME_Mega_Nickel_Battery.description>La version géante des batteries au nickel. Stocke de très grandes quantités d'électricité pour plus tard.</BaME_Mega_Nickel_Battery.description>
+  <BE_Mega_Nickel_Battery.description>La version géante des batteries au nickel. Stocke de très grandes quantités d'électricité pour plus tard.</BE_Mega_Nickel_Battery.description>
 
   <!-- EN: giant uranium battery -->
-  <BaME_Mega_Uranium_Battery.label>Batterie géante à l'uranium</BaME_Mega_Uranium_Battery.label>
+  <BE_Mega_Uranium_Battery.label>Batterie géante à l'uranium</BE_Mega_Uranium_Battery.label>
   <!-- EN: A giant version of the uranium battery. Stores very large amounts of electricity for later. -->
-  <BaME_Mega_Uranium_Battery.description>La version géante des batteries a l'uranium. Stocke de très grandes quantités d'électricité pour plus tard.</BaME_Mega_Uranium_Battery.description>
+  <BE_Mega_Uranium_Battery.description>La version géante des batteries a l'uranium. Stocke de très grandes quantités d'électricité pour plus tard.</BE_Mega_Uranium_Battery.description>
 
   <!-- EN: giant lithium battery -->
-  <BaME_Mega_Lithium_Battery.label>Batterie géante au lithium</BaME_Mega_Lithium_Battery.label>
+  <BE_Mega_Lithium_Battery.label>Batterie géante au lithium</BE_Mega_Lithium_Battery.label>
   <!-- EN: A giant version of the lithium battery. Stores very large amounts of electricity for later.\n\nExplodes whan destroyed -->
-  <BaME_Mega_Lithium_Battery.description>La version géante des batteries au lithium. Stocke de très grandes quantités d'électricité.\n\nExplose une fois détruite</BaME_Mega_Lithium_Battery.description>
+  <BE_Mega_Lithium_Battery.description>La version géante des batteries au lithium. Stocke de très grandes quantités d'électricité.\n\nExplose une fois détruite</BE_Mega_Lithium_Battery.description>
 
   <!-- EN: giant plasteel battery -->
-  <BaME_Mega_Plasteel_Battery.label>Batterie géante en plastacier</BaME_Mega_Plasteel_Battery.label>
+  <BE_Mega_Plasteel_Battery.label>Batterie géante en plastacier</BE_Mega_Plasteel_Battery.label>
   <!-- EN: A giant version of the plasteel battery. Stores very large amounts of electricity for later. -->
-  <BaME_Mega_Plasteel_Battery.description>La version géante des batteries en plastacier. Stocke de très grandes quantités d'électricité pour plus tard.</BaME_Mega_Plasteel_Battery.description>
+  <BE_Mega_Plasteel_Battery.description>La version géante des batteries en plastacier. Stocke de très grandes quantités d'électricité pour plus tard.</BE_Mega_Plasteel_Battery.description>
 
 </LanguageData>

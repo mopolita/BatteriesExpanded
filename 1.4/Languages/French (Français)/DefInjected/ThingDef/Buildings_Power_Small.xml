@@ -2,43 +2,43 @@
 <LanguageData>
 
   <!-- EN: Small lead battery -->
-  <BaME_Small_Lead_Battery.label>Petite batterie au plomb</BaME_Small_Lead_Battery.label>
+  <BE_Small_Lead_Battery.label>Petite batterie au plomb</BE_Small_Lead_Battery.label>
   <!-- EN: A smaller version of the lead battery, useful if you don't have much space. -->
-  <BaME_Small_Lead_Battery.description>Une version plus petite des batteries au plomb. Utile si vous manquez de place.</BaME_Small_Lead_Battery.description>
+  <BE_Small_Lead_Battery.description>Une version plus petite des batteries au plomb. Utile si vous manquez de place.</BE_Small_Lead_Battery.description>
 
   <!-- EN: Small copper battery -->
-  <BaME_Small_Copper_Battery.label>Petite batterie de cuivre</BaME_Small_Copper_Battery.label>
+  <BE_Small_Copper_Battery.label>Petite batterie de cuivre</BE_Small_Copper_Battery.label>
   <!-- EN: A smaller version of the copper battery, useful if you don't have much space. -->
-  <BaME_Small_Copper_Battery.description>Une version plus petite des batteries de cuivre. Utile si vous manquez de place.</BaME_Small_Copper_Battery.description>
+  <BE_Small_Copper_Battery.description>Une version plus petite des batteries de cuivre. Utile si vous manquez de place.</BE_Small_Copper_Battery.description>
 
   <!-- EN: Small steel battery -->
-  <BaME_Small_Steel_Battery.label>Petite batterie</BaME_Small_Steel_Battery.label>
+  <BE_Small_Steel_Battery.label>Petite batterie</BE_Small_Steel_Battery.label>
   <!-- EN: A smaller version of the steel battery, useful if you don't have much space. -->
-  <BaME_Small_Steel_Battery.description>Une version plus petite des batteries classique. Utile si vous manquez de place.</BaME_Small_Steel_Battery.description>
+  <BE_Small_Steel_Battery.description>Une version plus petite des batteries classique. Utile si vous manquez de place.</BE_Small_Steel_Battery.description>
 
   <!-- EN: Small waterproof battery -->
-  <BaME_Small_Waterproof_Battery.label>Petite batterie résistante à l'eau</BaME_Small_Waterproof_Battery.label>
+  <BE_Small_Waterproof_Battery.label>Petite batterie résistante à l'eau</BE_Small_Waterproof_Battery.label>
   <!-- EN: A smaller version of the waterproof battery, useful if you don't have much space. -->
-  <BaME_Small_Waterproof_Battery.description>Une version plus petite des batteries résistantante à l'eau. Utile si vous manquez de place.</BaME_Small_Waterproof_Battery.description>
+  <BE_Small_Waterproof_Battery.description>Une version plus petite des batteries résistantante à l'eau. Utile si vous manquez de place.</BE_Small_Waterproof_Battery.description>
 
   <!-- EN: Small nickel battery -->
-  <BaME_Small_Nickel_Battery.label>Petite batterie au nickel</BaME_Small_Nickel_Battery.label>
+  <BE_Small_Nickel_Battery.label>Petite batterie au nickel</BE_Small_Nickel_Battery.label>
   <!-- EN: A smaller version of the nickel battery, useful if you don't have much space. -->
-  <BaME_Small_Nickel_Battery.description>Une version plus petite des batteries au nickel. Utile si vous manquez de place.</BaME_Small_Nickel_Battery.description>
+  <BE_Small_Nickel_Battery.description>Une version plus petite des batteries au nickel. Utile si vous manquez de place.</BE_Small_Nickel_Battery.description>
 
   <!-- EN: Small uranium battery -->
-  <BaME_Small_Uranium_Battery.label>Petite batterie à l'uranium</BaME_Small_Uranium_Battery.label>
+  <BE_Small_Uranium_Battery.label>Petite batterie à l'uranium</BE_Small_Uranium_Battery.label>
   <!-- EN: A smaller version of the uranium battery, useful if you don't have much space. -->
-  <BaME_Small_Uranium_Battery.description>Une version plus petite des batteries à l'uranium. Utile si vous manquez de place.</BaME_Small_Uranium_Battery.description>
+  <BE_Small_Uranium_Battery.description>Une version plus petite des batteries à l'uranium. Utile si vous manquez de place.</BE_Small_Uranium_Battery.description>
 
   <!-- EN: Small lithium battery -->
-  <BaME_Small_Lithium_Battery.label>Petite batterie au lithium</BaME_Small_Lithium_Battery.label>
+  <BE_Small_Lithium_Battery.label>Petite batterie au lithium</BE_Small_Lithium_Battery.label>
   <!-- EN: A smaller version of the lithium battery, useful if you don't have much space.\n\nAlso explodes when destroyed. -->
-  <BaME_Small_Lithium_Battery.description>Une version plus petite des batteries au lithium. Utile si vous manquez de place.\n\nExplose une fois détruite</BaME_Small_Lithium_Battery.description>
+  <BE_Small_Lithium_Battery.description>Une version plus petite des batteries au lithium. Utile si vous manquez de place.\n\nExplose une fois détruite</BE_Small_Lithium_Battery.description>
 
   <!-- EN: Small plasteel battery -->
-  <BaME_Small_Plasteel_Battery.label>Petite batterie en plastacier</BaME_Small_Plasteel_Battery.label>
+  <BE_Small_Plasteel_Battery.label>Petite batterie en plastacier</BE_Small_Plasteel_Battery.label>
   <!-- EN: A smaller version of the plasteel battery, useful if you don't have much space. -->
-  <BaME_Small_Plasteel_Battery.description>Une version plus petite des batteries en plastacier. Utile si vous manquez de place.</BaME_Small_Plasteel_Battery.description>
+  <BE_Small_Plasteel_Battery.description>Une version plus petite des batteries en plastacier. Utile si vous manquez de place.</BE_Small_Plasteel_Battery.description>
 
 </LanguageData>

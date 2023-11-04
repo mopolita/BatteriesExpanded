@@ -7,34 +7,34 @@
   <Power_Storage_Research.description>La première étape pour apprendre la manière de stocker de l'énergie.</Power_Storage_Research.description>
   
   <!-- EN: lead battery -->
-  <BaME_Lead_Batteries.label>batteries au plomb</BaME_Lead_Batteries.label>
+  <BE_Lead_Batteries.label>batteries au plomb</BE_Lead_Batteries.label>
   <!-- EN: One of the first refillable batteries ever made. They are made from lead. -->
-  <BaME_Lead_Batteries.description>L'une des premières batteries rechargeable jamais créée, produites à partir de plomb.</BaME_Lead_Batteries.description>
+  <BE_Lead_Batteries.description>L'une des premières batteries rechargeable jamais créée, produites à partir de plomb.</BE_Lead_Batteries.description>
   
   <!-- EN: copper battery -->
-  <BaME_Copper_Batteries.label>batteries en cuivre</BaME_Copper_Batteries.label>
+  <BE_Copper_Batteries.label>batteries en cuivre</BE_Copper_Batteries.label>
   <!-- EN: Honestly, copper batteries just work. -->
-  <BaME_Copper_Batteries.description>Elles fonctionnent, rien à dire de plus.</BaME_Copper_Batteries.description>
+  <BE_Copper_Batteries.description>Elles fonctionnent, rien à dire de plus.</BE_Copper_Batteries.description>
   
   <!-- EN: nickel battery -->
-  <BaME_Nickel_Batteries.label>batteries au nickel</BaME_Nickel_Batteries.label>
+  <BE_Nickel_Batteries.label>batteries au nickel</BE_Nickel_Batteries.label>
   <!-- EN: A battery made using nickel, making it better than steel alternatives. -->
-  <BaME_Nickel_Batteries.description>Une batterie faite de nickel, la rendant plus efficace que les alternatives faites d'acier.</BaME_Nickel_Batteries.description>
+  <BE_Nickel_Batteries.description>Une batterie faite de nickel, la rendant plus efficace que les alternatives faites d'acier.</BE_Nickel_Batteries.description>
   
   <!-- EN: uranium battery -->
-  <BaME_Uranium_Batteries.label>batteries à l'uranium</BaME_Uranium_Batteries.label>
+  <BE_Uranium_Batteries.label>batteries à l'uranium</BE_Uranium_Batteries.label>
   <!-- EN: Batteries made using potentially dangerous and radioactive materials? Yes please! -->
-  <BaME_Uranium_Batteries.description>Une batterie faite en utilisant des matériaux radioactifs potentiellement dangereux ? plutôt deux fois qu'une !</BaME_Uranium_Batteries.description>
+  <BE_Uranium_Batteries.description>Une batterie faite en utilisant des matériaux radioactifs potentiellement dangereux ? plutôt deux fois qu'une !</BE_Uranium_Batteries.description>
   
   <!-- EN: lithium battery -->
-  <BaME_Lithium_Batteries.label>batterie au lithium</BaME_Lithium_Batteries.label>
+  <BE_Lithium_Batteries.label>batterie au lithium</BE_Lithium_Batteries.label>
   <!-- EN: Back in the twenty-first century, these batteries where the best in the market. -->
-  <BaME_Lithium_Batteries.description>Au XXIème siècle, il s'agissait des meilleures batteries du marché.</BaME_Lithium_Batteries.description>
+  <BE_Lithium_Batteries.description>Au XXIème siècle, il s'agissait des meilleures batteries du marché.</BE_Lithium_Batteries.description>
   
   <!-- EN: plasteel battery -->
-  <BaME_Plasteel_Batteries.label>batterie en plastacier</BaME_Plasteel_Batteries.label>
+  <BE_Plasteel_Batteries.label>batterie en plastacier</BE_Plasteel_Batteries.label>
   <!-- EN: The best battery you can ever hope to produce. -->
-  <BaME_Plasteel_Batteries.description>La meilleure batterie que tu peux espérer produire</BaME_Plasteel_Batteries.description>
+  <BE_Plasteel_Batteries.description>La meilleure batterie que tu peux espérer produire</BE_Plasteel_Batteries.description>
 
   <!-- EN: plated batteries -->
   <Plated_Batteries.label>batteries plaquées</Plated_Batteries.label>

@@ -20,13 +20,13 @@
     <xpath>*/ThingDef[defName="Battery"]</xpath>
     <value>
         <descriptionHyperlinks>
-        <ThingDef>BaME_Lead_Battery</ThingDef>
-        <ThingDef>BaME_Copper_Battery</ThingDef>
-        <ThingDef>BaME_Waterproof_Battery</ThingDef>
-        <ThingDef>BaME_Nickel_Battery</ThingDef>
-        <ThingDef>BaME_Uranium_Battery</ThingDef>
-        <ThingDef>BaME_Lithium_Battery</ThingDef>
-        <ThingDef>BaME_Plasteel_Battery</ThingDef>
+        <ThingDef>BE_Lead_Battery</ThingDef>
+        <ThingDef>BE_Copper_Battery</ThingDef>
+        <ThingDef>BE_Waterproof_Battery</ThingDef>
+        <ThingDef>BE_Nickel_Battery</ThingDef>
+        <ThingDef>BE_Uranium_Battery</ThingDef>
+        <ThingDef>BE_Lithium_Battery</ThingDef>
+        <ThingDef>BE_Plasteel_Battery</ThingDef>
         </descriptionHyperlinks>
     </value>
   </Operation>
@@ -120,7 +120,7 @@
     <xpath>*/ResearchProjectDef[defName = "Batteries"]/prerequisites</xpath>
     <value>
       <prerequisites>
-        <li>BaME_Copper_Batteries</li>
+        <li>BE_Copper_Batteries</li>
       </prerequisites>
     </value>
   </Operation>

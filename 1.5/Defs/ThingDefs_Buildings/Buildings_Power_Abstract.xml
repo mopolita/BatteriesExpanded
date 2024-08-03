@@ -3,7 +3,6 @@
 
   <!-- Small Model Battery -->
   <ThingDef ParentName="BE_BatteryBase" Name="BE_BatterySmall" Abstract="True">
-    <thingClass>Batteries.Building_CustomBattery</thingClass>
     <designatorDropdown>Small_Batteries</designatorDropdown>
     <modExtensions>
       <li Class="Batteries.ModExtension_BatterySize">
@@ -32,7 +31,7 @@
   <!-- Regular Model Battery -->
   <ThingDef ParentName="BuildingBase" Name="BE_BatteryBase" Abstract="True">
     <drawerType>MapMeshAndRealTime</drawerType>
-    <thingClass>Building_Battery</thingClass>
+    <thingClass>Batteries.Building_CustomBattery</thingClass>
     <designatorDropdown>Regular_Batteries</designatorDropdown>
     <graphicData>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -89,7 +88,6 @@
 
   <!-- Mega Model Battery -->
   <ThingDef ParentName="BE_BatteryBase" Name="BE_BatteryMega" Abstract="True">
-    <thingClass>Batteries.Building_CustomBattery</thingClass>
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <modExtensions>
       <li Class="Batteries.ModExtension_BatterySize">

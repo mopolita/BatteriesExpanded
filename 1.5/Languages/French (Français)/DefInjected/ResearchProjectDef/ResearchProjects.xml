@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    
+  <!-- EN: power storage -->
+  <Power_Storage_Research.label>stockage d'énergie</Power_Storage_Research.label>
+  <!-- EN: The first step toward learning how to store energy. -->
+  <Power_Storage_Research.description>La première étape pour apprendre la manière de stocker de l'énergie.</Power_Storage_Research.description>
+  
+  <!-- EN: lead battery -->
+  <BE_Lead_Batteries.label>batteries au plomb</BE_Lead_Batteries.label>
+  <!-- EN: One of the first refillable batteries ever made. They are made from lead. -->
+  <BE_Lead_Batteries.description>L'une des premières batteries rechargeable jamais créée, produites à partir de plomb.</BE_Lead_Batteries.description>
+  
+  <!-- EN: copper battery -->
+  <BE_Copper_Batteries.label>batteries en cuivre</BE_Copper_Batteries.label>
+  <!-- EN: Honestly, copper batteries just work. -->
+  <BE_Copper_Batteries.description>Elles fonctionnent, rien à dire de plus.</BE_Copper_Batteries.description>
+  
+  <!-- EN: nickel battery -->
+  <BE_Nickel_Batteries.label>batteries au nickel</BE_Nickel_Batteries.label>
+  <!-- EN: A battery made using nickel, making it better than steel alternatives. -->
+  <BE_Nickel_Batteries.description>Une batterie faite de nickel, la rendant plus efficace que les alternatives faites d'acier.</BE_Nickel_Batteries.description>
+  
+  <!-- EN: uranium battery -->
+  <BE_Uranium_Batteries.label>batteries à l'uranium</BE_Uranium_Batteries.label>
+  <!-- EN: Batteries made using potentially dangerous and radioactive materials? Yes please! -->
+  <BE_Uranium_Batteries.description>Une batterie faite en utilisant des matériaux radioactifs potentiellement dangereux ? plutôt deux fois qu'une !</BE_Uranium_Batteries.description>
+  
+  <!-- EN: lithium battery -->
+  <BE_Lithium_Batteries.label>batterie au lithium</BE_Lithium_Batteries.label>
+  <!-- EN: Back in the twenty-first century, these batteries where the best in the market. -->
+  <BE_Lithium_Batteries.description>Au XXIème siècle, il s'agissait des meilleures batteries du marché.</BE_Lithium_Batteries.description>
+  
+  <!-- EN: plasteel battery -->
+  <BE_Plasteel_Batteries.label>batterie en plastacier</BE_Plasteel_Batteries.label>
+  <!-- EN: The best battery you can ever hope to produce. -->
+  <BE_Plasteel_Batteries.description>La meilleure batterie que tu peux espérer produire</BE_Plasteel_Batteries.description>
+
+  <!-- EN: plated batteries -->
+  <Plated_Batteries.label>batteries plaquées</Plated_Batteries.label>
+  <!-- EN: A way to add sheets made of various materials to batteries to make them plated -->
+  <Plated_Batteries.description>Une manière d'ajouter des plaques faites de divers matériaux sur une batterie en acier</Plated_Batteries.description>
+
+  <!-- EN: miniature batteries -->
+  <Miniature_Batteries.label>batteries miniatures</Miniature_Batteries.label>
+  <!-- EN: The possibility to make smaller batteries, a bit less powerful than regular ones but more space-efficient -->
+  <Miniature_Batteries.description>Permet de produire des batteries plus petites, un peu moins efficaces que les normales mais prennent moins de place.</Miniature_Batteries.description>
+
+  <!-- EN: big batteries -->
+  <Big_Batteries.label>grandes batteries</Big_Batteries.label>
+  <!-- EN: The possibility to make bigger batteries, more powerful than regular ones -->
+  <Big_Batteries.description>Permet de produire des batteries plus grandes et plus puissantes que les normales</Big_Batteries.description>
+
+  <!-- EN: giant batteries -->
+  <Mega_Batteries.label>batteries géantes</Mega_Batteries.label>
+  <!-- EN: The possibility to make giant batteries, the most powerful ones -->
+  <Mega_Batteries.description>Permet de produire des batteries géantes, les plus puissantes de toutes</Mega_Batteries.description>
+
+</LanguageData>

@@ -7,6 +7,7 @@
   <packageId>mopolita.bame.batteriesexpanded</packageId>
   <supportedVersions>
     <li>1.4</li>
+    <li>1.5</li>
   </supportedVersions>
   <description>Ever wanted more batteries ? This is the mod for you.\n\nAdds 10 new types of batteries, coming in 4 differents sizes</description>
   <modDependencies>

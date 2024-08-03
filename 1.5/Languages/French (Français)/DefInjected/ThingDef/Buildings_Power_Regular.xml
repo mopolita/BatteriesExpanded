@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: lead battery -->
+  <BE_Lead_Battery.label>Batterie au plomb</BE_Lead_Battery.label>
+  <!-- EN: Stores electricity for later use. Can store only a small amount of power and is not very efficient, but is very sturdy. -->
+  <BE_Lead_Battery.description>Stocke de l'électricité pour plus tard. Peu efficaces, mais sont très solides.</BE_Lead_Battery.description>
+
+  <!-- EN: copper battery -->
+  <BE_Copper_Battery.label>Batterie de cuivre</BE_Copper_Battery.label>
+  <!-- EN: Stores electricity for later use. Can store a medium amount of power and is not very efficient, but is sturdy. -->
+  <BE_Copper_Battery.description>Stocke de l'électricité pour plus tard. Moyennement efficaces mais sont assez solides.</BE_Copper_Battery.description>
+
+  <!-- EN: Waterproof battery -->
+  <BE_Waterproof_Battery.label>Batterie résistante à l'eau</BE_Waterproof_Battery.label>
+  <!-- EN: Pretty much like a steel battery, but doesn't catch fire or explode when under the rain. -->
+  <BE_Waterproof_Battery.description>Un copie presque conforme des batteries en acier, sauf qu'elles ne court-circuitent pas sous l'eau.</BE_Waterproof_Battery.description>
+
+  <!-- EN: Silver Plated battery -->
+  <BE_Silverplated_Battery.label>Batterie plaquée argent</BE_Silverplated_Battery.label>
+  <!-- EN: A steel battery plated with silver to make it fancier. -->
+  <BE_Silverplated_Battery.description>Une batterie couverte d'argent pour la rendre plus belle</BE_Silverplated_Battery.description>
+
+  <!-- EN: Jade Plated Battery -->
+  <BE_Jadeplated_Battery.label>Batterie plaquée jade</BE_Jadeplated_Battery.label>
+  <!-- EN: A steel battery plated with jade to make it fancier. -->
+  <BE_Jadeplated_Battery.description>Une batterie couverte de jade pour la rendre plus belle</BE_Jadeplated_Battery.description>
+
+  <!-- EN: Gold Plated battery -->
+  <BE_Goldplated_Battery.label>Batterie plaquée or</BE_Goldplated_Battery.label>
+  <!-- EN: A steel battery plated with gold to make it fancier. -->
+  <BE_Goldplated_Battery.description>Une batterie couverte d'or pour la rendre plus belle</BE_Goldplated_Battery.description>
+
+  <!-- EN: Nickel battery -->
+  <BE_Nickel_Battery.label>Batterie au nickel</BE_Nickel_Battery.label>
+  <!-- EN: A battery made using nickel, making it better than steel or copper alternatives -->
+  <BE_Nickel_Battery.description>Un type de batterie faite à partir de nickel qui est plus efficace que les alternatives en acier ou en cuivre.</BE_Nickel_Battery.description>
+
+  <!-- EN: Uranium battery -->
+  <BE_Uranium_Battery.label>Batterie à l'uranium</BE_Uranium_Battery.label>
+  <!-- EN: A revolutionary battery made from radioactive materials, produces some heat. -->
+  <BE_Uranium_Battery.description>Une batterie avancée, faite de matériaux radioactifs, produit de la chaleur.</BE_Uranium_Battery.description>
+
+  <!-- EN: lithium battery -->
+  <BE_Lithium_Battery.label>Batterie au lithium</BE_Lithium_Battery.label>
+  <!-- EN: Stores large amounts of electricity for later use. Much more efficient than steel and lead ones, but also more fragile.\n\nAlso explodes when destroyed -->
+  <BE_Lithium_Battery.description>Stocke de grandes quantités d'électricité. Est beacoup plus efficace que les alternatives faites en nickel.\n\nExplose une fois détruite</BE_Lithium_Battery.description>
+
+  <!-- EN: Plasteel battery -->
+  <BE_Plasteel_Battery.label>Batterie en plastacier</BE_Plasteel_Battery.label>
+  <!-- EN: A even more revolutionary battery made from advanced materials, cans store large amounts of power and is very efficient. -->
+  <BE_Plasteel_Battery.description>Une batterie révolutionnaire faite à partir de matériaux avancés. Permet de stocker de grandes quantités d'énergie de manière efficace.</BE_Plasteel_Battery.description>
+
+  <!-- EN: ancient battery -->
+  <BE_Ancient_Battery.label>Batterie ancienne</BE_Ancient_Battery.label>
+  <!-- EN: A battery developed by archotechs. It is sometimes dug up from ruins by travelling merchants. This battery won't short-circuit in rain, not break down. -->
+  <BE_Ancient_Battery.description>Une batteries venant des Archotechs. Parfois déterrées des ruines par des marchants itinérants, elles ne court-circuitent pas et sont extremement solides.</BE_Ancient_Battery.description>
+
+
+</LanguageData>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Research Tab Def for batteries -->
+  <ResearchTabDef>
+    <defName>Power_Storage</defName>
+    <label>Power storage</label>
+  </ResearchTabDef>
+
+  <ResearchProjectDef>
+    <defName>Power_Storage_Research</defName>
+    <label>power storage</label>
+    <description>The first step toward learning how to store energy.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    <researchViewX>6.00</researchViewX>
+   <researchViewY>0.30</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BE_Lead_Batteries</defName>
+    <label>lead battery</label>
+    <description>One of the first refillable batteries ever made. They are made from lead</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Power_Storage_Research</li>
+    </prerequisites>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>2.30</researchViewY>
+    <tab>Power_Storage</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BE_Copper_Batteries</defName>
+    <label>copper battery</label>
+    <description>Honestly, copper batteries just work.</description>
+    <baseCost>600</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BE_Lead_Batteries</li>
+    </prerequisites>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>2.30</researchViewY>
+    <tab>Power_Storage</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BE_Nickel_Batteries</defName>
+    <label>nickel battery</label>
+    <description>A battery made using nickel, making it better than steel alternatives.</description>
+    <baseCost>850</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Batteries</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>2.30</researchViewY>
+    <tab>Power_Storage</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Plated_Batteries</defName>
+    <label>plated batteries</label>
+    <description>A way to add sheets made of various materials to batteries to make them plated</description>
+    <baseCost>600</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Batteries</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+   <researchViewY>3.30</researchViewY>
+   <tab>Power_Storage</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Miniature_Batteries</defName>
+    <label>miniature batteries</label>
+    <description>The possibility to make smaller batteries, a bit less powerful than regular ones but more space-efficient.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Batteries</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+   <researchViewY>1.30</researchViewY>
+   <tab>Power_Storage</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Big_Batteries</defName>
+    <label>big batteries</label>
+    <description>The possibility to make bigger batteries, more powerful than regular ones</description>
+    <baseCost>1400</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>Miniature_Batteries</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>4.00</researchViewX>
+   <researchViewY>1.30</researchViewY>
+   <tab>Power_Storage</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Mega_Batteries</defName>
+    <label>giant batteries</label>
+    <description>The possibility to make giant batteries, the most powerful ones</description>
+    <baseCost>1800</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>Big_Batteries</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>5.00</researchViewX>
+   <researchViewY>1.30</researchViewY>
+   <tab>Power_Storage</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BE_Uranium_Batteries</defName>
+    <label>uranium battery</label>
+    <description>Batteries made using potentially dangerous and radioactive materials? Yes please!</description>
+    <baseCost>900</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>BE_Nickel_Batteries</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>2.30</researchViewY>
+    <tab>Power_Storage</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BE_Lithium_Batteries</defName>
+    <label>lithium battery</label>
+    <description>Back in the twenty-first century, these batteries where the best in the market, thez are still very useful.</description>
+    <baseCost>1400</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>BE_Uranium_Batteries</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>2.30</researchViewY>
+    <tab>Power_Storage</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BE_Plasteel_Batteries</defName>
+    <label>plasteel battery</label>
+    <description>The best battery you can ever hope to produce.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>BE_Lithium_Batteries</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>6.00</researchViewX>
+    <researchViewY>2.30</researchViewY>
+    <tab>Power_Storage</tab>
+  </ResearchProjectDef>
+
+</Defs>

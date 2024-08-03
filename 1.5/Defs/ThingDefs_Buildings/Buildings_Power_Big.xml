@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Big Lead Battery -->
+  <ThingDef ParentName="BE_BatteryBig">
+    <defName>BE_Big_Lead_Battery</defName>
+    <label>big lead battery</label>
+    <description>A bigger version of the lead battery. Stores large amounts of electricity for later.</description>
+    <graphicData>
+      <texPath>Things/Building/Power/Big_Batteries/BE_Big_Lead_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>3000</WorkToBuild>
+      <Mass>120</Mass>
+      <Flammability>0.25</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Big_Copper_Battery</ThingDef>
+      <ThingDef>BE_Big_Steel_Battery</ThingDef>
+      <ThingDef>BE_Big_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Big_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Big_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Big_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Big_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <ME_Lead>130</ME_Lead>
+      <Steel>40</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>1500</storedEnergyMax>
+        <efficiency>0.5</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>BE_Lead_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Big copper Battery -->
+  <ThingDef ParentName="BE_BatteryBig">
+    <defName>BE_Big_Copper_Battery</defName>
+    <label>big copper battery</label>
+    <description>A bigger version of the copper battery. Stores large amounts of electricity for later.</description>
+    <graphicData>
+      <texPath>Things/Building/Power/Big_Batteries/BE_Big_Copper_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>450</MaxHitPoints>
+      <WorkToBuild>2700</WorkToBuild>
+      <Mass>24</Mass>
+      <Flammability>0.35</Flammability>
+      <Beauty>-10</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Big_Lead_Battery</ThingDef>
+      <ThingDef>BE_Big_Steel_Battery</ThingDef>
+      <ThingDef>BE_Big_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Big_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Big_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Big_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Big_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <ME_Copper>130</ME_Copper>
+      <Steel>30</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>1800</storedEnergyMax>
+        <efficiency>0.6</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>BE_Copper_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Big Steel Battery -->
+  <ThingDef ParentName="BE_BatteryBig">
+    <defName>BE_Big_Steel_Battery</defName>
+    <label>big steel battery</label>
+    <description>A bigger version of the steel battery. Stores large amounts of electricity for later.</description>
+    <graphicData>
+      <texPath>Things/Building/Power/Big_Batteries/BE_Big_Steel_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>600</MaxHitPoints>
+      <WorkToBuild>2400</WorkToBuild>
+      <Mass>120</Mass>
+      <Flammability>0.25</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Big_Lead_Battery</ThingDef>
+      <ThingDef>BE_Big_Copper_Battery</ThingDef>
+      <ThingDef>BE_Big_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Big_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Big_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Big_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Big_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>   
+    <costList>
+      <Steel>180</Steel>
+      <ComponentIndustrial>7</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>2250</storedEnergyMax>
+        <efficiency>0.7</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Big Waterproof Battery -->
+  <ThingDef ParentName="BE_BatteryBig">
+    <defName>BE_Big_Waterproof_Battery</defName>
+    <label>big waterproof battery</label>
+    <description>A bigger version of the waterproof battery. Stores large amounts of electricity for later.</description>
+    <graphicData>
+      <texPath>Things/Building/Power/Big_Batteries/BE_Big_Waterproof_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>780</MaxHitPoints>
+      <WorkToBuild>3150</WorkToBuild>
+      <Mass>75</Mass>
+      <Flammability>0.1</Flammability>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Big_Lead_Battery</ThingDef>
+      <ThingDef>BE_Big_Copper_Battery</ThingDef>
+      <ThingDef>BE_Big_Steel_Battery</ThingDef>
+      <ThingDef>BE_Big_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Big_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Big_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Big_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Steel>250</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>2250</storedEnergyMax>
+        <efficiency>0.7</efficiency>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>Plated_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Big Nickel Battery -->
+  <ThingDef ParentName="BE_BatteryBig">
+    <defName>BE_Big_Nickel_Battery</defName>
+    <label>big nickel battery</label>
+    <description>A bigger version of the nickel battery. Stores large amounts of electricity for later.</description>
+    <graphicData>
+      <texPath>Things/Building/Power/Big_Batteries/BE_Big_Nickel_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>750</MaxHitPoints>
+      <WorkToBuild>3600</WorkToBuild>
+      <Mass>90</Mass>
+      <Flammability>0.75</Flammability>
+      <Beauty>-10</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Big_Lead_Battery</ThingDef>
+      <ThingDef>BE_Big_Copper_Battery</ThingDef>
+      <ThingDef>BE_Big_Steel_Battery</ThingDef>
+      <ThingDef>BE_Big_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Big_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Big_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Big_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Steel>30</Steel>
+      <Uranium>20</Uranium>
+      <ME_Lead>10</ME_Lead>
+      <ME_Nickel>110</ME_Nickel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>3000</storedEnergyMax>
+        <efficiency>0.8</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>BE_Nickel_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Big Uranium Battery -->
+  <ThingDef ParentName="BE_BatteryBig">
+    <defName>BE_Big_Uranium_Battery</defName>
+    <label>big uranium battery</label>
+    <description>A bigger version of the uranium battery. Stores large amounts of electricity for later.</description>
+    <graphicData>
+      <texPath>Things/Building/Power/Big_Batteries/BE_Big_Uranium_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>450</MaxHitPoints>
+      <WorkToBuild>4200</WorkToBuild>
+      <Mass>120</Mass>
+      <Flammability>1.1</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Big_Lead_Battery</ThingDef>
+      <ThingDef>BE_Big_Copper_Battery</ThingDef>
+      <ThingDef>BE_Big_Steel_Battery</ThingDef>
+      <ThingDef>BE_Big_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Big_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Big_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Big_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Steel>20</Steel>
+      <Uranium>120</Uranium>
+      <ME_Lead>90</ME_Lead>
+      <ME_Lithium>10</ME_Lithium>
+      <ComponentIndustrial>9</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>4500</storedEnergyMax>
+        <efficiency>0.85</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusher</compClass>
+        <heatPerSecond>3</heatPerSecond>
+        <heatPushMaxTemperature>120</heatPushMaxTemperature>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>BE_Uranium_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Big Lithium Battery -->
+  <ThingDef ParentName="BE_BatteryBig">
+    <defName>BE_Big_Lithium_Battery</defName>
+    <label>big lithium battery</label>
+    <description>A bigger version of the lithium battery. Stores large amounts of electricity for later.</description>
+    <graphicData>
+      <texPath>Things/Building/Power/Big_Batteries/BE_Big_Lithium_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>225</MaxHitPoints>
+      <WorkToBuild>5250</WorkToBuild>
+      <Mass>60</Mass>
+      <Flammability>3</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Big_Lead_Battery</ThingDef>
+      <ThingDef>BE_Big_Copper_Battery</ThingDef>
+      <ThingDef>BE_Big_Steel_Battery</ThingDef>
+      <ThingDef>BE_Big_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Big_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Big_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Big_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Steel>30</Steel>
+      <ME_Lithium>160</ME_Lithium>
+      <ComponentIndustrial>10</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>4000</storedEnergyMax>
+        <efficiency>0.9</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <wickTicks>240</wickTicks>
+        <explosiveRadius>10</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explodeOnKilled>true</explodeOnKilled>
+        <startWickHitPointsPercent>0.25</startWickHitPointsPercent>
+        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>BE_Lithium_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Big Plasteel Battery -->
+  <ThingDef ParentName="BE_BatteryBig">
+    <defName>BE_Big_Plasteel_Battery</defName>
+    <label>big plasteel battery</label>
+    <description>A bigger version of the plasteel battery. Stores large amounts of electricity for later.</description>
+    <graphicData>
+      <texPath>Things/Building/Power/Big_Batteries/BE_Big_Plasteel_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1200</MaxHitPoints>
+      <WorkToBuild>6000</WorkToBuild>
+      <Mass>120</Mass>
+      <Flammability>0.15</Flammability>
+      <Beauty>-10</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Big_Lead_Battery</ThingDef>
+      <ThingDef>BE_Big_Copper_Battery</ThingDef>
+      <ThingDef>BE_Big_Steel_Battery</ThingDef>
+      <ThingDef>BE_Big_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Big_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Big_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Big_Lithium_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Steel>10</Steel>
+      <Uranium>10</Uranium>
+      <Plasteel>150</Plasteel>
+      <ME_Lithium>40</ME_Lithium>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>10500</storedEnergyMax>
+        <efficiency>1</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+    </comps>
+    <uiOrder>2021</uiOrder>
+    <researchPrerequisites>
+      <li>BE_Plasteel_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+</Defs>

@@ -2,10 +2,10 @@
 <LanguageData>
 
   <!-- EN: Power storage -->
-  <Power_Storage.label>Stockage d'énergie</Power_Storage.label>
+  <Batteries.label>Stockage d'énergie</Batteries.label>
   <!-- EN: Battery research projects -->
-  <Power_Storage.generalTitle>Projets de recherche de batteries</Power_Storage.generalTitle>
+  <Batteries.generalTitle>Projets de recherche de batteries</Batteries.generalTitle>
   <!-- EN: Research new batteries in order to unlock more efficient ways of storing power. -->
-  <Power_Storage.generalDescription>Développer de nouvelles batteries afin de débloquer de nouvelles manières de stocker de l'énergie</Power_Storage.generalDescription>
+  <Batteries.generalDescription>Développer de nouvelles batteries afin de débloquer de nouvelles manières de stocker de l'énergie</Batteries.generalDescription>
 
 </LanguageData>

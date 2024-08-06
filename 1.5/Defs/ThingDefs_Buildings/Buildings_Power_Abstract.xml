@@ -5,7 +5,7 @@
   <ThingDef ParentName="BE_BatteryBase" Name="BE_BatterySmall" Abstract="True">
     <designatorDropdown>Small_Batteries</designatorDropdown>
     <modExtensions>
-      <li Class="Batteries.ModExtension_BatterySize">
+      <li Class="Batteries.ModExtension_BarSize">
         <sizeX>0.4</sizeX>
         <sizeY>0.4</sizeY>
       </li>
@@ -69,6 +69,12 @@
   <!-- Big Model Battery -->
   <ThingDef ParentName="BE_BatteryBase" Name="BE_BatteryBig" Abstract="True">
     <designatorDropdown>Big_Batteries</designatorDropdown>
+    <modExtensions>
+      <li Class="Batteries.ModExtension_BarSize">
+        <sizeX>1.3</sizeX>
+        <sizeY>0.5</sizeY>
+      </li>
+    </modExtensions>
     <graphicData>
       <drawSize>(3,3)</drawSize>
     </graphicData>
@@ -90,9 +96,9 @@
   <ThingDef ParentName="BE_BatteryBase" Name="BE_BatteryMega" Abstract="True">
     <designatorDropdown>Mega_Batteries</designatorDropdown>
     <modExtensions>
-      <li Class="Batteries.ModExtension_BatterySize">
-        <sizeX>1.54</sizeX>
-        <sizeY>0.54</sizeY>
+      <li Class="Batteries.ModExtension_BarSize">
+        <sizeX>1.5</sizeX>
+        <sizeY>0.5</sizeY>
       </li>
     </modExtensions>
     <graphicData>

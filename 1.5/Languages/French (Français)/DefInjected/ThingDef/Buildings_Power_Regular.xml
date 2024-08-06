@@ -14,7 +14,7 @@
   <!-- EN: Waterproof battery -->
   <BE_Waterproof_Battery.label>Batterie résistante à l'eau</BE_Waterproof_Battery.label>
   <!-- EN: Pretty much like a steel battery, but doesn't catch fire or explode when under the rain. -->
-  <BE_Waterproof_Battery.description>Un copie presque conforme des batteries en acier, sauf qu'elles ne court-circuitent pas sous l'eau.</BE_Waterproof_Battery.description>
+  <BE_Waterproof_Battery.description>Un copie conforme des batteries en acier, sauf qu'elles ne court-circuitent pas sous la pluie.</BE_Waterproof_Battery.description>
 
   <!-- EN: Silver Plated battery -->
   <BE_Silverplated_Battery.label>Batterie plaquée argent</BE_Silverplated_Battery.label>
@@ -49,12 +49,12 @@
   <!-- EN: Plasteel battery -->
   <BE_Plasteel_Battery.label>Batterie en plastacier</BE_Plasteel_Battery.label>
   <!-- EN: A even more revolutionary battery made from advanced materials, cans store large amounts of power and is very efficient. -->
-  <BE_Plasteel_Battery.description>Une batterie révolutionnaire faite à partir de matériaux avancés. Permet de stocker de grandes quantités d'énergie de manière efficace.</BE_Plasteel_Battery.description>
+  <BE_Plasteel_Battery.description>Une batterie révolutionnaire faite à partir de matériaux avancés. Permet de stocker de grandes quantités d'énergie de manière très efficace.</BE_Plasteel_Battery.description>
 
-  <!-- EN: ancient battery -->
+  <!-- EN: Archotech battery -->
   <BE_Ancient_Battery.label>Batterie ancienne</BE_Ancient_Battery.label>
-  <!-- EN: A battery developed by archotechs. It is sometimes dug up from ruins by travelling merchants. This battery won't short-circuit in rain, not break down. -->
-  <BE_Ancient_Battery.description>Une batteries venant des Archotechs. Parfois déterrées des ruines par des marchants itinérants, elles ne court-circuitent pas et sont extremement solides.</BE_Ancient_Battery.description>
+  <!-- EN: A battery developed by the Archotechs. It is sometimes dug up from ruins by travelling merchants.\nThis battery won't short-circuit in rain and not break down.\nIt is also useful to note that this battery actually store more energy than the amount you provide, thanks to it's ancient vanometric technology -->
+  <BE_Ancient_Battery.description>Une batterie créée par les Archotechs. Elles sont parfois déterrées par des marchants itinérants.\nElles ne court-circuitent pas et sont extremement solides.\nCes batteries sont capables d'augmenter la quantité d'éléctricité reçue, graçe à la technologie vanométrique.</BE_Ancient_Battery.description>
 
 
 </LanguageData>

@@ -49,11 +49,11 @@
   <!-- EN: lithium battery -->
   <BE_Lithium_Batteries.label>batterie au lithium</BE_Lithium_Batteries.label>
   <!-- EN: Back in the twenty-first century, these batteries where the best in the market. -->
-  <BE_Lithium_Batteries.description>Au XXIème siècle, il s'agissait des meilleures batteries du marché.</BE_Lithium_Batteries.description>
+  <BE_Lithium_Batteries.description>Au XXIème siècle, il s'agissait des meilleures batteries sur le marché.</BE_Lithium_Batteries.description>
   
   <!-- EN: plasteel battery -->
   <BE_Plasteel_Batteries.label>batterie en plastacier</BE_Plasteel_Batteries.label>
-  <!-- EN: The best battery you can ever hope to produce. -->
-  <BE_Plasteel_Batteries.description>La meilleure batterie que tu peux espérer produire</BE_Plasteel_Batteries.description>
+  <!-- EN: The best battery current technology can ever hope to produce. -->
+  <BE_Plasteel_Batteries.description>La meilleure batterie que la technologie actuelle peux espérer produire</BE_Plasteel_Batteries.description>
 
 </LanguageData>

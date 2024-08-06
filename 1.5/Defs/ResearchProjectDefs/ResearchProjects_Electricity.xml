@@ -6,7 +6,7 @@
     <defName>Batteries</defName>
     <label>Batteries</label>
     <generalTitle>Battery research projects</generalTitle>
-    <generalDescription>Research new batteries in order to unlock more efficient ways of storing power</generalDescription>
+    <generalDescription>Research new batteries in order to unlock more efficient ways of storing power.</generalDescription>
   </ResearchTabDef>
 
   <ResearchProjectDef>
@@ -25,7 +25,7 @@
   <ResearchProjectDef>
     <defName>BE_Lead_Batteries</defName>
     <label>lead battery</label>
-    <description>One of the first refillable batteries ever made. They are made from lead</description>
+    <description>The first refillable batteries ever made. They are made from lead.</description>
     <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -39,7 +39,7 @@
   <ResearchProjectDef>
     <defName>BE_Copper_Batteries</defName>
     <label>copper battery</label>
-    <description>Honestly, copper batteries just work.</description>
+    <description>They aren't the most efficient nor the ones with the best storage capacity, but they work well enough..</description>
     <baseCost>600</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -67,7 +67,7 @@
   <ResearchProjectDef>
     <defName>Plated_Batteries</defName>
     <label>plated batteries</label>
-    <description>A way to add sheets made of various materials to batteries to make them plated</description>
+    <description>A way to add sheets made of various materials onto a battery.</description>
     <baseCost>600</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -81,7 +81,7 @@
   <ResearchProjectDef>
     <defName>Miniature_Batteries</defName>
     <label>miniature batteries</label>
-    <description>The possibility to make smaller batteries, a bit less powerful than regular ones but more space-efficient.</description>
+    <description>Allows to make smaller batteries, less powerful but more space-efficient than regular ones.</description>
     <baseCost>1000</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -95,7 +95,7 @@
   <ResearchProjectDef>
     <defName>Big_Batteries</defName>
     <label>big batteries</label>
-    <description>The possibility to make bigger batteries, more powerful than regular ones</description>
+    <description>Allows to make bigger batteries, more powerful than regular ones</description>
     <baseCost>1400</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
@@ -110,7 +110,7 @@
   <ResearchProjectDef>
     <defName>Mega_Batteries</defName>
     <label>giant batteries</label>
-    <description>The possibility to make giant batteries, the most powerful ones</description>
+    <description>Allows to make giant batteries, the most powerful ones</description>
     <baseCost>1800</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>

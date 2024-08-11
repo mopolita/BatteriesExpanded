@@ -5,6 +5,7 @@ using Verse.Sound;
 
 namespace Batteries
 {
+    [StaticConstructorOnStartup]
     public class Building_CustomBattery : Building
     {
         private const float MinEnergyToExplode = 250f;

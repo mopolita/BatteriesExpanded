@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Regular Lead Battery -->
+  <ThingDef ParentName="BE_BatteryBase">
+    <defName>BE_Lead_Battery</defName>
+    <label>lead battery</label>
+    <description>Stores electricity for later use. Can store only a small amount of power and is not very efficient, but is very sturdy.</description>
+    <graphicData>
+      <texPath>Things/Building/Power/Regular_Batteries/BE_Lead_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Mass>60</Mass>
+      <Flammability>0.25</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Copper_Battery</ThingDef>
+      <ThingDef>Battery</ThingDef>
+      <ThingDef>BE_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Silverplated_Battery</ThingDef>
+      <ThingDef>BE_Jadeplated_Battery</ThingDef>
+      <ThingDef>BE_Goldplated_Battery</ThingDef>
+      <ThingDef>BE_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Ancient_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <ME_Lead>65</ME_Lead>
+      <Steel>20</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>500</storedEnergyMax>
+        <efficiency>0.5</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>  
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>BE_Lead_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Regular Copper Battery -->
+  <ThingDef ParentName="BE_BatteryBase">
+    <defName>BE_Copper_Battery</defName>
+    <label>copper battery</label>
+    <description>Stores electricity for later use. Can store a medium amount of power and is not very efficient, but is sturdy.</description>
+    <graphicData>
+      <texPath>Things/Building/Power/Regular_Batteries/BE_Copper_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>900</WorkToBuild>
+      <Mass>12</Mass>
+      <Flammability>0.45</Flammability>
+      <Beauty>-10</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Lead_Battery</ThingDef>
+      <ThingDef>Battery</ThingDef>
+      <ThingDef>BE_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Silverplated_Battery</ThingDef>
+      <ThingDef>BE_Jadeplated_Battery</ThingDef>
+      <ThingDef>BE_Goldplated_Battery</ThingDef>
+      <ThingDef>BE_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Ancient_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <ME_Copper>65</ME_Copper>
+      <Steel>15</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>600</storedEnergyMax>
+        <efficiency>0.6</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>BE_Copper_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Regular Waterproof Battery -->
+  <ThingDef ParentName="BE_BatteryBase">
+    <defName>BE_Waterproof_Battery</defName>
+    <label>waterproof battery</label>
+    <description>Pretty much like a steel battery, but doesn't catch fire or explode when under the rain.</description>
+    <graphicData>
+      <texPath>Things/Building/Power/Regular_Batteries/BE_Waterproof_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>260</MaxHitPoints>
+      <WorkToBuild>1050</WorkToBuild>
+      <Mass>25</Mass>
+      <Flammability>0.1</Flammability>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Lead_Battery</ThingDef>
+      <ThingDef>BE_Copper_Battery</ThingDef>
+      <ThingDef>Battery</ThingDef>
+      <ThingDef>BE_Silverplated_Battery</ThingDef>
+      <ThingDef>BE_Jadeplated_Battery</ThingDef>
+      <ThingDef>BE_Goldplated_Battery</ThingDef>
+      <ThingDef>BE_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Ancient_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Steel>125</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>750</storedEnergyMax>
+        <efficiency>0.7</efficiency>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>Plated_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Silver Plated Battery -->
+  <ThingDef ParentName="BE_BatteryBase">
+    <defName>BE_Silverplated_Battery</defName>
+    <label>Silver Plated battery</label>
+    <description>A steel battery plated with silver to make it fancier.</description>
+    <designatorDropdown>Plated_Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/Regular_Batteries/BE_Silverplated_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>260</MaxHitPoints>
+      <WorkToBuild>1050</WorkToBuild>
+      <Mass>30</Mass>
+      <Flammability>0.1</Flammability>
+      <Beauty>10</Beauty>
+      <MarketValue>800</MarketValue>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Lead_Battery</ThingDef>
+      <ThingDef>BE_Copper_Battery</ThingDef>
+      <ThingDef>Battery</ThingDef>
+      <ThingDef>BE_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Jadeplated_Battery</ThingDef>
+      <ThingDef>BE_Goldplated_Battery</ThingDef>
+      <ThingDef>BE_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Ancient_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Steel>90</Steel>
+      <Silver>50</Silver>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>750</storedEnergyMax>
+        <efficiency>0.7</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>Plated_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Jade Plated Battery -->
+  <ThingDef ParentName="BE_BatteryBase">
+    <defName>BE_Jadeplated_Battery</defName>
+    <label>Jade Plated battery</label>
+    <description>A steel battery plated with jade to make it fancier.</description>
+    <designatorDropdown>Plated_Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/Regular_Batteries/BE_Jadeplated_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>260</MaxHitPoints>
+      <WorkToBuild>1050</WorkToBuild>
+      <Mass>30</Mass>
+      <Flammability>0.1</Flammability>
+      <Beauty>10</Beauty>
+      <MarketValue>1000</MarketValue>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Lead_Battery</ThingDef>
+      <ThingDef>BE_Copper_Battery</ThingDef>
+      <ThingDef>Battery</ThingDef>
+      <ThingDef>BE_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Silverplated_Battery</ThingDef>
+      <ThingDef>BE_Goldplated_Battery</ThingDef>
+      <ThingDef>BE_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Ancient_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Steel>90</Steel>
+      <Jade>35</Jade>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>750</storedEnergyMax>
+        <efficiency>0.7</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>Plated_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Gold Plated Battery -->
+  <ThingDef ParentName="BE_BatteryBase">
+    <defName>BE_Goldplated_Battery</defName>
+    <label>Gold Plated battery</label>
+    <description>A steel battery plated with gold to make it fancier.</description>
+    <designatorDropdown>Plated_Batteries</designatorDropdown>
+    <graphicData>
+      <texPath>Things/Building/Power/Regular_Batteries/BE_Goldplated_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>260</MaxHitPoints>
+      <WorkToBuild>1050</WorkToBuild>
+      <Mass>30</Mass>
+      <Flammability>0.1</Flammability>
+      <Beauty>20</Beauty>
+      <MarketValue>1200</MarketValue>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Lead_Battery</ThingDef>
+      <ThingDef>BE_Copper_Battery</ThingDef>
+      <ThingDef>Battery</ThingDef>
+      <ThingDef>BE_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Silverplated_Battery</ThingDef>
+      <ThingDef>BE_Jadeplated_Battery</ThingDef>
+      <ThingDef>BE_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Ancient_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Steel>90</Steel>
+      <Gold>50</Gold>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>750</storedEnergyMax>
+        <efficiency>0.7</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>Plated_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Regular Nickel Battery -->
+  <ThingDef ParentName="BE_BatteryBase">
+    <defName>BE_Nickel_Battery</defName>
+    <label>nickel battery</label>
+    <description>A battery made using nickel, making it better than steel alternatives</description>
+    <graphicData>
+      <texPath>Things/Building/Power/Regular_Batteries/BE_Nickel_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>1200</WorkToBuild>
+      <Mass>30</Mass>
+      <Flammability>0.75</Flammability>
+      <Beauty>-10</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Lead_Battery</ThingDef>
+      <ThingDef>BE_Copper_Battery</ThingDef>
+      <ThingDef>Battery</ThingDef>
+      <ThingDef>BE_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Silverplated_Battery</ThingDef>
+      <ThingDef>BE_Jadeplated_Battery</ThingDef>
+      <ThingDef>BE_Goldplated_Battery</ThingDef>
+      <ThingDef>BE_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Ancient_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Steel>15</Steel>
+      <Uranium>10</Uranium>
+      <ME_Lead>5</ME_Lead>
+      <ME_Nickel>60</ME_Nickel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>1000</storedEnergyMax>
+        <efficiency>0.8</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>BE_Nickel_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Regular Uranium Battery -->
+  <ThingDef ParentName="BE_BatteryBase">
+    <defName>BE_Uranium_Battery</defName>
+    <label>uranium battery</label>
+    <description>A revolutionary battery made from radioactive materials, produces some heat.</description>
+    <graphicData>
+      <texPath>Things/Building/Power/Regular_Batteries/BE_Uranium_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>1400</WorkToBuild>
+      <Mass>40</Mass>
+      <Flammability>1.1</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Lead_Battery</ThingDef>
+      <ThingDef>BE_Copper_Battery</ThingDef>
+      <ThingDef>Battery</ThingDef>
+      <ThingDef>BE_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Silverplated_Battery</ThingDef>
+      <ThingDef>BE_Jadeplated_Battery</ThingDef>
+      <ThingDef>BE_Goldplated_Battery</ThingDef>
+      <ThingDef>BE_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Ancient_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Steel>10</Steel>
+      <Uranium>60</Uranium>
+      <ME_Lead>45</ME_Lead>
+      <ME_Lithium>5</ME_Lithium>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>1500</storedEnergyMax>
+        <efficiency>0.85</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusher</compClass>
+        <heatPerSecond>1.2</heatPerSecond>
+        <heatPushMaxTemperature>100</heatPushMaxTemperature>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>BE_Uranium_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Regular Lithium Battery -->
+  <ThingDef ParentName="BE_BatteryBase">
+    <defName>BE_Lithium_Battery</defName>
+    <label>lithium battery</label>
+    <description>Stores large amounts of electricity for later use. Much more efficient than steel and lead ones, but also more fragile.\n\nAlso explodes when destroyed</description>
+    <graphicData>
+      <texPath>Things/Building/Power/Regular_Batteries/BE_Lithium_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>1750</WorkToBuild>
+      <Mass>8</Mass>
+      <Flammability>3</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Lead_Battery</ThingDef>
+      <ThingDef>BE_Copper_Battery</ThingDef>
+      <ThingDef>Battery</ThingDef>
+      <ThingDef>BE_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Silverplated_Battery</ThingDef>
+      <ThingDef>BE_Jadeplated_Battery</ThingDef>
+      <ThingDef>BE_Goldplated_Battery</ThingDef>
+      <ThingDef>BE_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Plasteel_Battery</ThingDef>
+      <ThingDef>BE_Ancient_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <ME_Lithium>80</ME_Lithium>
+      <Steel>15</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>2000</storedEnergyMax>
+        <efficiency>0.9</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <wickTicks>240</wickTicks>
+        <explosiveRadius>5</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explodeOnKilled>true</explodeOnKilled>
+        <startWickHitPointsPercent>0.25</startWickHitPointsPercent>
+        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>BE_Lithium_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Regular Plasteel Battery -->
+  <ThingDef ParentName="BE_BatteryBase">
+    <defName>BE_Plasteel_Battery</defName>
+    <label>plasteel battery</label>
+    <description>A even more revolutionary battery made from advanced materials, cans store large amounts of power and is very efficient.</description>
+    <graphicData>
+      <texPath>Things/Building/Power/Regular_Batteries/BE_Plasteel_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>400</MaxHitPoints>
+      <WorkToBuild>2000</WorkToBuild>
+      <Mass>15</Mass>
+      <Flammability>0.15</Flammability>
+      <Beauty>-10</Beauty>
+      <MarketValue>1200</MarketValue>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Lead_Battery</ThingDef>
+      <ThingDef>BE_Copper_Battery</ThingDef>
+      <ThingDef>Battery</ThingDef>
+      <ThingDef>BE_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Silverplated_Battery</ThingDef>
+      <ThingDef>BE_Jadeplated_Battery</ThingDef>
+      <ThingDef>BE_Goldplated_Battery</ThingDef>
+      <ThingDef>BE_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Ancient_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Steel>5</Steel>
+      <Uranium>5</Uranium>
+      <Plasteel>75</Plasteel>
+      <ME_Lithium>20</ME_Lithium>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>3500</storedEnergyMax>
+        <efficiency>1</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>BE_Plasteel_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Ancient Battery-->
+    <ThingDef ParentName="BuildingBase">
+    <defName>BE_Ancient_Battery</defName>
+    <label>Archotech battery</label>
+    <description>A battery developed by the Archotechs. It is sometimes dug up from ruins by travelling merchants.\nThis battery won't short-circuit in rain and not break down.\nIt is also useful to note that this battery actually store more energy than the amount you provide, thanks to it's ancient vanometric technology</description>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <thingClass>Building_Battery</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Power/Regular_Batteries/BE_Ancient_Battery</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,3)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.40</fillPercent>
+    <tickerType>Normal</tickerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsSpecial</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>600</MaxHitPoints>
+      <WorkToBuild>2100</WorkToBuild>
+      <Mass>20</Mass>
+      <Flammability>0</Flammability>
+      <Beauty>0</Beauty>
+      <MarketValue>1400</MarketValue>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Lead_Battery</ThingDef>
+      <ThingDef>BE_Copper_Battery</ThingDef>
+      <ThingDef>Battery</ThingDef>
+      <ThingDef>BE_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Silverplated_Battery</ThingDef>
+      <ThingDef>BE_Jadeplated_Battery</ThingDef>
+      <ThingDef>BE_Goldplated_Battery</ThingDef>
+      <ThingDef>BE_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <size>(1,2)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>7500</storedEnergyMax>
+        <efficiency>1.2</efficiency>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardHighFreq</li>
+    </thingSetMakerTags>
+    <tradeTags>
+      <li>ExoticBuilding</li>
+    </tradeTags>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <staticSunShadowHeight>0.2</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+    <canOverlapZones>false</canOverlapZones>
+  </ThingDef>
+
+</Defs>

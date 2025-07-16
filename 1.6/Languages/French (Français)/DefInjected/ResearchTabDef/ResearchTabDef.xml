@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: Batteries -->
+  <Batteries.label>Batteries</Batteries.label>
+  <!-- EN: Battery research projects -->
+  <Batteries.generalTitle>Projets de recherche de batteries</Batteries.generalTitle>
+  <!-- EN: Research new batteries in order to unlock more efficient ways of storing power. -->
+  <Batteries.generalDescription>Développer de nouvelles batteries afin de débloquer de nouvelles manières de stocker de l'énergie</Batteries.generalDescription>
+
+</LanguageData>

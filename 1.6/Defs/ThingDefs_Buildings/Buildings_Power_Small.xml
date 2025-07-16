@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Small Lead Battery -->
+  <ThingDef ParentName="BE_BatterySmall">
+    <defName>BE_Small_Lead_Battery</defName>
+    <label>small lead battery</label>
+    <description>A smaller version of the lead battery, useful if you don't have much space.</description>
+    <graphicData>
+      <texPath>Things/Building/Power/Small_Batteries/BE_Small_Lead_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>30</Mass>
+      <Flammability>0.25</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Small_Copper_Battery</ThingDef>
+      <ThingDef>BE_Small_Steel_Battery</ThingDef>
+      <ThingDef>BE_Small_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Small_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Small_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Small_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Small_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <ME_Lead>30</ME_Lead>
+      <Steel>10</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>340</storedEnergyMax>
+        <efficiency>0.5</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>BE_Lead_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Small Copper Battery -->
+  <ThingDef ParentName="BE_BatterySmall">
+    <defName>BE_Small_Copper_Battery</defName>
+    <label>small copper battery</label>
+    <description>A smaller version of the copper battery, useful if you don't have much space.</description>
+    <graphicData>
+      <texPath>Things/Building/Power/Small_Batteries/BE_Small_Copper_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>450</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.45</Flammability>
+      <Beauty>-10</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Small_Lead_Battery</ThingDef>
+      <ThingDef>BE_Small_Steel_Battery</ThingDef>
+      <ThingDef>BE_Small_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Small_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Small_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Small_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Small_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <ME_Copper>30</ME_Copper>
+      <Steel>10</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>400</storedEnergyMax>
+        <efficiency>0.6</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>BE_Copper_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Small Steel Battery -->
+  <ThingDef ParentName="BE_BatterySmall">
+    <defName>BE_Small_Steel_Battery</defName>
+    <label>small steel battery</label>
+    <description>A smaller version of the steel battery, useful if you don't have much space.</description>
+    <graphicData>
+      <texPath>Things/Building/Power/Small_Batteries/BE_Small_Steel_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>400</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>0.25</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Small_Lead_Battery</ThingDef>
+      <ThingDef>BE_Small_Copper_Battery</ThingDef>
+      <ThingDef>BE_Small_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Small_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Small_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Small_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Small_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Steel>45</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>500</storedEnergyMax>
+        <efficiency>0.5</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Small Waterproof Battery -->
+  <ThingDef ParentName="BE_BatterySmall">
+    <defName>BE_Small_Waterproof_Battery</defName>
+    <label>small waterproof battery</label>
+    <description>A smaller version of the waterproof battery, useful if you don't have much space.</description>
+    <graphicData>
+      <texPath>Things/Building/Power/Small_Batteries/BE_Small_Waterproof_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>130</MaxHitPoints>
+      <WorkToBuild>525</WorkToBuild>
+      <Mass>15</Mass>
+      <Flammability>0.8</Flammability>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Small_Lead_Battery</ThingDef>
+      <ThingDef>BE_Small_Copper_Battery</ThingDef>
+      <ThingDef>BE_Small_Steel_Battery</ThingDef>
+      <ThingDef>BE_Small_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Small_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Small_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Small_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Steel>65</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>500</storedEnergyMax>
+        <efficiency>0.7</efficiency>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>Plated_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Small Nickel Battery -->
+  <ThingDef ParentName="BE_BatterySmall">
+    <defName>BE_Small_Nickel_Battery</defName>
+    <label>small nickel battery</label>
+    <description>A smaller version of the nickel battery, useful if you don't have much space.</description>
+    <graphicData>
+      <texPath>Things/Building/Power/Small_Batteries/BE_Small_Nickel_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>125</MaxHitPoints>
+      <WorkToBuild>600</WorkToBuild>
+      <Mass>15</Mass>
+      <Flammability>0.75</Flammability>
+      <Beauty>-10</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Small_Lead_Battery</ThingDef>
+      <ThingDef>BE_Small_Copper_Battery</ThingDef>
+      <ThingDef>BE_Small_Steel_Battery</ThingDef>
+      <ThingDef>BE_Small_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Small_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Small_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Small_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Steel>5</Steel>
+      <Uranium>5</Uranium>
+      <ME_Lead>5</ME_Lead>
+      <ME_Nickel>30</ME_Nickel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>650</storedEnergyMax>
+        <efficiency>0.8</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>BE_Nickel_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Small Uranium Battery -->
+  <ThingDef ParentName="BE_BatterySmall">
+    <defName>BE_Small_Uranium_Battery</defName>
+    <label>small uranium battery</label>
+    <description>A smaller version of the uranium battery, useful if you don't have much space.</description>
+    <graphicData>
+      <texPath>Things/Building/Power/Small_Batteries/BE_Small_Uranium_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>700</WorkToBuild>
+      <Mass>20</Mass>
+      <Flammability>1.1</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Small_Lead_Battery</ThingDef>
+      <ThingDef>BE_Small_Copper_Battery</ThingDef>
+      <ThingDef>BE_Small_Steel_Battery</ThingDef>
+      <ThingDef>BE_Small_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Small_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Small_Lithium_Battery</ThingDef>
+      <ThingDef>BE_Small_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Steel>5</Steel>
+      <Uranium>30</Uranium>
+      <ME_Lead>20</ME_Lead>
+      <ME_Lithium>5</ME_Lithium>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>1000</storedEnergyMax>
+        <efficiency>0.85</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusher</compClass>
+        <heatPerSecond>0.6</heatPerSecond>
+        <heatPushMaxTemperature>50</heatPushMaxTemperature>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>BE_Uranium_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Small Lithium Battery -->
+  <ThingDef ParentName="BE_BatterySmall">
+    <defName>BE_Small_Lithium_Battery</defName>
+    <label>small lithium battery</label>
+    <description>A smaller version of the lithium battery, useful if you don't have much space.\n\nExplodes when destroyed</description>
+    <graphicData>
+      <texPath>Things/Building/Power/Small_Batteries/BE_Small_Lithium_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <WorkToBuild>875</WorkToBuild>
+      <Mass>2</Mass>
+      <Flammability>3</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Small_Lead_Battery</ThingDef>
+      <ThingDef>BE_Small_Copper_Battery</ThingDef>
+      <ThingDef>BE_Small_Steel_Battery</ThingDef>
+      <ThingDef>BE_Small_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Small_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Small_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Small_Plasteel_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <ME_Lithium>40</ME_Lithium>
+      <Steel>10</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>1350</storedEnergyMax>
+        <efficiency>0.9</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <wickTicks>240</wickTicks>
+        <explosiveRadius>2.5</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explodeOnKilled>true</explodeOnKilled>
+        <startWickHitPointsPercent>0.25</startWickHitPointsPercent>
+        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>BE_Lithium_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Small Plasteel Battery -->
+  <ThingDef ParentName="BE_BatterySmall">
+    <defName>BE_Small_Plasteel_Battery</defName>
+    <label>small plasteel battery</label>
+    <description>A smaller version of the plasteel battery, useful if you don't have much space.</description>
+    <graphicData>
+      <texPath>Things/Building/Power/Small_Batteries/BE_Small_Plasteel_Battery</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>0.15</Flammability>
+      <Beauty>-10</Beauty>
+    </statBases>
+    <descriptionHyperlinks>
+      <ThingDef>BE_Small_Lead_Battery</ThingDef>
+      <ThingDef>BE_Small_Copper_Battery</ThingDef>
+      <ThingDef>BE_Small_Steel_Battery</ThingDef>
+      <ThingDef>BE_Small_Waterproof_Battery</ThingDef>
+      <ThingDef>BE_Small_Nickel_Battery</ThingDef>
+      <ThingDef>BE_Small_Uranium_Battery</ThingDef>
+      <ThingDef>BE_Small_Lithium_Battery</ThingDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Steel>5</Steel>
+      <Uranium>5</Uranium>
+      <Plasteel>30</Plasteel>
+      <ME_Lithium>10</ME_Lithium>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>2300</storedEnergyMax>
+        <efficiency>1</efficiency>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>BE_Plasteel_Batteries</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+</Defs>

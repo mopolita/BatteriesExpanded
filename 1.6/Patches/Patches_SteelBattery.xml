@@ -41,7 +41,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>*/ThingDef[defName = "Battery"]/statBases/Flammability</xpath>
     <value>
-      <Flammability>0.25</Flammability>
+      <Flammability>0</Flammability>
     </value>
   </Operation>
 
@@ -62,6 +62,7 @@
     <value>
       <costList>
         <Steel>90</Steel>
+        <ME_Copper>10</ME_Copper>
         <ComponentIndustrial>3</ComponentIndustrial>
       </costList>
     </value>
@@ -112,7 +113,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>*/ResearchProjectDef[defName = "Batteries"]/baseCost</xpath>
     <value>
-      <baseCost>600</baseCost>
+      <baseCost>550</baseCost>
     </value>
   </Operation>
 

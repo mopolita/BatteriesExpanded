@@ -27,6 +27,7 @@
     </descriptionHyperlinks>
     <costList>
       <ME_Lead>130</ME_Lead>
+      <ME_Copper>20</ME_Copper>
       <Steel>40</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
@@ -68,7 +69,7 @@
       <ThingDef>BE_Big_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
-      <ME_Copper>130</ME_Copper>
+      <ME_Copper>150</ME_Copper>
       <Steel>30</Steel>
       <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
@@ -111,6 +112,7 @@
     </descriptionHyperlinks>   
     <costList>
       <Steel>180</Steel>
+      <ME_Copper>20</ME_Copper>
       <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
     <comps>
@@ -152,6 +154,7 @@
     </descriptionHyperlinks>
     <costList>
       <Steel>250</Steel>
+      <ME_Copper>20</ME_Copper>
       <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <comps>
@@ -194,6 +197,7 @@
     <costList>
       <Steel>30</Steel>
       <Uranium>20</Uranium>
+      <ME_Copper>20</ME_Copper>
       <ME_Lead>10</ME_Lead>
       <ME_Nickel>110</ME_Nickel>
       <ComponentIndustrial>8</ComponentIndustrial>
@@ -238,6 +242,7 @@
     <costList>
       <Steel>20</Steel>
       <Uranium>120</Uranium>
+      <ME_Copper>20</ME_Copper>
       <ME_Lead>90</ME_Lead>
       <ME_Lithium>10</ME_Lithium>
       <ComponentIndustrial>9</ComponentIndustrial>
@@ -286,6 +291,7 @@
     </descriptionHyperlinks>
     <costList>
       <Steel>30</Steel>
+      <ME_Copper>20</ME_Copper>
       <ME_Lithium>160</ME_Lithium>
       <ComponentIndustrial>10</ComponentIndustrial>
       <ComponentSpacer>2</ComponentSpacer>
@@ -339,6 +345,7 @@
       <Steel>10</Steel>
       <Uranium>10</Uranium>
       <Plasteel>150</Plasteel>
+      <ME_Copper>20</ME_Copper>
       <ME_Lithium>40</ME_Lithium>
       <ComponentIndustrial>8</ComponentIndustrial>
       <ComponentSpacer>4</ComponentSpacer>

@@ -26,13 +26,14 @@
       <ThingDef>BE_Small_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
+      <ME_Copper>30</ME_Copper>
       <ME_Lead>30</ME_Lead>
       <Steel>10</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <comps>
       <li Class="CompProperties_Battery">
-        <storedEnergyMax>340</storedEnergyMax>
+        <storedEnergyMax>350</storedEnergyMax>
         <efficiency>0.5</efficiency>
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
@@ -68,7 +69,7 @@
       <ThingDef>BE_Small_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
-      <ME_Copper>30</ME_Copper>
+      <ME_Copper>35</ME_Copper>
       <Steel>10</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
@@ -110,6 +111,7 @@
       <ThingDef>BE_Small_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
+      <ME_Copper>10</ME_Copper>
       <Steel>45</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
@@ -151,6 +153,7 @@
       <ThingDef>BE_Small_Plasteel_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
+      <ME_Copper>10</ME_Copper>
       <Steel>65</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
@@ -194,6 +197,7 @@
     <costList>
       <Steel>5</Steel>
       <Uranium>5</Uranium>
+      <ME_Copper>10</ME_Copper>
       <ME_Lead>5</ME_Lead>
       <ME_Nickel>30</ME_Nickel>
       <ComponentIndustrial>2</ComponentIndustrial>
@@ -238,6 +242,7 @@
     <costList>
       <Steel>5</Steel>
       <Uranium>30</Uranium>
+      <ME_Copper>10</ME_Copper>
       <ME_Lead>20</ME_Lead>
       <ME_Lithium>5</ME_Lithium>
       <ComponentIndustrial>2</ComponentIndustrial>
@@ -286,13 +291,14 @@
     </descriptionHyperlinks>
     <costList>
       <ME_Lithium>40</ME_Lithium>
+      <ME_Copper>10</ME_Copper>
       <Steel>10</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
       <ComponentSpacer>1</ComponentSpacer>
     </costList>
     <comps>
       <li Class="CompProperties_Battery">
-        <storedEnergyMax>1350</storedEnergyMax>
+        <storedEnergyMax>1500</storedEnergyMax>
         <efficiency>0.9</efficiency>
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
@@ -339,13 +345,14 @@
       <Steel>5</Steel>
       <Uranium>5</Uranium>
       <Plasteel>30</Plasteel>
+      <ME_Copper>10</ME_Copper>
       <ME_Lithium>10</ME_Lithium>
       <ComponentIndustrial>2</ComponentIndustrial>
       <ComponentSpacer>1</ComponentSpacer>
     </costList>
     <comps>
       <li Class="CompProperties_Battery">
-        <storedEnergyMax>2300</storedEnergyMax>
+        <storedEnergyMax>2500</storedEnergyMax>
         <efficiency>1</efficiency>
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>

@@ -31,6 +31,7 @@
     </descriptionHyperlinks>
     <costList>
       <ME_Lead>65</ME_Lead>
+      <ME_Copper>15</ME_Copper>
       <Steel>20</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
@@ -77,7 +78,7 @@
       <ThingDef>BE_Ancient_Battery</ThingDef>
     </descriptionHyperlinks>
     <costList>
-      <ME_Copper>65</ME_Copper>
+      <ME_Copper>70</ME_Copper>
       <Steel>15</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
@@ -125,11 +126,12 @@
     </descriptionHyperlinks>
     <costList>
       <Steel>125</Steel>
+      <ME_Copper>15</ME_Copper>
       <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <comps>
       <li Class="CompProperties_Battery">
-        <storedEnergyMax>750</storedEnergyMax>
+        <storedEnergyMax>800</storedEnergyMax>
         <efficiency>0.7</efficiency>
         <shortCircuitInRain>false</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
@@ -173,6 +175,7 @@
     </descriptionHyperlinks>
     <costList>
       <Steel>90</Steel>
+      <ME_Copper>15</ME_Copper>
       <Silver>50</Silver>
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
@@ -222,6 +225,7 @@
     </descriptionHyperlinks>
     <costList>
       <Steel>90</Steel>
+      <ME_Copper>15</ME_Copper>
       <Jade>35</Jade>
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
@@ -271,6 +275,7 @@
     </descriptionHyperlinks>
     <costList>
       <Steel>90</Steel>
+      <ME_Copper>15</ME_Copper>
       <Gold>50</Gold>
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
@@ -319,6 +324,7 @@
     <costList>
       <Steel>15</Steel>
       <Uranium>10</Uranium>
+      <ME_Copper>20</ME_Copper>
       <ME_Lead>5</ME_Lead>
       <ME_Nickel>60</ME_Nickel>
       <ComponentIndustrial>4</ComponentIndustrial>
@@ -368,6 +374,7 @@
     <costList>
       <Steel>10</Steel>
       <Uranium>60</Uranium>
+      <ME_Copper>15</ME_Copper>
       <ME_Lead>45</ME_Lead>
       <ME_Lithium>5</ME_Lithium>
       <ComponentIndustrial>4</ComponentIndustrial>
@@ -421,6 +428,7 @@
     </descriptionHyperlinks>
     <costList>
       <ME_Lithium>80</ME_Lithium>
+      <ME_Copper>15</ME_Copper>
       <Steel>15</Steel>
       <ComponentIndustrial>5</ComponentIndustrial>
       <ComponentSpacer>1</ComponentSpacer>
@@ -480,6 +488,7 @@
       <Steel>5</Steel>
       <Uranium>5</Uranium>
       <Plasteel>75</Plasteel>
+      <ME_Copper>15</ME_Copper>
       <ME_Lithium>20</ME_Lithium>
       <ComponentIndustrial>4</ComponentIndustrial>
       <ComponentSpacer>2</ComponentSpacer>
@@ -502,7 +511,7 @@
     <ThingDef ParentName="BuildingBase">
     <defName>BE_Ancient_Battery</defName>
     <label>Archotech battery</label>
-    <description>A battery developed by the Archotechs. It is sometimes dug up from ruins by travelling merchants.\nThis battery won't short-circuit in rain and not break down.\nIt is also useful to note that this battery actually store more energy than the amount you provide, thanks to it's ancient vanometric technology</description>
+    <description>A battery developed by the Archotechs. It is sometimes dug up from ruins by travelling merchants.\nThis battery won't short-circuit in rain nor break down.\nIt also stores more energy than the amount you provide, thanks to it's ancient vanometric technology</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
     <graphicData>
@@ -559,7 +568,6 @@
         <shortCircuitInRain>false</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <thingSetMakerTags>
       <li>RewardStandardHighFreq</li>
